@@ -3,7 +3,7 @@ backend:
   repo: arthurambrosi/guia-prescricoes
   branch: main
   base_url: https://guia.usojaleco.com.br
-  auth_endpoint: api/auth
+  auth_endpoint: /api/auth
 
 media_folder: "uploads"
 public_folder: "/uploads"
