@@ -12,22 +12,32 @@ function renderBody(status, content, origin) {
           const content = ${JSON.stringify(content)}
           const targetOrigin = ${JSON.stringify(safeOrigin)}
           const payload = 'authorization:github:' + JSON.stringify(content)
+
           function sendAuthMessage(origin) {
             if (!window.opener) {
               return
             }
             window.opener.postMessage(payload, origin || '*')
           }
+
           function receiveMessage(message) {
+            if (!message.origin || (targetOrigin !== '*' && message.origin !== targetOrigin)) {
+              return
+            }
             sendAuthMessage(message.origin)
-          }
-          window.addEventListener('message', receiveMessage, false)
-          const interval = setInterval(() => sendAuthMessage('*'), 250)
-          sendAuthMessage(targetOrigin)
-          setTimeout(() => {
-            clearInterval(interval)
             window.close()
-          }, 2200)
+          }
+
+          window.addEventListener('message', receiveMessage, false)
+
+          if (window.opener) {
+            window.opener.postMessage('authorizing:github', '*')
+          }
+
+          setTimeout(() => {
+            sendAuthMessage(targetOrigin)
+            window.close()
+          }, 1500)
         </script>
       </body>
     </html>
