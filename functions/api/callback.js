@@ -20,11 +20,32 @@ function renderBody(status, content, origin) {
             window.opener.postMessage(payload, origin || '*')
           }
 
+          function storeToken() {
+            if (!window.opener) {
+              return false
+            }
+            try {
+              const data = JSON.stringify(content)
+              window.opener.localStorage.setItem('decap-cms-user', data)
+              window.opener.localStorage.setItem('netlify-cms-user', data)
+              return true
+            } catch (error) {
+              return false
+            }
+          }
+
           function receiveMessage(message) {
             if (!message.origin || (targetOrigin !== '*' && message.origin !== targetOrigin)) {
               return
             }
             sendAuthMessage(message.origin)
+            if (storeToken()) {
+              try {
+                window.opener.location.reload()
+              } catch (error) {
+                // ignore
+              }
+            }
             window.close()
           }
 
@@ -36,6 +57,13 @@ function renderBody(status, content, origin) {
 
           setTimeout(() => {
             sendAuthMessage(targetOrigin)
+            if (storeToken()) {
+              try {
+                window.opener.location.reload()
+              } catch (error) {
+                // ignore
+              }
+            }
             window.close()
           }, 1500)
         </script>
