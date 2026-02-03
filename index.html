@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guia de Prescrições</title>
+  <!-- ========================= UJ DESIGN KIT (HEAD) Fontes + Tokens + CSS base ========================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonts (base) -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Outfit (brand only) -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      /* ===== TOKENS (white) ===== */
+      --bg:#ffffff;
+      --surface:#ffffff;
+      --surface2:#f8fafc;
+      --text:#0f172a;
+      --muted:#6b7280;
+      --line:#e9eef5;
+      --shadow: 0 10px 22px rgba(17,24,39,.08);
+      --shadow2: 0 14px 28px rgba(17,24,39,.10);
+      --accent:#f97316;
+      /* ===== Layout controls ===== */
+      --edgeL: 24px;
+      --edgeR: 24px;
+      --deskGap: 18px;
+      --rBig:26px;
+      --rMid:22px;
+      --rSm:18px;
+      --rBtn:14px;
+      --t: .18s ease;
+      --topH: 44px;
+    }
+    @media (max-width: 720px){
+      :root{
+        --edgeL: 16px;
+        --edgeR: 16px;
+        --deskGap: 14px;
+      }
+    }
+    *{ box-sizing:border-box }
+    html,body{ height:100% }
+    body{
+      margin:0;
+      font-family: Manrope, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--text);
+      background: radial-gradient(1200px 600px at 12% 10%, rgba(249,115,22,.10), transparent 60%), radial-gradient(1000px 580px at 85% 18%, rgba(15,23,42,.06), transparent 62%), linear-gradient(180deg, var(--bg) 0%, var(--bg) 100%);
+      background-attachment: fixed, fixed, fixed;
+      overflow-x:hidden;
+      color-scheme: light;
+    }
+    a{ color:inherit; text-decoration:none }
+    button, input, textarea, select{ font:inherit }
+    ::selection{ background:rgba(249,115,22,.18) }
+    /* ===== HEADER ===== */
+    .topbarWrap{
+      background:#fff;
+      box-shadow: 0 10px 22px rgba(17,24,39,.10);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+    }
+    .topbar{
+      width: 100%;
+      padding: 16px var(--edgeR);
+      padding-left: var(--edgeL);
+      margin: 0;
+      display:flex;
+      align-items:center;
+      gap: 18px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap: 10px;
+      min-width: 190px;
+      user-select:none;
+      -webkit-user-select:none;
+      -ms-user-select:none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .brand img{
+      height: 28px;
+      width: auto;
+      display:block;
+      user-select:none;
+      -webkit-user-select:none;
+      -webkit-user-drag:none;
+      pointer-events:none;
+    }
+    .brandName{
+      display:flex;
+      align-items:baseline;
+      gap: 0;
+      font-family: Outfit, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      color:#475569;
+      user-select:none;
+      -webkit-user-select:none;
+      -ms-user-select:none;
+      pointer-events:none;
+    }
+    .brandName b{ font-weight: 800; color:#334155; }
+    .headRight{
+      margin-left:auto;
+      display:flex;
+      align-items:center;
+      gap: 12px;
+    }
+    .headBtn{
+      height: 38px;
+      padding: 0 14px;
+      border-radius: 999px;
+      border: 1px solid #e7ebf2;
+      background: #fff;
+      color:#334155;
+      font-weight: 900;
+      cursor: pointer;
+      transition: background var(--t), filter var(--t), transform var(--t);
+      white-space: nowrap;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      line-height: 1;
+    }
+    .headBtn:hover{ background:#f8fafc; transform: translateY(-1px); }
+    .headBtn:active{ transform: translateY(0px); }
+    .headBtnPrimary{
+      background: var(--accent);
+      border-color: var(--accent);
+      color:#fff;
+    }
+    .headBtnPrimary:hover{
+      background: var(--accent);
+      border-color: var(--accent);
+      filter: brightness(.92);
+    }
+    @media (max-width: 720px){
+      .topbar{ padding-top: 14px; padding-bottom: 14px; }
+      .brand{ min-width: auto; }
+      .headRight{ gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+      .headBtn{ height: 36px; padding: 0 12px; font-size: 13px; }
+    }
+    /* ===== App wrap ===== */
+    .wrap{
+      width:100%;
+      margin:0;
+      padding: 18px var(--edgeR) 30px;
+      padding-left: var(--edgeL);
+    }
+    /* ===== Cards ===== */
+    .card{
+      border: 1px solid var(--line);
+      border-radius: var(--rBig);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow:hidden;
+      min-width: 0;
+    }
+    /* ===== Campos ===== */
+    .label{
+      display:block;
+      font-size: 12.5px;
+      color: var(--muted);
+      font-weight: 800;
+      margin: 0 0 6px;
+      letter-spacing: .2px;
+    }
+    .field, .select{
+      width:100%;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: var(--surface2);
+      color: var(--text);
+      padding: 11px 12px;
+      outline:none;
+      transition: border-color var(--t), background var(--t), box-shadow var(--t);
+    }
+    .field:focus, .select:focus{
+      border-color: rgba(249,115,22,.55);
+      box-shadow: 0 0 0 3px rgba(249,115,22,.18);
+      background: #fff;
+    }
+    /* ===== Botões (genéricos) ===== */
+    .btn{
+      cursor:pointer;
+      border-radius: var(--rBtn);
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--text);
+      padding: 0 12px;
+      height: var(--topH);
+      font-weight: 900;
+      font-size: 13.5px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      transition: transform var(--t), background var(--t), border-color var(--t), box-shadow var(--t);
+      white-space: nowrap;
+      user-select:none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .btn:hover{ transform: translateY(-1px); background: var(--surface2); border-color: rgba(15,23,42,.14); }
+    .btn:active{ transform: translateY(0px) scale(.99); }
+    .btnPrimary{
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 10px 18px rgba(249,115,22,.18);
+    }
+    .btnPrimary:hover{
+      filter: brightness(.97);
+      box-shadow: 0 12px 22px rgba(249,115,22,.22);
+      border-color: rgba(249,115,22,.92);
+      background: rgba(249,115,22,.98);
+    }
+    .btnGhost{ background: #fff; border-color: var(--line); color: var(--text); }
+    .mutedNote{
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 12.6px;
+      line-height: 1.35;
+    }
+    /* ===== Page-specific ===== */
+    .hero{
+      display:grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+      gap: var(--deskGap);
+      align-items: stretch;
+    }
+    .heroMain{
+      padding: 22px 24px 24px;
+    }
+    .eyebrow{
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #f97316;
+      margin: 0 0 12px;
+    }
+    .heroMain h1{
+      font-family: "DM Serif Display", serif;
+      font-size: clamp(2.1rem, 3vw, 3.1rem);
+      margin: 0 0 8px;
+      line-height: 1.05;
+    }
+    .lead{
+      font-size: 1.02rem;
+      color: var(--muted);
+      margin: 0 0 18px;
+      line-height: 1.55;
+    }
+    .heroActions{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .heroAside{
+      display:grid;
+      gap: var(--deskGap);
+    }
+    .stat{
+      padding: 18px 20px;
+    }
+    .statValue{
+      font-size: 2.1rem;
+      font-weight: 900;
+      color: #0f172a;
+    }
+    .statLabel{
+      color: var(--muted);
+      margin-top: 4px;
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+    .filters{
+      margin-top: 18px;
+      padding: 18px 20px;
+    }
+    .filtersGrid{
+      display:grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(0, 0.8fr) auto;
+      gap: 12px;
+      align-items: end;
+    }
+    .cards{
+      display:grid;
+      gap: var(--deskGap);
+      margin-top: 16px;
+    }
+    .guide-card{
+      padding: 16px 18px 18px;
+    }
+    .guide-header{
+      display:flex;
+      align-items:flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .guide-title{
+      display:flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .guide-title h2{
+      margin: 0;
+      font-family: "DM Serif Display", serif;
+      font-size: 1.35rem;
+      line-height: 1.2;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      width: fit-content;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(249,115,22,.12);
+      color: #9a3412;
+      font-weight: 800;
+      font-size: 0.78rem;
+    }
+    .toggle{
+      min-width: 110px;
+      height: 38px;
+    }
+    .guide-body{
+      margin-top: 16px;
+      display:none;
+    }
+    .guide-card.is-open .guide-body{
+      display:block;
+    }
+    .guide-tabs{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .guide-tab{
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: #fff;
+      font-weight: 800;
+      cursor: pointer;
+      color: #475569;
+      transition: background var(--t), color var(--t), border-color var(--t);
+      font-size: 0.84rem;
+    }
+    .guide-tab:hover{
+      border-color: rgba(249,115,22,.35);
+      color: #0f172a;
+    }
+    .guide-tab--active{
+      background: var(--accent);
+      color: #fff;
+      border-color: transparent;
+    }
+    .guide-panel{
+      display:none;
+      border-radius: var(--rMid);
+      padding: 14px 16px;
+      background: var(--surface2);
+      border: 1px solid var(--line);
+    }
+    .guide-panel.is-active{
+      display:block;
+    }
+    .guide-panel h1,
+    .guide-panel h2,
+    .guide-panel h3{
+      font-family: "DM Serif Display", serif;
+      margin-top: 0;
+    }
+    .guide-panel hr{
+      border: none;
+      border-top: 1px dashed rgba(15,23,42,.18);
+      margin: 12px 0;
+    }
+    .guide-panel.tone-neutro{ color: var(--text); }
+    .guide-panel.tone-destaque{
+      background: #fff7ed;
+      border-color: rgba(249,115,22,.35);
+      color: #9a3412;
+    }
+    .guide-panel.tone-alerta{
+      background: #fff1f2;
+      border-color: rgba(239,68,68,.35);
+      color: #991b1b;
+    }
+    .guide-panel.tone-sucesso{
+      background: #f0fdf4;
+      border-color: rgba(34,197,94,.35);
+      color: #166534;
+    }
+    .guide-panel.tone-info{
+      background: #eff6ff;
+      border-color: rgba(59,130,246,.35);
+      color: #1e3a8a;
+    }
+    .guide-panel.space-compact{
+      line-height: 1.35;
+    }
+    .guide-panel.space-normal{
+      line-height: 1.55;
+    }
+    .guide-panel.space-amplo{
+      line-height: 1.7;
+    }
+    .guide-panel.space-compact p,
+    .guide-panel.space-compact ul,
+    .guide-panel.space-compact ol{
+      margin: 0 0 6px;
+    }
+    .guide-panel.space-normal p,
+    .guide-panel.space-normal ul,
+    .guide-panel.space-normal ol{
+      margin: 0 0 12px;
+    }
+    .guide-panel.space-amplo p,
+    .guide-panel.space-amplo ul,
+    .guide-panel.space-amplo ol{
+      margin: 0 0 16px;
+    }
+    .guide-panel ul,
+    .guide-panel ol{
+      padding-left: 20px;
+    }
+    .panel-tools{
+      display:flex;
+      justify-content:flex-end;
+      margin-bottom: 10px;
+    }
+    .copyBtn{
+      border-radius: 999px;
+      height: 34px;
+      padding: 0 12px;
+      border: 1px solid rgba(15,23,42,.12);
+      background: #fff;
+      font-weight: 800;
+      font-size: 0.78rem;
+      cursor: pointer;
+      display:inline-flex;
+      align-items:center;
+      gap: 8px;
+      color: #0f172a;
+      transition: transform var(--t), background var(--t), border-color var(--t);
+    }
+    .copyBtn:hover{
+      transform: translateY(-1px);
+      border-color: rgba(15,23,42,.2);
+    }
+    .copyBtn.is-copied{
+      background: #f0fdf4;
+      border-color: rgba(34,197,94,.4);
+      color: #166534;
+    }
+    .empty-state{
+      text-align: center;
+      color: var(--muted);
+      padding: 24px;
+      border: 1px dashed var(--line);
+      border-radius: var(--rBig);
+    }
+    .footer{
+      margin-top: 18px;
+      text-align: center;
+    }
+    @media (max-width: 980px){
+      .hero{
+        grid-template-columns: 1fr;
+      }
+      .filtersGrid{
+        grid-template-columns: 1fr;
+      }
+      .toggle{
+        min-width: 90px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- ========================= UJ DESIGN KIT (HEADER) Topbar + Brand + Actions ========================= -->
+  <div class="topbarWrap">
+    <header class="topbar">
+      <div class="brand" aria-label="UsoJaleco">
+        <img alt="Logo UsoJaleco" src="https://raw.githubusercontent.com/arthurambrosi/usojaleco/0204905b333f11d1eec3c7c6667d17dbfb457774/Design%20sem%20nome%20(28).png" draggable="false" />
+        <div class="brandName"><span>uso</span><b>jaleco</b></div>
+      </div>
+      <div class="headRight">
+        <a class="headBtn headBtnPrimary" href="/admin/">Adicionar/editar</a>
+        <a class="headBtn" href="#guia">Ver guias</a>
+      </div>
+    </header>
+  </div>
+
+  <!-- ========================= UJ DESIGN KIT (PAGE WRAP) Seu esqueleto entra aqui ========================= -->
+  <div class="wrap" id="appWrap">
+    <section class="hero">
+      <div class="heroMain card">
+        <p class="eyebrow">Guia de Prescrições</p>
+        <h1>Protocolos práticos no ponto de cuidado.</h1>
+        <p class="lead">Organize critérios, dicas, exames complementares e prescrições em um só lugar. Edite pelo painel administrativo e o guia atualiza automaticamente.</p>
+        <div class="heroActions">
+          <a class="btn btnPrimary" href="/admin/">Adicionar ou editar</a>
+          <a class="btn btnGhost" href="#guia">Ver guias</a>
+        </div>
+      </div>
+      <div class="heroAside">
+        <div class="card stat">
+          <div class="statValue" id="totalCount">0</div>
+          <div class="statLabel">Prescrições cadastradas</div>
+        </div>
+        <div class="card stat">
+          <div class="statValue" id="lastUpdate">-</div>
+          <div class="statLabel">Última atualização</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="filters card" id="guia">
+      <div class="filtersGrid">
+        <div>
+          <label class="label" for="search">Buscar</label>
+          <input class="field" type="search" id="search" placeholder="Buscar por assunto ou palavra-chave" />
+        </div>
+        <div>
+          <label class="label" for="areaFilter">Área</label>
+          <select class="select" id="areaFilter">
+            <option value="">Todas as áreas</option>
+          </select>
+        </div>
+        <div>
+          <label class="label" for="clear">Ações</label>
+          <button class="btn btnGhost" id="clear" type="button">Limpar filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards" id="list"></section>
+    <div class="footer mutedNote">Dica: para criar divisórias no editor, use três traços `---` em uma linha. Para deixar copiável, ative “Prescrição copiável”.</div>
+  </div>
+
+  <template id="cardTemplate">
+    <article class="card guide-card">
+      <div class="guide-header">
+        <div class="guide-title">
+          <span class="pill"></span>
+          <h2></h2>
+        </div>
+        <button class="btn btnGhost toggle" type="button">Abrir</button>
+      </div>
+      <div class="guide-body">
+        <div class="guide-tabs">
+          <button class="guide-tab" type="button" data-tab="criterios">Critérios</button>
+          <button class="guide-tab" type="button" data-tab="dicas">Dicas</button>
+          <button class="guide-tab" type="button" data-tab="exames">Exames complementares</button>
+          <button class="guide-tab" type="button" data-tab="prescricao">Prescrição</button>
+        </div>
+        <div class="guide-panel" data-panel="criterios"></div>
+        <div class="guide-panel" data-panel="dicas"></div>
+        <div class="guide-panel" data-panel="exames"></div>
+        <div class="guide-panel" data-panel="prescricao"></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    const listEl = document.getElementById('list')
+    const areaFilter = document.getElementById('areaFilter')
+    const searchInput = document.getElementById('search')
+    const clearBtn = document.getElementById('clear')
+    const totalCountEl = document.getElementById('totalCount')
+    const lastUpdateEl = document.getElementById('lastUpdate')
+    const template = document.getElementById('cardTemplate')
+
+    const state = {
+      data: []
+    }
+
+    function normalize(value) {
+      if (!value) {
+        return ''
+      }
+      return value
+        .toString()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+    }
+
+    function formatDate(value) {
+      if (!value) {
+        return '-'
+      }
+      const date = new Date(value)
+      if (Number.isNaN(date.getTime())) {
+        return value
+      }
+      return date.toLocaleDateString('pt-BR')
+    }
+
+    function markdown(value) {
+      if (!value) {
+        return '<p class="mutedNote">Sem conteúdo.</p>'
+      }
+      return marked.parse(value)
+    }
+
+    function toPlainText(value) {
+      if (!value) {
+        return ''
+      }
+      const temp = document.createElement('div')
+      temp.innerHTML = marked.parse(value)
+      return temp.innerText.trim()
+    }
+
+    async function copyToClipboard(text) {
+      if (!text) {
+        return false
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(text)
+        return true
+      }
+      const textarea = document.createElement('textarea')
+      textarea.value = text
+      textarea.style.position = 'fixed'
+      textarea.style.left = '-9999px'
+      document.body.appendChild(textarea)
+      textarea.select()
+      try {
+        document.execCommand('copy')
+        return true
+      } finally {
+        document.body.removeChild(textarea)
+      }
+    }
+
+    function createCopyButton(label, text) {
+      const button = document.createElement('button')
+      button.type = 'button'
+      button.className = 'copyBtn'
+      button.innerHTML = `
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M9 9V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <rect x="3" y="9" width="10" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <span>${label}</span>
+      `
+      button.addEventListener('click', async () => {
+        const ok = await copyToClipboard(text)
+        if (!ok) {
+          return
+        }
+        const span = button.querySelector('span')
+        const original = span.textContent
+        span.textContent = 'Copiado'
+        button.classList.add('is-copied')
+        setTimeout(() => {
+          span.textContent = original
+          button.classList.remove('is-copied')
+        }, 1600)
+      })
+      return button
+    }
+
+    function activateTab(card, tabName) {
+      const tabs = card.querySelectorAll('.guide-tab')
+      const panels = card.querySelectorAll('.guide-panel')
+      tabs.forEach((btn) => {
+        const isActive = btn.dataset.tab === tabName
+        btn.classList.toggle('guide-tab--active', isActive)
+      })
+      panels.forEach((panel) => {
+        const isActive = panel.dataset.panel === tabName
+        panel.classList.toggle('is-active', isActive)
+      })
+    }
+
+    function applyPanelStyle(panel, tone, spacing) {
+      const safeTone = tone || 'neutro'
+      const safeSpacing = spacing || 'normal'
+      panel.classList.add(`tone-${safeTone}`)
+      panel.classList.add(`space-${safeSpacing}`)
+    }
+
+    function buildCard(item) {
+      const node = template.content.cloneNode(true)
+      const card = node.querySelector('.guide-card')
+      const pill = node.querySelector('.pill')
+      const title = node.querySelector('h2')
+      const toggle = node.querySelector('.toggle')
+      const panels = node.querySelectorAll('.guide-panel')
+      const tabs = node.querySelectorAll('.guide-tab')
+
+      pill.textContent = item.area || 'Sem área'
+      title.textContent = item.assunto || 'Sem assunto'
+
+      const spacing = item.espacamento || 'normal'
+
+      panels.forEach((panel) => {
+        if (panel.dataset.panel === 'criterios') {
+          panel.innerHTML = markdown(item.criterios)
+          applyPanelStyle(panel, item.criterios_tom, spacing)
+        }
+        if (panel.dataset.panel === 'dicas') {
+          panel.innerHTML = markdown(item.dicas)
+          applyPanelStyle(panel, item.dicas_tom, spacing)
+        }
+        if (panel.dataset.panel === 'exames') {
+          panel.innerHTML = markdown(item.exames)
+          applyPanelStyle(panel, item.exames_tom, spacing)
+        }
+        if (panel.dataset.panel === 'prescricao') {
+          panel.innerHTML = markdown(item.prescricao)
+          applyPanelStyle(panel, item.prescricao_tom, spacing)
+          const allowCopy = item.prescricao_copiavel !== false
+          const copyText = (item.prescricao_copia || '').trim() || toPlainText(item.prescricao)
+          if (allowCopy && copyText) {
+            const tools = document.createElement('div')
+            tools.className = 'panel-tools'
+            const label = item.prescricao_copiar_rotulo || 'Copiar prescrição'
+            tools.appendChild(createCopyButton(label, copyText))
+            panel.prepend(tools)
+          }
+        }
+      })
+
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => activateTab(card, tab.dataset.tab))
+      })
+
+      toggle.addEventListener('click', () => {
+        const isOpen = card.classList.toggle('is-open')
+        toggle.textContent = isOpen ? 'Fechar' : 'Abrir'
+        if (isOpen) {
+          activateTab(card, 'criterios')
+        }
+      })
+
+      return node
+    }
+
+    function updateStats(items) {
+      totalCountEl.textContent = items.length
+      let latest = null
+      items.forEach((item) => {
+        if (!item.atualizado_em) {
+          return
+        }
+        const date = new Date(item.atualizado_em)
+        if (Number.isNaN(date.getTime())) {
+          return
+        }
+        if (!latest || date > latest) {
+          latest = date
+        }
+      })
+      lastUpdateEl.textContent = latest ? formatDate(latest.toISOString()) : '-'
+    }
+
+    function renderList(items) {
+      listEl.innerHTML = ''
+      if (!items.length) {
+        const empty = document.createElement('div')
+        empty.className = 'empty-state'
+        empty.textContent = 'Nenhuma prescrição encontrada. Use o botão “Adicionar ou editar”.'
+        listEl.appendChild(empty)
+        updateStats(items)
+        return
+      }
+      items.forEach((item) => {
+        listEl.appendChild(buildCard(item))
+      })
+      updateStats(items)
+    }
+
+    function filterAndRender() {
+      const term = normalize(searchInput.value.trim())
+      const area = areaFilter.value.trim()
+      const results = []
+
+      state.data.forEach((item) => {
+        const combined = [
+          item.assunto,
+          item.area,
+          item.criterios,
+          item.dicas,
+          item.exames,
+          item.prescricao,
+          item.prescricao_copia
+        ].join(' ')
+        const normalized = normalize(combined)
+
+        let matchesTerm = true
+        if (term !== '') {
+          matchesTerm = normalized.includes(term)
+        }
+
+        let matchesArea = true
+        if (area !== '') {
+          matchesArea = item.area === area
+        }
+
+        if (matchesTerm && matchesArea) {
+          results.push(item)
+        }
+      })
+
+      renderList(results)
+    }
+
+    function populateAreas(items) {
+      const areas = []
+      items.forEach((item) => {
+        if (item.area && !areas.includes(item.area)) {
+          areas.push(item.area)
+        }
+      })
+      areas.sort()
+      areas.forEach((area) => {
+        const option = document.createElement('option')
+        option.value = area
+        option.textContent = area
+        areaFilter.appendChild(option)
+      })
+    }
+
+    async function loadData() {
+      try {
+        const response = await fetch('./data/prescricoes.json', { cache: 'no-store' })
+        if (!response.ok) {
+          throw new Error('Falha ao carregar dados')
+        }
+        const payload = await response.json()
+        state.data = payload.prescricoes || []
+        populateAreas(state.data)
+        renderList(state.data)
+      } catch (error) {
+        listEl.innerHTML = ''
+        const empty = document.createElement('div')
+        empty.className = 'empty-state'
+        empty.textContent = 'Não foi possível carregar o arquivo de prescrições. Verifique o data/prescricoes.json.'
+        listEl.appendChild(empty)
+      }
+    }
+
+    searchInput.addEventListener('input', filterAndRender)
+    areaFilter.addEventListener('change', filterAndRender)
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = ''
+      areaFilter.value = ''
+      renderList(state.data)
+    })
+
+    loadData()
+  </script>
+</body>
+</html>
