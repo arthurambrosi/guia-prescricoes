@@ -1,4 +1,5 @@
-function renderBody(status, content) {
+function renderBody(status, content, origin) {
+  const safeOrigin = origin || '*'
   const body = `
     <!doctype html>
     <html lang="pt-BR">
@@ -8,21 +9,24 @@ function renderBody(status, content) {
       </head>
       <body>
         <script>
-          function recieveMessage(message) {
-            if (!message.origin || message.origin !== '${new URL(
-              content.site
-            ).origin}') {
+          const content = ${JSON.stringify(content)}
+          const targetOrigin = ${JSON.stringify(safeOrigin)}
+          function sendAuthMessage(origin) {
+            if (!window.opener) {
               return
             }
             window.opener.postMessage(
-              'authorization:github:' + JSON.stringify(${JSON.stringify(
-                content
-              )}),
-              message.origin
+              'authorization:github:' + JSON.stringify(content),
+              origin || '*'
             )
           }
-          window.addEventListener('message', recieveMessage, false)
-          window.opener.postMessage('authorizing:github', '*')
+          function receiveMessage(message) {
+            sendAuthMessage(message.origin)
+            window.close()
+          }
+          window.addEventListener('message', receiveMessage, false)
+          sendAuthMessage(targetOrigin)
+          setTimeout(() => window.close(), 1200)
         </script>
       </body>
     </html>
@@ -68,18 +72,18 @@ export async function onRequest(context) {
       return renderBody(401, {
         status: 'error',
         content: 'Authorization failed'
-      })
+      }, url.origin)
     }
 
     return renderBody(200, {
       token: tokenResult.access_token,
-      provider: 'github',
-      site: url.origin
-    })
+      provider: 'github'
+    }, url.origin)
   } catch (error) {
+    const url = new URL(request.url)
     return renderBody(500, {
       status: 'error',
       content: error.message
-    })
+    }, url.origin)
   }
 }
