@@ -11,22 +11,23 @@ function renderBody(status, content, origin) {
         <script>
           const content = ${JSON.stringify(content)}
           const targetOrigin = ${JSON.stringify(safeOrigin)}
+          const payload = 'authorization:github:' + JSON.stringify(content)
           function sendAuthMessage(origin) {
             if (!window.opener) {
               return
             }
-            window.opener.postMessage(
-              'authorization:github:' + JSON.stringify(content),
-              origin || '*'
-            )
+            window.opener.postMessage(payload, origin || '*')
           }
           function receiveMessage(message) {
             sendAuthMessage(message.origin)
-            window.close()
           }
           window.addEventListener('message', receiveMessage, false)
+          const interval = setInterval(() => sendAuthMessage('*'), 250)
           sendAuthMessage(targetOrigin)
-          setTimeout(() => window.close(), 1200)
+          setTimeout(() => {
+            clearInterval(interval)
+            window.close()
+          }, 2200)
         </script>
       </body>
     </html>
