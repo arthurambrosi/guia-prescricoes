@@ -150,9 +150,9 @@
     /* ===== App wrap ===== */
     .wrap{
       width:100%;
-      margin:0;
-      padding: 18px var(--edgeR) 30px;
-      padding-left: var(--edgeL);
+      max-width: 1180px;
+      margin:0 auto;
+      padding: 18px 32px 30px;
     }
     /* ===== Cards ===== */
     .card{
@@ -232,7 +232,7 @@
     /* ===== Page-specific ===== */
     .hero{
       display:grid;
-      grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+      grid-template-columns: 1fr;
       gap: var(--deskGap);
       align-items: stretch;
     }
@@ -288,7 +288,7 @@
     }
     .filtersGrid{
       display:grid;
-      grid-template-columns: minmax(0, 1.6fr) minmax(0, 0.8fr) auto;
+      grid-template-columns: minmax(0, 1fr) auto;
       gap: 12px;
       align-items: end;
     }
@@ -296,6 +296,91 @@
       display:grid;
       gap: var(--deskGap);
       margin-top: 16px;
+    }
+    .area-card{
+      padding: 16px 18px;
+    }
+    .area-header{
+      width: 100%;
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 12px;
+      border: none;
+      background: transparent;
+      text-align:left;
+      cursor:pointer;
+      padding: 0;
+    }
+    .area-title{
+      display:flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .area-title h2{
+      margin: 0;
+      font-family: "DM Serif Display", serif;
+      font-size: 1.4rem;
+    }
+    .area-count{
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .area-toggle{
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-weight: 800;
+      background: #fff;
+      color: #334155;
+    }
+    .area-body{
+      display: none;
+      margin-top: 14px;
+    }
+    .area-card.is-open .area-body{
+      display: block;
+    }
+    .subject-list{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .subject-btn{
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: #fff;
+      font-weight: 800;
+      cursor: pointer;
+      color: #475569;
+      transition: background var(--t), color var(--t), border-color var(--t);
+      font-size: 0.84rem;
+    }
+    .subject-btn:hover{
+      border-color: rgba(249,115,22,.35);
+      color: #0f172a;
+    }
+    .subject-btn.is-active{
+      background: var(--accent);
+      color: #fff;
+      border-color: transparent;
+    }
+    .subject-detail{
+      display: grid;
+      gap: 12px;
+    }
+    .guide-detail{
+      border-radius: var(--rMid);
+      padding: 14px 16px;
+      background: var(--surface2);
+      border: 1px solid var(--line);
+    }
+    .guide-detail h3{
+      margin: 0 0 8px;
+      font-family: "DM Serif Display", serif;
     }
     .guide-card{
       padding: 16px 18px 18px;
@@ -475,6 +560,11 @@
       margin-top: 18px;
       text-align: center;
     }
+    @media (max-width: 720px){
+      .wrap{
+        padding: 18px 16px 30px;
+      }
+    }
     @media (max-width: 980px){
       .hero{
         grid-template-columns: 1fr;
@@ -505,39 +595,23 @@
 
   <!-- ========================= UJ DESIGN KIT (PAGE WRAP) Seu esqueleto entra aqui ========================= -->
   <div class="wrap" id="appWrap">
-    <section class="hero">
+            <section class="hero">
       <div class="heroMain card">
         <p class="eyebrow">Guia de Prescrições</p>
         <h1>Protocolos práticos no ponto de cuidado.</h1>
-        <p class="lead">Organize critérios, dicas, exames complementares e prescrições em um só lugar. Edite pelo painel administrativo e o guia atualiza automaticamente.</p>
+        <p class="lead">Organize critérios, dicas, exames complementares e prescrições em um só lugar. Selecione a área para ver os assuntos disponíveis.</p>
         <div class="heroActions">
           <a class="btn btnPrimary" href="/admin/">Adicionar ou editar</a>
           <a class="btn btnGhost" href="#guia">Ver guias</a>
         </div>
       </div>
-      <div class="heroAside">
-        <div class="card stat">
-          <div class="statValue" id="totalCount">0</div>
-          <div class="statLabel">Prescrições cadastradas</div>
-        </div>
-        <div class="card stat">
-          <div class="statValue" id="lastUpdate">-</div>
-          <div class="statLabel">Última atualização</div>
-        </div>
-      </div>
     </section>
 
-    <section class="filters card" id="guia">
+            <section class="filters card" id="guia">
       <div class="filtersGrid">
         <div>
           <label class="label" for="search">Buscar</label>
           <input class="field" type="search" id="search" placeholder="Buscar por assunto ou palavra-chave" />
-        </div>
-        <div>
-          <label class="label" for="areaFilter">Área</label>
-          <select class="select" id="areaFilter">
-            <option value="">Todas as áreas</option>
-          </select>
         </div>
         <div>
           <label class="label" for="clear">Ações</label>
@@ -546,43 +620,56 @@
       </div>
     </section>
 
-    <section class="cards" id="list"></section>
-    <div class="footer mutedNote">Dica: para criar divisórias no editor, use três traços `---` em uma linha. Para deixar copiável, ative “Prescrição copiável”.</div>
+    <section class="cards" id="areaList"></section>
+    <div class="footer mutedNote">Dica: escolha uma área para ver os assuntos. Para criar divisórias no editor, use três traços `---` em uma linha.</div>
   </div>
 
-  <template id="cardTemplate">
-    <article class="card guide-card">
-      <div class="guide-header">
-        <div class="guide-title">
-          <span class="pill"></span>
+    <template id="areaTemplate">
+    <article class="card area-card">
+      <button class="area-header" type="button">
+        <div class="area-title">
           <h2></h2>
+          <span class="area-count"></span>
         </div>
-        <button class="btn btnGhost toggle" type="button">Abrir</button>
-      </div>
-      <div class="guide-body">
-        <div class="guide-tabs">
-          <button class="guide-tab" type="button" data-tab="criterios">Critérios</button>
-          <button class="guide-tab" type="button" data-tab="dicas">Dicas</button>
-          <button class="guide-tab" type="button" data-tab="exames">Exames complementares</button>
-          <button class="guide-tab" type="button" data-tab="prescricao">Prescrição</button>
-        </div>
-        <div class="guide-panel" data-panel="criterios"></div>
-        <div class="guide-panel" data-panel="dicas"></div>
-        <div class="guide-panel" data-panel="exames"></div>
-        <div class="guide-panel" data-panel="prescricao"></div>
+        <span class="area-toggle">Ver assuntos</span>
+      </button>
+      <div class="area-body">
+        <div class="subject-list"></div>
+        <div class="subject-detail"></div>
       </div>
     </article>
   </template>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    const listEl = document.getElementById('list')
-    const areaFilter = document.getElementById('areaFilter')
+    const areaListEl = document.getElementById('areaList')
     const searchInput = document.getElementById('search')
     const clearBtn = document.getElementById('clear')
-    const totalCountEl = document.getElementById('totalCount')
-    const lastUpdateEl = document.getElementById('lastUpdate')
-    const template = document.getElementById('cardTemplate')
+    const templateArea = document.getElementById('areaTemplate')
+
+    const AREA_FILES = [
+      'Aparelho Cardiovascular',
+      'Aparelho Digestivo',
+      'Aparelho Endócrino-Metabólico',
+      'Aparelho Geniturinário',
+      'Aparelho Hematológico',
+      'Aparelho Locomotor',
+      'Aparelho Neurológico',
+      'Aparelho Reprodutivo',
+      'Aparelho Respiratório',
+      'Condições Alérgicas e Anafilaxia',
+      'Cuidados na Gestação',
+      'Distúrbios do Equilíbrio Hidroeletrolítico',
+      'Saúde Mental',
+      'Síndromes Infecciosas',
+      'Síndromes Infecciosas de Pele',
+      'Suporte Vasoativo e Hemodinâmico',
+      'Terapia Analgésica',
+      'Terapia Antimicrobiana',
+      'Terapia Transfusional',
+      'Toxicologia Clínica',
+      'Via Aérea Avançada'
+    ]
 
     const state = {
       data: []
@@ -596,18 +683,7 @@
         .toString()
         .toLowerCase()
         .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-    }
-
-    function formatDate(value) {
-      if (!value) {
-        return '-'
-      }
-      const date = new Date(value)
-      if (Number.isNaN(date.getTime())) {
-        return value
-      }
-      return date.toLocaleDateString('pt-BR')
+        .replace(/[̀-ͯ]/g, '')
     }
 
     function markdown(value) {
@@ -676,9 +752,9 @@
       return button
     }
 
-    function activateTab(card, tabName) {
-      const tabs = card.querySelectorAll('.guide-tab')
-      const panels = card.querySelectorAll('.guide-panel')
+    function activateTab(container, tabName) {
+      const tabs = container.querySelectorAll('.guide-tab')
+      const panels = container.querySelectorAll('.guide-panel')
       tabs.forEach((btn) => {
         const isActive = btn.dataset.tab === tabName
         btn.classList.toggle('guide-tab--active', isActive)
@@ -696,18 +772,25 @@
       panel.classList.add(`space-${safeSpacing}`)
     }
 
-    function buildCard(item) {
-      const node = template.content.cloneNode(true)
-      const card = node.querySelector('.guide-card')
-      const pill = node.querySelector('.pill')
-      const title = node.querySelector('h2')
-      const toggle = node.querySelector('.toggle')
-      const panels = node.querySelectorAll('.guide-panel')
-      const tabs = node.querySelectorAll('.guide-tab')
+    function buildDetail(item) {
+      const wrapper = document.createElement('div')
+      wrapper.className = 'guide-detail'
+      wrapper.innerHTML = `
+        <h3>${item.assunto || 'Sem assunto'}</h3>
+        <div class="guide-tabs">
+          <button class="guide-tab" type="button" data-tab="criterios">Critérios</button>
+          <button class="guide-tab" type="button" data-tab="dicas">Dicas</button>
+          <button class="guide-tab" type="button" data-tab="exames">Exames complementares</button>
+          <button class="guide-tab" type="button" data-tab="prescricao">Prescrição</button>
+        </div>
+        <div class="guide-panel" data-panel="criterios"></div>
+        <div class="guide-panel" data-panel="dicas"></div>
+        <div class="guide-panel" data-panel="exames"></div>
+        <div class="guide-panel" data-panel="prescricao"></div>
+      `
 
-      pill.textContent = item.area || 'Sem área'
-      title.textContent = item.assunto || 'Sem assunto'
-
+      const panels = wrapper.querySelectorAll('.guide-panel')
+      const tabs = wrapper.querySelectorAll('.guide-tab')
       const spacing = item.espacamento || 'normal'
 
       panels.forEach((panel) => {
@@ -731,7 +814,7 @@
           if (allowCopy && copyText) {
             const tools = document.createElement('div')
             tools.className = 'panel-tools'
-            const label = item.prescricao_copiar_rotulo || 'Copiar prescrição'
+                                    const label = item.prescricao_copiar_rotulo || 'Copiar prescrição'
             tools.appendChild(createCopyButton(label, copyText))
             panel.prepend(tools)
           }
@@ -739,60 +822,107 @@
       })
 
       tabs.forEach((tab) => {
-        tab.addEventListener('click', () => activateTab(card, tab.dataset.tab))
+        tab.addEventListener('click', () => activateTab(wrapper, tab.dataset.tab))
       })
 
-      toggle.addEventListener('click', () => {
-        const isOpen = card.classList.toggle('is-open')
-        toggle.textContent = isOpen ? 'Fechar' : 'Abrir'
-        if (isOpen) {
-          activateTab(card, 'criterios')
+      activateTab(wrapper, 'criterios')
+      return wrapper
+    }
+
+    function groupByArea(items) {
+      const map = new Map()
+      items.forEach((item) => {
+        const area = item.area || 'Sem ?rea'
+        if (!map.has(area)) {
+          map.set(area, [])
+        }
+        map.get(area).push(item)
+      })
+      return map
+    }
+
+    function buildAreaCard(area, items, autoOpen = false) {
+      const node = templateArea.content.cloneNode(true)
+      const card = node.querySelector('.area-card')
+      const header = node.querySelector('.area-header')
+      const title = node.querySelector('.area-title h2')
+      const count = node.querySelector('.area-count')
+      const toggle = node.querySelector('.area-toggle')
+      const subjectList = node.querySelector('.subject-list')
+      const detail = node.querySelector('.subject-detail')
+
+      title.textContent = area
+      count.textContent = `${items.length} assunto${items.length === 1 ? '' : 's'}`
+
+      const sorted = [...items].sort((a, b) => {
+        return (a.assunto || '').localeCompare(b.assunto || '', 'pt-BR')
+      })
+
+      if (!sorted.length) {
+        const empty = document.createElement('div')
+        empty.className = 'empty-state'
+        empty.textContent = 'Nenhum assunto encontrado nesta ?rea.'
+        detail.appendChild(empty)
+      } else if (!autoOpen) {
+        const hint = document.createElement('div')
+        hint.className = 'mutedNote'
+        hint.textContent = 'Selecione um assunto para ver os detalhes.'
+        detail.appendChild(hint)
+      }
+
+      sorted.forEach((item, index) => {
+        const btn = document.createElement('button')
+        btn.type = 'button'
+        btn.className = 'subject-btn'
+        btn.textContent = item.assunto || 'Sem assunto'
+        btn.addEventListener('click', () => {
+          subjectList.querySelectorAll('.subject-btn').forEach((b) => b.classList.remove('is-active'))
+          btn.classList.add('is-active')
+          detail.innerHTML = ''
+          detail.appendChild(buildDetail(item))
+        })
+        subjectList.appendChild(btn)
+        if (autoOpen && index === 0) {
+          btn.click()
         }
       })
+
+      header.addEventListener('click', () => {
+        const isOpen = card.classList.toggle('is-open')
+        toggle.textContent = isOpen ? 'Ocultar assuntos' : 'Ver assuntos'
+      })
+
+      if (autoOpen) {
+        card.classList.add('is-open')
+        toggle.textContent = 'Ocultar assuntos'
+      }
 
       return node
     }
 
-    function updateStats(items) {
-      totalCountEl.textContent = items.length
-      let latest = null
-      items.forEach((item) => {
-        if (!item.atualizado_em) {
-          return
-        }
-        const date = new Date(item.atualizado_em)
-        if (Number.isNaN(date.getTime())) {
-          return
-        }
-        if (!latest || date > latest) {
-          latest = date
-        }
-      })
-      lastUpdateEl.textContent = latest ? formatDate(latest.toISOString()) : '-'
-    }
-
-    function renderList(items) {
-      listEl.innerHTML = ''
+    function renderAreas(items, autoOpen = false) {
+      areaListEl.innerHTML = ''
       if (!items.length) {
         const empty = document.createElement('div')
         empty.className = 'empty-state'
-        empty.textContent = 'Nenhuma prescrição encontrada. Use o botão “Adicionar ou editar”.'
-        listEl.appendChild(empty)
-        updateStats(items)
+                        empty.textContent = 'Nenhuma prescrição encontrada. Verifique os arquivos na pasta data.'
+        areaListEl.appendChild(empty)
         return
       }
-      items.forEach((item) => {
-        listEl.appendChild(buildCard(item))
+      const map = groupByArea(items)
+      const ordered = AREA_FILES.filter((area) => map.has(area))
+      const extras = Array.from(map.keys()).filter((area) => !AREA_FILES.includes(area))
+      const areas = [...ordered, ...extras]
+      areas.forEach((area) => {
+        areaListEl.appendChild(buildAreaCard(area, map.get(area), autoOpen))
       })
-      updateStats(items)
     }
 
-    function filterAndRender() {
-      const term = normalize(searchInput.value.trim())
-      const area = areaFilter.value.trim()
-      const results = []
-
-      state.data.forEach((item) => {
+    function filterItems(term) {
+      if (!term) {
+        return state.data
+      }
+      return state.data.filter((item) => {
         const combined = [
           item.assunto,
           item.area,
@@ -803,66 +933,59 @@
           item.prescricao_copia
         ].join(' ')
         const normalized = normalize(combined)
-
-        let matchesTerm = true
-        if (term !== '') {
-          matchesTerm = normalized.includes(term)
-        }
-
-        let matchesArea = true
-        if (area !== '') {
-          matchesArea = item.area === area
-        }
-
-        if (matchesTerm && matchesArea) {
-          results.push(item)
-        }
+        return normalized.includes(term)
       })
-
-      renderList(results)
     }
 
-    function populateAreas(items) {
-      const areas = []
-      items.forEach((item) => {
-        if (item.area && !areas.includes(item.area)) {
-          areas.push(item.area)
-        }
-      })
-      areas.sort()
-      areas.forEach((area) => {
-        const option = document.createElement('option')
-        option.value = area
-        option.textContent = area
-        areaFilter.appendChild(option)
-      })
+    function filterAndRender() {
+      const term = normalize(searchInput.value.trim())
+      const results = filterItems(term)
+      renderAreas(results, term !== '')
+    }
+
+    async function loadArea(area) {
+      const fileName = `${encodeURIComponent(area)}.json`
+      const response = await fetch(`./data/${fileName}`, { cache: 'no-store' })
+      if (!response.ok) {
+        throw new Error(`Falha ao carregar ${area}`)
+      }
+      const payload = await response.json()
+      const list = Array.isArray(payload) ? payload : (payload.prescricoes || [])
+      return list.map((item) => ({
+        ...item,
+        area: item.area || area
+      }))
     }
 
     async function loadData() {
-      try {
-        const response = await fetch('./data/prescricoes.json', { cache: 'no-store' })
-        if (!response.ok) {
-          throw new Error('Falha ao carregar dados')
+      const collected = []
+      const missing = []
+      const results = await Promise.allSettled(AREA_FILES.map((area) => loadArea(area)))
+      results.forEach((result, index) => {
+        if (result.status === 'fulfilled') {
+          collected.push(...result.value)
+        } else {
+          missing.push(AREA_FILES[index])
         }
-        const payload = await response.json()
-        state.data = payload.prescricoes || []
-        populateAreas(state.data)
-        renderList(state.data)
-      } catch (error) {
-        listEl.innerHTML = ''
-        const empty = document.createElement('div')
-        empty.className = 'empty-state'
-        empty.textContent = 'Não foi possível carregar o arquivo de prescrições. Verifique o data/prescricoes.json.'
-        listEl.appendChild(empty)
+      })
+
+      state.data = collected
+      if (!state.data.length) {
+        renderAreas([])
+        return
+      }
+
+      renderAreas(state.data)
+
+      if (missing.length) {
+                        console.warn('Arquivos não encontrados:', missing)
       }
     }
 
     searchInput.addEventListener('input', filterAndRender)
-    areaFilter.addEventListener('change', filterAndRender)
     clearBtn.addEventListener('click', () => {
       searchInput.value = ''
-      areaFilter.value = ''
-      renderList(state.data)
+      renderAreas(state.data)
     })
 
     loadData()
