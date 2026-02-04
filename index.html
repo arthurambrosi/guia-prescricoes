@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <!-- Outfit (brand only) -->
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Montserrat (área + assuntos) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
       /* ===== TOKENS (white) ===== */
@@ -311,6 +313,10 @@
       text-align:left;
       cursor:pointer;
       padding: 0;
+      color: var(--text);
+      -webkit-appearance: none;
+      appearance: none;
+      -webkit-text-fill-color: var(--text);
     }
     .area-title{
       display:flex;
@@ -319,8 +325,9 @@
     }
     .area-title h2{
       margin: 0;
-      font-family: "DM Serif Display", serif;
+      font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       font-size: 1.4rem;
+      color: var(--text);
     }
     .area-count{
       font-size: 0.85rem;
@@ -355,9 +362,13 @@
       background: #fff;
       font-weight: 800;
       cursor: pointer;
-      color: #475569;
+      color: var(--text);
       transition: background var(--t), color var(--t), border-color var(--t);
       font-size: 0.84rem;
+      font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      -webkit-appearance: none;
+      appearance: none;
+      -webkit-text-fill-color: var(--text);
     }
     .subject-btn:hover{
       border-color: rgba(249,115,22,.35);
@@ -367,6 +378,7 @@
       background: var(--accent);
       color: #fff;
       border-color: transparent;
+      -webkit-text-fill-color: #fff;
     }
     .subject-detail{
       display: grid;
@@ -380,7 +392,7 @@
     }
     .guide-detail h3{
       margin: 0 0 8px;
-      font-family: "DM Serif Display", serif;
+      font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     }
     .guide-card{
       padding: 16px 18px 18px;
@@ -683,7 +695,7 @@
         .toString()
         .toLowerCase()
         .normalize('NFD')
-        .replace(/[̀-ͯ]/g, '')
+        .replace(/[\u0300-\u036f]/g, '')
     }
 
     function markdown(value) {
@@ -775,8 +787,60 @@
     function buildDetail(item) {
       const wrapper = document.createElement('div')
       wrapper.className = 'guide-detail'
+      const title = item.assunto || 'Sem assunto'
+      const tabsData = Array.isArray(item.tabs) ? item.tabs : []
+
+      if (tabsData.length) {
+        const tabsWrap = document.createElement('div')
+        tabsWrap.className = 'guide-tabs'
+        const panelsWrap = document.createElement('div')
+        panelsWrap.className = 'guide-panels'
+
+        const heading = document.createElement('h3')
+        heading.textContent = title
+        wrapper.appendChild(heading)
+        wrapper.appendChild(tabsWrap)
+        wrapper.appendChild(panelsWrap)
+
+        tabsData.forEach((tab, index) => {
+          const key = (tab.id || `tab_${index}`).toString()
+          const btn = document.createElement('button')
+          btn.className = 'guide-tab'
+          btn.type = 'button'
+          btn.dataset.tab = key
+          btn.textContent = tab.title || `Aba ${index + 1}`
+          tabsWrap.appendChild(btn)
+
+          const panel = document.createElement('div')
+          panel.className = 'guide-panel'
+          panel.dataset.panel = key
+          const content = (tab.content || '').trim()
+          panel.innerHTML = content ? content : '<p class="mutedNote">Sem conteúdo.</p>'
+          if (tab.lineHeight) {
+            panel.style.lineHeight = tab.lineHeight
+          }
+
+          const isPrescription = normalize(tab.title).includes('prescri')
+          if (isPrescription && content) {
+            const tools = document.createElement('div')
+            tools.className = 'panel-tools'
+            tools.appendChild(createCopyButton('Copiar prescrição', toPlainText(content)))
+            panel.prepend(tools)
+          }
+
+          panelsWrap.appendChild(panel)
+        })
+
+        tabsWrap.querySelectorAll('.guide-tab').forEach((tab) => {
+          tab.addEventListener('click', () => activateTab(wrapper, tab.dataset.tab))
+        })
+
+        activateTab(wrapper, (tabsData[0].id || 'tab_0').toString())
+        return wrapper
+      }
+
       wrapper.innerHTML = `
-        <h3>${item.assunto || 'Sem assunto'}</h3>
+        <h3>${title}</h3>
         <div class="guide-tabs">
           <button class="guide-tab" type="button" data-tab="criterios">Critérios</button>
           <button class="guide-tab" type="button" data-tab="dicas">Dicas</button>
@@ -814,7 +878,7 @@
           if (allowCopy && copyText) {
             const tools = document.createElement('div')
             tools.className = 'panel-tools'
-                                    const label = item.prescricao_copiar_rotulo || 'Copiar prescrição'
+            const label = item.prescricao_copiar_rotulo || 'Copiar prescrição'
             tools.appendChild(createCopyButton(label, copyText))
             panel.prepend(tools)
           }
@@ -832,7 +896,7 @@
     function groupByArea(items) {
       const map = new Map()
       items.forEach((item) => {
-        const area = item.area || 'Sem ?rea'
+        const area = item.area || 'Sem área'
         if (!map.has(area)) {
           map.set(area, [])
         }
@@ -861,7 +925,7 @@
       if (!sorted.length) {
         const empty = document.createElement('div')
         empty.className = 'empty-state'
-        empty.textContent = 'Nenhum assunto encontrado nesta ?rea.'
+        empty.textContent = 'Nenhum assunto encontrado nesta área.'
         detail.appendChild(empty)
       } else if (!autoOpen) {
         const hint = document.createElement('div')
@@ -923,6 +987,9 @@
         return state.data
       }
       return state.data.filter((item) => {
+        const tabsText = Array.isArray(item.tabs)
+          ? item.tabs.map((tab) => `${tab.title || ''} ${tab.content || ''}`).join(' ')
+          : ''
         const combined = [
           item.assunto,
           item.area,
@@ -930,7 +997,8 @@
           item.dicas,
           item.exames,
           item.prescricao,
-          item.prescricao_copia
+          item.prescricao_copia,
+          tabsText
         ].join(' ')
         const normalized = normalize(combined)
         return normalized.includes(term)
