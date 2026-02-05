@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Guia de PrescriÃ§Ãµes</title>
+  <title>Guia de Prescrições</title>
   <!-- ========================= UJ DESIGN KIT (HEAD) Fontes + Tokens + CSS base ========================= -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <!-- Outfit (brand only) -->
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <!-- Montserrat (Ã¡rea + assuntos) -->
+  <!-- Montserrat (área + assuntos) -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
@@ -189,14 +189,14 @@
       top:0;
       left:0;
       height:100vh;
-      width: min(420px, 92vw);
+      width: min(360px, 90vw);
       background: #fff;
       border-right: 1px solid var(--line);
       box-shadow: 0 14px 28px rgba(15,23,42,.12);
       transform: translateX(-100%);
       transition: transform var(--t);
       z-index: 55;
-      padding: 16px 16px 24px;
+      padding: 14px 14px 20px;
       overflow-y: auto;
     }
     body.drawer-open .drawer{
@@ -275,7 +275,7 @@
       box-shadow: 0 0 0 3px rgba(249,115,22,.18);
       background: #fff;
     }
-    /* ===== BotÃµes (genÃ©ricos) ===== */
+    /* ===== Botões (genéricos) ===== */
     .btn{
       cursor:pointer;
       border-radius: var(--rBtn);
@@ -371,21 +371,33 @@
     }
     .filters{
       margin-top: 18px;
-      padding: 18px 20px;
+      padding: 16px 16px;
     }
     .filtersGrid{
       display:grid;
       grid-template-columns: minmax(0, 1fr) auto;
-      gap: 12px;
+      gap: 10px;
       align-items: end;
+    }
+    .drawer .filters{
+      margin-top: 0;
+      padding: 12px 12px;
+    }
+    .drawer .filtersGrid{
+      grid-template-columns: 1fr;
+      gap: 10px;
     }
     .cards{
       display:grid;
-      gap: var(--deskGap);
-      margin-top: 16px;
+      gap: 14px;
+      margin-top: 12px;
     }
     .area-card{
-      padding: 16px 18px;
+      padding: 14px 14px;
+    }
+    .drawer .area-card{
+      padding: 12px 12px;
+      box-shadow: none;
     }
     .area-header{
       width: 100%;
@@ -438,22 +450,22 @@
     }
     .subject-list{
       display: grid;
-      gap: 10px;
+      gap: 8px;
       margin-bottom: 0;
       text-align: left;
     }
     .subject-item{
       border: 1px solid var(--line);
-      border-radius: 16px;
+      border-radius: 12px;
       background: #fff;
       overflow: hidden;
-      box-shadow: 0 6px 14px rgba(15,23,42,.04);
+      box-shadow: 0 4px 10px rgba(15,23,42,.03);
     }
     .subject-btn{
       width: 100%;
       border: 0;
       background: #fff;
-      padding: 12px 14px;
+      padding: 10px 12px;
       display: flex;
       align-items: center;
       gap: 12px;
@@ -461,7 +473,8 @@
       text-align: left;
       font-weight: 700;
       color: var(--text);
-      font-size: 0.94rem;
+      font-size: 0.88rem;
+      line-height: 1.2;
       font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       -webkit-appearance: none;
       appearance: none;
@@ -478,8 +491,8 @@
       box-shadow: inset 0 0 0 4px rgba(249,115,22,.18);
     }
     .subject-dot{
-      width: 14px;
-      height: 14px;
+      width: 12px;
+      height: 12px;
       border-radius: 999px;
       border: 2px solid #cbd5e1;
       display: inline-block;
@@ -491,6 +504,8 @@
     .subject-chevron{
       color: #94a3b8;
       transition: transform var(--t), color var(--t);
+      width: 18px;
+      height: 18px;
     }
     .subject-btn.is-active .subject-chevron{
       color: #f97316;
@@ -666,7 +681,7 @@
     .folder-panel.is-active{
       display: block;
     }
-    /* ===== PrescriÃ§Ã£o look (Montserrat + estilo semelhante ao exemplo) ===== */
+    /* ===== Prescrição look (Montserrat + estilo semelhante ao exemplo) ===== */
     .guide-panel[data-panel="prescricao"]{
       font-family: "Montserrat", Manrope, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       font-size: 15px;
@@ -770,9 +785,9 @@
   <div class="wrap" id="appWrap">
             <section class="hero">
       <div class="heroMain card">
-        <p class="eyebrow">Guia de PrescriÃ§Ãµes</p>
-        <h1>Protocolos prÃ¡ticos no ponto de cuidado.</h1>
-        <p class="lead">Organize critÃ©rios, dicas, exames complementares e prescriÃ§Ãµes em um sÃ³ lugar. Selecione a aba para ver os assuntos disponÃ­veis.</p>
+        <p class="eyebrow">Guia de Prescrições</p>
+        <h1>Protocolos práticos no ponto de cuidado.</h1>
+        <p class="lead">Organize critérios, dicas, exames complementares e prescrições em um só lugar. Selecione a aba para ver os assuntos disponíveis.</p>
         <div class="heroActions">
           <a class="btn btnPrimary" href="/admin/">Adicionar ou editar</a>
           <a class="btn btnGhost" href="#guia">Ver guias</a>
@@ -781,16 +796,16 @@
     </section>
 
     <section class="contentArea card" id="contentArea">
-      <div class="empty-state">Selecione um assunto no menu para ver o conteÃºdo.</div>
+      <div class="empty-state">Selecione um assunto no menu para ver o conteúdo.</div>
     </section>
   </div>
 
-  <aside class="drawer" id="drawer" aria-label="Menu de capÃ­tulos">
+  <aside class="drawer" id="drawer" aria-label="Menu de capítulos">
     <div class="drawerHeader">
       <img class="drawerLogo" alt="Logo UsoJaleco" src="https://raw.githubusercontent.com/arthurambrosi/usojaleco/0204905b333f11d1eec3c7c6667d17dbfb457774/Design%20sem%20nome%20(28).png" />
       <div>
-        <div class="drawerTitle">CapÃ­tulos</div>
-        <div class="drawerSubtitle">Selecione uma Ã¡rea e um assunto</div>
+        <div class="drawerTitle">Capítulos</div>
+        <div class="drawerSubtitle">Selecione uma área e um assunto</div>
       </div>
     </div>
     <section class="filters card" id="guia">
@@ -800,14 +815,14 @@
           <input class="field" type="search" id="search" placeholder="Buscar por assunto ou palavra-chave" />
         </div>
         <div>
-          <label class="label" for="clear">AÃ§Ãµes</label>
+          <label class="label" for="clear">Ações</label>
           <button class="btn btnGhost" id="clear" type="button">Limpar filtros</button>
         </div>
       </div>
     </section>
 
     <section class="cards" id="areaList"></section>
-    <div class="footer mutedNote">Dica: escolha uma aba para ver os assuntos. Para criar divisÃ³rias no editor, use trÃªs traÃ§os `---` em uma linha.</div>
+    <div class="footer mutedNote">Dica: escolha uma aba para ver os assuntos. Para criar divisórias no editor, use três traços `---` em uma linha.</div>
   </aside>
 
     <template id="areaTemplate">
@@ -851,7 +866,7 @@
 
     function markdown(value) {
       if (!value) {
-        return '<p class="mutedNote">Sem conteÃºdo.</p>'
+        return '<p class="mutedNote">Sem conteúdo.</p>'
       }
       return marked.parse(value)
     }
@@ -979,7 +994,7 @@
           panel.className = 'guide-panel'
           panel.dataset.panel = key
           const content = (tab.content || '').trim()
-          panel.innerHTML = content ? content : '<p class="mutedNote">Sem conteÃºdo.</p>'
+          panel.innerHTML = content ? content : '<p class="mutedNote">Sem conteúdo.</p>'
           if (tab.lineHeight) {
             panel.style.lineHeight = tab.lineHeight
           }
@@ -988,7 +1003,7 @@
           if (isPrescription && content) {
             const tools = document.createElement('div')
             tools.className = 'panel-tools'
-            tools.appendChild(createCopyButton('Copiar prescriÃ§Ã£o', toPlainText(content)))
+            tools.appendChild(createCopyButton('Copiar prescrição', toPlainText(content)))
             panel.prepend(tools)
           }
 
@@ -1006,10 +1021,10 @@
       wrapper.innerHTML = `
         <h3>${title}</h3>
         <div class="guide-tabs">
-          <button class="guide-tab" type="button" data-tab="criterios">CritÃ©rios</button>
+          <button class="guide-tab" type="button" data-tab="criterios">Critérios</button>
           <button class="guide-tab" type="button" data-tab="dicas">Dicas</button>
           <button class="guide-tab" type="button" data-tab="exames">Exames complementares</button>
-          <button class="guide-tab" type="button" data-tab="prescricao">PrescriÃ§Ã£o</button>
+          <button class="guide-tab" type="button" data-tab="prescricao">Prescrição</button>
         </div>
         <div class="guide-panel" data-panel="criterios"></div>
         <div class="guide-panel" data-panel="dicas"></div>
@@ -1042,7 +1057,7 @@
           if (allowCopy && copyText) {
             const tools = document.createElement('div')
             tools.className = 'panel-tools'
-            const label = item.prescricao_copiar_rotulo || 'Copiar prescriÃ§Ã£o'
+            const label = item.prescricao_copiar_rotulo || 'Copiar prescrição'
             tools.appendChild(createCopyButton(label, copyText))
             panel.prepend(tools)
           }
@@ -1060,7 +1075,7 @@
     function groupByArea(items) {
       const map = new Map()
       items.forEach((item) => {
-        const area = item.area || 'Sem Ã¡rea'
+        const area = item.area || 'Sem área'
         if (!map.has(area)) {
           map.set(area, [])
         }
@@ -1151,7 +1166,7 @@
       if (!items.length) {
         const empty = document.createElement('div')
         empty.className = 'empty-state'
-        empty.textContent = 'Nenhuma prescriÃ§Ã£o encontrada. Verifique os arquivos na pasta data.'
+        empty.textContent = 'Nenhuma prescrição encontrada. Verifique os arquivos na pasta data.'
         areaListEl.appendChild(empty)
         return
       }
@@ -1306,3 +1321,4 @@
   </script>
 </body>
 </html>
+
