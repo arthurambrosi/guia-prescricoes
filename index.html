@@ -1080,21 +1080,31 @@
         const files = Array.isArray(payload) ? payload : (payload.files || [])
         if (!files.length) return []
 
-        const results = await Promise.allSettled(files.map(async (file) => {
-          const res = await fetch(`./data/${file}`, { cache: 'no-store' })
-          if (!res.ok) throw new Error('Falha ao carregar ' + file)
-          const data = await res.json()
-          if (Array.isArray(data)) return data
-          if (Array.isArray(data.prescricoes)) return data.prescricoes
-          return [data]
-        }))
-
         const items = []
-        results.forEach((r) => {
-          if (r.status === 'fulfilled') {
-            items.push(...r.value)
-          }
-        })
+        const limit = 6
+
+        for (let i = 0; i < files.length; i += limit) {
+          const batch = files.slice(i, i + limit)
+          const settled = await Promise.allSettled(
+            batch.map(async (file) => {
+              const res = await fetch(`./data/${file}`)
+              if (!res.ok) throw new Error('Falha ao carregar ' + file)
+              const data = await res.json()
+              if (Array.isArray(data)) return data
+              if (Array.isArray(data.prescricoes)) return data.prescricoes
+              return [data]
+            })
+          )
+
+          settled.forEach((r) => {
+            if (r.status === 'fulfilled') {
+              items.push(...r.value)
+            }
+          })
+
+          await new Promise((r) => setTimeout(r, 120))
+        }
+
         return items
       } catch (err) {
         return []
