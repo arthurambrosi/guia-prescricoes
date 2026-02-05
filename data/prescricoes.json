@@ -1,0 +1,21 @@
+﻿{
+  "prescricoes": [
+    {
+      "area": "Clínica Médica",
+      "assunto": "Crise de asma leve",
+      "espacamento": "normal",
+      "criterios": "## Critérios\n- Dispneia leve\n- Saturação > 92%\n\n---\n",
+      "criterios_tom": "neutro",
+      "dicas": "Use espaçador quando disponível.\n\n- Oriente retorno se piorar.",
+      "dicas_tom": "info",
+      "exames": "- Oximetria\n- Peak flow, se disponível",
+      "exames_tom": "neutro",
+      "prescricao": "### Prescrição sugerida\n- Salbutamol spray: 4 a 8 jatos a cada 20 min na 1ª hora.\n- Prednisona VO se necessário.",
+      "prescricao_tom": "destaque",
+      "prescricao_copiavel": true,
+      "prescricao_copia": "",
+      "prescricao_copiar_rotulo": "Copiar prescrição",
+      "atualizado_em": "2026-02-03"
+    }
+  ]
+}
