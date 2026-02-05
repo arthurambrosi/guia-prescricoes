@@ -712,30 +712,6 @@
     const clearBtn = document.getElementById('clear')
     const templateArea = document.getElementById('areaTemplate')
 
-    const AREA_FILES = [
-      'Aparelho Cardiovascular',
-      'Aparelho Digestivo',
-      'Aparelho Endócrino-Metabólico',
-      'Aparelho Geniturinário',
-      'Aparelho Hematológico',
-      'Aparelho Locomotor',
-      'Aparelho Neurológico',
-      'Aparelho Reprodutivo',
-      'Aparelho Respiratório',
-      'Condições Alérgicas e Anafilaxia',
-      'Cuidados na Gestação',
-      'Distúrbios do Equilíbrio Hidroeletrolítico',
-      'Saúde Mental',
-      'Síndromes Infecciosas',
-      'Síndromes Infecciosas de Pele',
-      'Suporte Vasoativo e Hemodinâmico',
-      'Terapia Analgésica',
-      'Terapia Antimicrobiana',
-      'Terapia Transfusional',
-      'Toxicologia Clínica',
-      'Via Aérea Avançada'
-    ]
-
     const state = {
       data: []
     }
@@ -1096,35 +1072,6 @@
       renderFolderTabs(results, term !== '')
     }
 
-    async function loadArea(area) {
-      const fileName = `${encodeURIComponent(area)}.json`
-      const response = await fetch(`./data/${fileName}`, { cache: 'no-store' })
-      if (!response.ok) {
-        throw new Error(`Falha ao carregar ${area}`)
-      }
-      const payload = await response.json()
-      const list = Array.isArray(payload) ? payload : (payload.prescricoes || [])
-      return list.map((item) => ({
-        ...item,
-        area: item.area || area
-      }))
-    }
-
-    async function loadExtraFile(fileName, fallbackArea) {
-      try {
-        const response = await fetch(`./data/${fileName}`, { cache: 'no-store' })
-        if (!response.ok) return []
-        const payload = await response.json()
-        const list = Array.isArray(payload) ? payload : (payload.prescricoes || [])
-        return list.map((item) => ({
-          ...item,
-          area: item.area || fallbackArea
-        }))
-      } catch (err) {
-        return []
-      }
-    }
-
     async function loadIndexedFiles() {
       try {
         const response = await fetch(`./data/prescricoes_index.json`, { cache: 'no-store' })
@@ -1155,39 +1102,14 @@
     }
 
     async function loadData() {
-      const collected = []
-      const missing = []
-      const results = await Promise.allSettled(AREA_FILES.map((area) => loadArea(area)))
-      results.forEach((result, index) => {
-        if (result.status === 'fulfilled') {
-          collected.push(...result.value)
-        } else {
-          missing.push(AREA_FILES[index])
-        }
-      })
-
-      const extra = await loadExtraFile('prescricoes.json', 'Prescrições')
       const indexed = await loadIndexedFiles()
-      const merged = []
-      const seen = new Set()
-      ;[...indexed, ...collected, ...extra].forEach((item) => {
-        const key = normalize(`${item.area || ''}||${item.assunto || ''}`)
-        if (seen.has(key)) return
-        seen.add(key)
-        merged.push(item)
-      })
-
-      state.data = merged
+      state.data = indexed
       if (!state.data.length) {
         renderFolderTabs([])
         return
       }
 
       renderFolderTabs(state.data)
-
-      if (missing.length) {
-                        console.warn('Arquivos não encontrados:', missing)
-      }
     }
 
     searchInput.addEventListener('input', filterAndRender)
