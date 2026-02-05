@@ -543,6 +543,48 @@
       border-left: 4px solid var(--accent);
       color: var(--text);
     }
+    /* ===== Tabs por pasta ===== */
+    .folder-panels{
+      display: grid;
+      gap: var(--deskGap);
+    }
+    .folder-panel{
+      display: none;
+    }
+    .folder-panel.is-active{
+      display: block;
+    }
+    /* ===== Prescrição look (Montserrat + estilo semelhante ao exemplo) ===== */
+    .guide-panel[data-panel="prescricao"]{
+      font-family: "Montserrat", Manrope, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      font-size: 15px;
+    }
+    .guide-panel[data-panel="prescricao"] h1,
+    .guide-panel[data-panel="prescricao"] h2,
+    .guide-panel[data-panel="prescricao"] h3,
+    .guide-panel[data-panel="prescricao"] h4{
+      font-family: "Montserrat", Manrope, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      font-weight: 800;
+      margin-top: 6px;
+    }
+    .guide-panel[data-panel="prescricao"] ul{
+      padding-left: 22px;
+    }
+    .guide-panel[data-panel="prescricao"] li{
+      margin-bottom: 6px;
+    }
+    .guide-panel[data-panel="prescricao"] blockquote{
+      margin: 8px 0 12px;
+      padding-left: 14px;
+      border-left: 3px solid var(--accent);
+      color: var(--text);
+      font-weight: 700;
+    }
+    .guide-panel[data-panel="prescricao"] em{
+      color: #8b5cf6;
+      font-style: italic;
+      font-weight: 600;
+    }
     .panel-tools{
       display:flex;
       justify-content:flex-end;
@@ -622,7 +664,7 @@
       <div class="heroMain card">
         <p class="eyebrow">Guia de Prescrições</p>
         <h1>Protocolos práticos no ponto de cuidado.</h1>
-        <p class="lead">Organize critérios, dicas, exames complementares e prescrições em um só lugar. Selecione a área para ver os assuntos disponíveis.</p>
+        <p class="lead">Organize critérios, dicas, exames complementares e prescrições em um só lugar. Selecione a aba para ver os assuntos disponíveis.</p>
         <div class="heroActions">
           <a class="btn btnPrimary" href="/admin/">Adicionar ou editar</a>
           <a class="btn btnGhost" href="#guia">Ver guias</a>
@@ -644,7 +686,7 @@
     </section>
 
     <section class="cards" id="areaList"></section>
-    <div class="footer mutedNote">Dica: escolha uma área para ver os assuntos. Para criar divisórias no editor, use três traços `---` em uma linha.</div>
+    <div class="footer mutedNote">Dica: escolha uma aba para ver os assuntos. Para criar divisórias no editor, use três traços `---` em uma linha.</div>
   </div>
 
     <template id="areaTemplate">
@@ -795,6 +837,19 @@
       panel.classList.add(`space-${safeSpacing}`)
     }
 
+    function activateFolderTab(container, tabName) {
+      const tabs = container.querySelectorAll('.folder-tab')
+      const panels = container.querySelectorAll('.folder-panel')
+      tabs.forEach((btn) => {
+        const isActive = btn.dataset.tab === tabName
+        btn.classList.toggle('guide-tab--active', isActive)
+      })
+      panels.forEach((panel) => {
+        const isActive = panel.dataset.panel === tabName
+        panel.classList.toggle('is-active', isActive)
+      })
+    }
+
     function buildDetail(item) {
       const wrapper = document.createElement('div')
       wrapper.className = 'guide-detail'
@@ -916,18 +971,19 @@
       return map
     }
 
-    function buildAreaCard(area, items, autoOpen = false) {
-      const node = templateArea.content.cloneNode(true)
-      const card = node.querySelector('.area-card')
-      const header = node.querySelector('.area-header')
-      const title = node.querySelector('.area-title h2')
-      const count = node.querySelector('.area-count')
-      const toggle = node.querySelector('.area-toggle')
-      const subjectList = node.querySelector('.subject-list')
-      const detail = node.querySelector('.subject-detail')
+    function buildFolderPanel(items, autoOpen = false) {
+      const panel = document.createElement('div')
+      panel.className = 'folder-panel'
 
-      title.textContent = area
-      count.textContent = `${items.length} assunto${items.length === 1 ? '' : 's'}`
+      const card = document.createElement('article')
+      card.className = 'card area-card is-open'
+      const body = document.createElement('div')
+      body.className = 'area-body'
+
+      const subjectList = document.createElement('div')
+      subjectList.className = 'subject-list'
+      const detail = document.createElement('div')
+      detail.className = 'subject-detail'
 
       const sorted = [...items].sort((a, b) => {
         return (a.assunto || '').localeCompare(b.assunto || '', 'pt-BR')
@@ -936,7 +992,7 @@
       if (!sorted.length) {
         const empty = document.createElement('div')
         empty.className = 'empty-state'
-        empty.textContent = 'Nenhum assunto encontrado nesta área.'
+        empty.textContent = 'Nenhum assunto encontrado nesta aba.'
         detail.appendChild(empty)
       } else if (!autoOpen) {
         const hint = document.createElement('div')
@@ -962,35 +1018,53 @@
         }
       })
 
-      header.addEventListener('click', () => {
-        const isOpen = card.classList.toggle('is-open')
-        toggle.textContent = isOpen ? 'Ocultar assuntos' : 'Ver assuntos'
-      })
-
-      if (autoOpen) {
-        card.classList.add('is-open')
-        toggle.textContent = 'Ocultar assuntos'
-      }
-
-      return node
+      body.appendChild(subjectList)
+      body.appendChild(detail)
+      card.appendChild(body)
+      panel.appendChild(card)
+      return panel
     }
 
-    function renderAreas(items, autoOpen = false) {
+    function renderFolderTabs(items, autoOpen = false) {
       areaListEl.innerHTML = ''
       if (!items.length) {
         const empty = document.createElement('div')
         empty.className = 'empty-state'
-                        empty.textContent = 'Nenhuma prescrição encontrada. Verifique os arquivos na pasta data.'
+        empty.textContent = 'Nenhuma prescrição encontrada. Verifique os arquivos na pasta data.'
         areaListEl.appendChild(empty)
         return
       }
+
       const map = groupByArea(items)
-      const ordered = AREA_FILES.filter((area) => map.has(area))
-      const extras = Array.from(map.keys()).filter((area) => !AREA_FILES.includes(area))
-      const areas = [...ordered, ...extras]
-      areas.forEach((area) => {
-        areaListEl.appendChild(buildAreaCard(area, map.get(area), autoOpen))
+      const areas = Array.from(map.keys()).sort((a, b) => a.localeCompare(b, 'pt-BR'))
+
+      const tabsWrap = document.createElement('div')
+      tabsWrap.className = 'guide-tabs'
+      const panelsWrap = document.createElement('div')
+      panelsWrap.className = 'folder-panels'
+
+      areaListEl.appendChild(tabsWrap)
+      areaListEl.appendChild(panelsWrap)
+
+      areas.forEach((area, index) => {
+        const key = `folder_${index}`
+        const btn = document.createElement('button')
+        btn.type = 'button'
+        btn.className = 'guide-tab folder-tab'
+        btn.dataset.tab = key
+        btn.textContent = area
+        tabsWrap.appendChild(btn)
+
+        const panel = buildFolderPanel(map.get(area), autoOpen && index === 0)
+        panel.dataset.panel = key
+        panelsWrap.appendChild(panel)
       })
+
+      tabsWrap.querySelectorAll('.folder-tab').forEach((tab) => {
+        tab.addEventListener('click', () => activateFolderTab(areaListEl, tab.dataset.tab))
+      })
+
+      activateFolderTab(areaListEl, 'folder_0')
     }
 
     function filterItems(term) {
@@ -1019,7 +1093,7 @@
     function filterAndRender() {
       const term = normalize(searchInput.value.trim())
       const results = filterItems(term)
-      renderAreas(results, term !== '')
+      renderFolderTabs(results, term !== '')
     }
 
     async function loadArea(area) {
@@ -1036,6 +1110,50 @@
       }))
     }
 
+    async function loadExtraFile(fileName, fallbackArea) {
+      try {
+        const response = await fetch(`./data/${fileName}`, { cache: 'no-store' })
+        if (!response.ok) return []
+        const payload = await response.json()
+        const list = Array.isArray(payload) ? payload : (payload.prescricoes || [])
+        return list.map((item) => ({
+          ...item,
+          area: item.area || fallbackArea
+        }))
+      } catch (err) {
+        return []
+      }
+    }
+
+    async function loadIndexedFiles() {
+      try {
+        const response = await fetch(`./data/prescricoes_index.json`, { cache: 'no-store' })
+        if (!response.ok) return []
+        const payload = await response.json()
+        const files = Array.isArray(payload) ? payload : (payload.files || [])
+        if (!files.length) return []
+
+        const results = await Promise.allSettled(files.map(async (file) => {
+          const res = await fetch(`./data/${file}`, { cache: 'no-store' })
+          if (!res.ok) throw new Error('Falha ao carregar ' + file)
+          const data = await res.json()
+          if (Array.isArray(data)) return data
+          if (Array.isArray(data.prescricoes)) return data.prescricoes
+          return [data]
+        }))
+
+        const items = []
+        results.forEach((r) => {
+          if (r.status === 'fulfilled') {
+            items.push(...r.value)
+          }
+        })
+        return items
+      } catch (err) {
+        return []
+      }
+    }
+
     async function loadData() {
       const collected = []
       const missing = []
@@ -1048,13 +1166,24 @@
         }
       })
 
-      state.data = collected
+      const extra = await loadExtraFile('prescricoes.json', 'Prescrições')
+      const indexed = await loadIndexedFiles()
+      const merged = []
+      const seen = new Set()
+      ;[...indexed, ...collected, ...extra].forEach((item) => {
+        const key = normalize(`${item.area || ''}||${item.assunto || ''}`)
+        if (seen.has(key)) return
+        seen.add(key)
+        merged.push(item)
+      })
+
+      state.data = merged
       if (!state.data.length) {
-        renderAreas([])
+        renderFolderTabs([])
         return
       }
 
-      renderAreas(state.data)
+      renderFolderTabs(state.data)
 
       if (missing.length) {
                         console.warn('Arquivos não encontrados:', missing)
@@ -1064,7 +1193,7 @@
     searchInput.addEventListener('input', filterAndRender)
     clearBtn.addEventListener('click', () => {
       searchInput.value = ''
-      renderAreas(state.data)
+      renderFolderTabs(state.data)
     })
 
     loadData()
