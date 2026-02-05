@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Forame Oval Patente",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Ambulatório\n\n### Tratamento Farmacológico\n\nEscolha um dos esquemas ou associe-os conforme a necessidade clínica.\nAntiagregação plaquetária.\n\n- 1ª linha: Ácido acetilsalicílico 100 mg VO de 24/24 horas;\n- Clopidogrel 75 mg VO de 24/24 horas.\n\nAnticoagulação.\n\n- Varfarina 5 mg VO de 24/24 horas. Ajustar a dose conforme INR (2-3);\n- Os anticoagulantes orais diretos (DOACs), como Rivaroxabana, Apixabana e Dabigatrana, têm ganhado espaço como alternativas à Varfarina, mas ainda carecem de mais dados sobre eficácia e segurança nesse cenário.\n\n### Tratamento Não Farmacológico\n\n- Pacientes jovens (≤ 60 anos) com AVE criptogênico (intensamente investigados, com outras etiologias possíveis descartadas) e com fatores de risco para recorrência, como FOP grande ou aneurisma de septo atrial;\n- Pacientes com mais de 60 anos que apresentam forte evidência clínica de AVE por embolismo paradoxal, incluindo casos com trombose venosa profunda aguda, tromboembolismo pulmonar, evidências de tromboses em outros locais ou trombofilia;\n- Pacientes com AVE recorrente sob antiagregação plaquetária, mas sem histórico de oclusão do FOP .",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

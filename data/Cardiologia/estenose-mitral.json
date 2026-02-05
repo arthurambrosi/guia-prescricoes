@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Estenose Mitral",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Ambulatório\n\n### Orientações ao Prescritor\n\nO alívio dos sintomas pode ser alcançado com controle da volemia e da frequência cardíaca.\nNão adiar o tratamento intervencionista se indicado, mesmo que a sintomatologia apresente melhora com medicações.\nDiuréticos, betabloqueadores, digoxina, bloqueadores de canais de cálcio não di-hidropiridínicos e ivabradina podem ser usados para controlar os sintomas no pré-operatório.\nA Amiodarona é preferível para o controle de ritmo cardíaco.\nA anticoagulação com antagonista da vitamina K (INR alvo entre 2 e 3) é indicada para pacientes com FA, trombo intracardíaco ou evento tromboembólico prévio. Os novos anticoagulantes (NOACs) não estão indicados para pacientes com EM e valva nativa.\nEm pacientes reumáticos, realizar profilaxia de cardite reumática com Penicilina benzatina.\n\n#### Realizar profilaxia para endocardite quando indicado. Acesse conteúdo específico:\n\nEndocardite infecciosa.\n\n### Tratamento Farmacológico\n\n#### Escolha um dos esquemas ou associe-os conforme a apresentação clínica:\n\n#### Esquema A:\n\n#### Anticoagulação. Indicado para todos os pacientes sem contraindicações (nesses casos, avaliar individualmente):\n\n- Varfarina sódica 5 mg VO de 24/24 horas. Ajustar a dose conforme INR (manter entre 2-3).\n\n#### Esquema B:\n\n#### Profilaxia de surto reumático:\n\n- Penicilina benzatina 1.200.000 unidades IM, de 21/21 dias.\n\n#### Esquema C:\n\n#### Terapia sintomática para congestão:\n\n- Furosemida 40-80 mg VO de 6/6 horas. Ajustar a dose conforme a volemia.\n\n#### Esquema D:\n\n#### Controle da frequência cardíaca. Escolha uma das opções:\n\n- Atenolol 25-100 mg VO de 12/12 horas;\n- Bisoprolol 1,25-10 mg VO de 24/24 horas;\n- Carvedilol (3,125 mg) 25 mg VO de 12/12 horas;\n- Succinato de metoprolol 25-200 mg VO de 24/24 horas;\n- Verapamil 40-80 mg VO de 8/8 horas;\n- Diltiazem 30-60 mg VO de 8/8 horas.\n\n#### Esquema E:\n\n#### Controle de ritmo cardíaco. Escolha uma das opções ou associe:\n\n- Amiodarona 200 mg/comprimido: 1 comprimido de 24/24 horas até de 8/8 horas;\n- Digoxina 0,25 mg/comprimido: 1 comprimido ao dia.\n\n#### Esquema F:\n\n#### Insuficiência cardíaca do VD:\n\n- Espironolactona 25 mg VO de 24/24 horas.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

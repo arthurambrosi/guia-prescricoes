@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Cardiomiopatia Hipertrofica Cmh",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Ambulatório\n\n### Orientações ao Prescritor\n\n- Pacientes assintomáticos ou com gradiente ≥ 30 e < 50 mmHg geralmente não requerem terapia;\n- Vasodilatadores e diuréticos devem ser utilizados com muita cautela na doença devido a possibilidade de piorar o débito cardíaco;\n- Nitratos, inibidores da fosfodiesterase e vasodilatadores podem piorar o gradiente na via de saída do ventrículo esquerdo (VSVE);\n- Evitar desidratação e excesso de consumo de álcool. Estimular perda de peso se obesidade/sobrepeso;\n- Para pacientes sintomáticos:\n- Betabloqueador (classe I);\n- Verapamil se intolerância ou contraindicação ao betabloqueador (classe I). Diltiazem se intolerância ou Verapamil;\n- Disopiramida em associação ao betabloqueador (classe I) - não tem no Brasil;\n- Mavacanteno em associação ao betabloqueador ou ao Verapamil (classe IIa);\n- Diuréticos: Baixa dose de tiazídico ou de Furosemida pode ser utilizada para melhorar dispneia associada a obstrução.\n\n### Tratamento Farmacológico\n\nSeguir a recomendação das medicações conforme descrita em \"Orientações ao Prescritor\".\n\n#### Betabloqueador (uso contínuo):\n\n- Nebivolol 5 mg VO de 24/24 horas (dose máxima: 5 mg/dia);\n- Metoprolol 25-100 mg VO de 24/24 horas (dose máxima: 200 mg/dia);\n- Propranolol 10-80 mg VO de 12/12 ou 8/8 horas (dose máxima: 640 mg/dia);\n- Atenolol 25-100 mg VO de 12/12 horas (dose máxima: 200 mg/dia);\n- Bisoprolol 2,5-10 mg VO de 24/24 horas (dose máxima: 20 mg/dia).\n- Diltiazem 30-60 mg VO de 8/8 horas (dose máxima: 360 mg/dia);\n- Verapamil 40-80 mg VO de 8/8 horas (dose máxima: 480 mg/dia).\n\n#### Inibidor da miosina adenosina trifosfatase (ATPase):\n\n- Mavacanteno Dose inicial: 5 mg/dia VO. Dose máxima de 15 mg/dia:\n- Deve-se iniciar apenas se a fração de ejeção do ventrículo esquerdo (FEVE) ≥ 55%;\n- Para uma dosagem adequada, tanto no início do tratamento quanto na titulação, deve-se considerar a avaliação dos parâmetros na seguinte ordem: primeiro, a FEVE; em seguida, o gradiente da VSVE com Valsalva; e, por fim, o estado clínico do paciente.\n\n#### Diuréticos:\n\n- Furosemida 40 mg/cp. Dose varia com grau de congestão: Iniciar 20-40 mg/dia e aumentar, se necessário;\n- Hidroclorotiazida 25 mg/cp. Dose varia com grau de congestão e pressão arterial: Iniciar 12,5-25 mg/dia e aumentar, se necessário, até no máximo 50 mg/dia.\n\n### Tratamento Não Farmacológico\n\n- Em caso de persistência dos sintomas: Escolha uma das opções:\n- Miectomia;\n- Alcoolização septal.\n- Se caso de morte súbita abortada ou alto risco de morte súbita:\n- Implante de CDI.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

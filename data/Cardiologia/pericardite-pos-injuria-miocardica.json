@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Pericardite Pos Injuria Miocardica",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Forma Aguda da Doença\n\n### Tratamento Farmacológico\n\n- Ácido acetilsalicílico 750-1.000 mg VO de 6/6 ou de 8/8 horas, por 1-2 semanas, seguido de redução gradual da dose (250 mg/semana);\n- Ibuprofeno 600 mg de 8/8 horas por 1-2 semanas, seguido de redução gradual da dose (200 mg/semana). Evitar em casos de pericardite pós-infarto agudo do miocárdio (IAM).\n\n#### Colchicina 0,5 mg VO de 12/12 horas, por 3 meses em casos de pericardite aguda, ou 6 meses em casos de recorrência:\n\n- Pacientes com menos de 70 kg: 0,5 mg VO de 24/24 horas. Manter por 3-4 semanas.\n- Paracetamol 500-750 mg VO de 8/8 horas, até melhora do quadro;\n- Dipirona 0,5-1 g VO/EV de 6/6 horas, até melhora do quadro.\n\n## Casos Refratários/Alérgicos - AINEs\n\n### Tratamento Farmacológico\n\n#### Corticoide:\n\n- Prednisona 0,25-0,5 mg/kg VO de 24/24 horas, preferencialmente pela manhã. Manter por 2-4 semanas, depois seguir desmame gradual. Evitar em casos de pericardite pós-IAM.\n\n#### Colchicina 0,5 mg VO de 12/12 horas, por 3 meses em casos de pericardite aguda, ou 6 meses em casos de recorrência:\n\n- Pacientes com menos de 70 kg: 0,5 mg VO de 24/24 horas;\n- Manter a Colchicina por mais 4 semanas após a descontinuação do corticoide.\n- Paracetamol 500-750 mg VO de 8/8 horas, até melhora do quadro;\n- Dipirona 0,5-1 g VO/EV de 6/6 horas, até melhora do quadro.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

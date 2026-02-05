@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Tempestade Eletrica",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Doença Crônica\n\n### Orientações ao Prescritor\n\n- A terapia deve ser mantida a longo prazo ou por toda a vida, conforme a tolerância do paciente;\n- Betabloqueadores não seletivos são preferíveis, como Propranolol e Nadolol (indisponível no Brasil);\n- Casos refratários à terapia médica otimizada podem ser encaminhados para ablação por cateter;\n- Terapias de exceção para casos refratários incluem denervação simpática cardíaca e transplante cardíaco.\n\n### Tratamento Farmacológico\n\n- Amiodarona 200 mg VO de 8/8 horas;\n\n#### 2. Betabloqueadores:\n\n- Propranolol 40 mg de 8/8 horas ou de 6/6 horas. Ajustar de acordo com a frequência cardíaca e pressão arterial.\n\n### Doença Aguda com Estabilidade Hemodinâmica\n\n### Dieta e Hidratação\n\n- Dieta zero até segunda ordem.\n- Hidratação venosa com SF 0,9% ou Ringer lactato de 20-30 mL/kg EV em 24 horas.\n\n### Tratamento Farmacológico\n\n- Amiodarona (50 mg/mL) Ataque: 150 mg + 100 mL de SG 5% EV em 10 minutos. Manutenção: 900 mg + 232 mL de SG 5% EV em bomba infusora em 24 horas (10 mL/hora);\n- Lidocaína 1 a 1,5 mg/kg; repetir com 0,5 a 0,75 mg/kg a cada 5 a 10 minutos conforme necessário. Dose usual: 50 a 100 mg. Dose cumulativa máxima: 3 mg/kg ou até 300 mg em 1 hora.\n\n#### 2. Betabloqueadores:\n\n- Propranolol 40 mg de 8/8 horas ou de 6/6 horas. Ajustar de acordo com a frequência cardíaca e a pressão arterial.\n\n### Profiláticos e Sintomáticos\n\n#### Analgésico e antitérmico:\n\n- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);\n- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;\n- Dipirona sódica 500-1.000 mg VO até 4/4 horas;\n- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;\n- Paracetamol 500-750 mg VO até de 6/6 horas.\n\n#### Antiemético:\n\n- Metoclopramida (10 mg/2 mL) 10 mg EV, diluído em água destilada, até de 8/8 horas;\n- Metoclopramida (4 mg/mL) 50 gotas VO de 8/8 horas;\n- Metoclopramida 10 mg VO de 8/8 horas;\n- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas;\n- Bromoprida (4 mg/mL) 1-3 gotas/kg VO de 8/8 horas.\n\n#### Proteção gástrica:\n\n- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas pela manhã;\n- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;\n- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.\n\n### Cuidados\n\n- Monitoração cardíaca contínua.\n- Monitoração da pressão arterial não invasiva (somente em casos de estabilidade hemodinâmica) ou invasiva.\n- Oximetria de pulso.\n- Suporte de O 2 (3-5 L/minuto) em caso de oximetria abaixo de 91%.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

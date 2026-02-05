@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Sindrome de Brugada",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Ambulatório\n\n### Orientações ao Prescritor\n\n#### Todos os pacientes com a síndrome de Brugada devem ser incentivados a realizar medidas comportamentais, como:\n\n- Evitar a libação alcoólica ou grandes refeições;\n- Em caso de febre, tratá-la prontamente;\n- Evitar uso de medicações (bloqueadores de canal de sódio, antidepressivos tricíclicos, Lítio, Propofol, Bupivacaína) e drogas (álcool, cocaína) que possam desencadear arritmias.\n\n### Tratamento Farmacológico\n\nTerapia para redução de choques pelo cardiodesfibrilador implantável (CDI) ou para pacientes que recusam ou possuam contraindicações ao uso do dispositivo:\n\n- Amiodarona 400 mg VO até de 8/8 horas, por 14 dias, seguido de 200 mg VO de 24/24 horas, indefinidamente.\n\n### Procedimentos\n\n#### 1. Implante de CDI:\n\nPara todos os pacientes que apresentarem síncope cardiogênica ou morte súbita recuperada. A profilaxia primária é questionável, mas pode ser aceita em pacientes que apresentem fibrilação ventricular sustentada em pelo menos duas estimulações no estudo eletrofisiológico em pontos anatômicos diferentes.\n\n#### 2. Ablação por radiofrequência:\n\nCom o melhor entendimento dos gatilhos e do substrato dessa síndrome, além do notável progresso na efetividade, a ablação por cateter é uma excelente ferramenta para prevenir a morte súbita por fibrilação ventricular.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

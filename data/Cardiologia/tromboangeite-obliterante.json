@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Tromboangeite Obliterante",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Ambulatório\n\n### Orientações ao Prescritor\n\n- Cessação absoluta do tabagismo: A única abordagem terapêutica efetiva para interromper a progressão da doença é a cessação do tabagismo. É importante evitar a reposição de nicotina , pois pode desencadear possível trigger para a atividade inflamatória. Para mais informações sobre o tratamento do tabagismo, acesse Abordagem do Tabagismo;\n- Bloqueadores de canais de cálcio di-hidropiridínicos (Nifedipino) e nitratos de ação rápida podem melhorar o vasospasmo arterial e o fenômeno de Raynaud, além de melhorar a cicatrização de feridas e resultar em alívio temporário da dor;\n- Inibidores da fosfodiesterase: Cilostazol (inibidor da fosfodiesterase tipo 3) é utilizado no tratamento da doença arterial periférica aterosclerótica, com benefícios sintomáticos e na cicatrização de úlceras. Sildenafila e Tadalafila (inibidores da fosfodiesterase tipo 5) são drogas potenciais por reduz o fenômeno de Raynaud, porém não foram testadas para esta doença especificamente;\n- Prostaglandina venosa (Iloprosta): análogo da Prostaciclina, que melhora a cicatrização de lesões isquêmicas, quando administrada por via venosa. É utilizada em pacientes com isquemia crítica para melhorar a cicatrização de lesões tróficas, especialmente no início do tratamento para cessação do tabagismo;\n- A anticoagulação e a terapia antiplaquetária não são tratamentos de primeira linha e não são recomendadas de maneira isolada. Seu efeito é considerado limitado.\n\n### Tratamento Farmacológico\n\n- Nifedipino 10-20 mg VO de 8/8 horas;\n- Anlodipino 2,5-10 mg VO de 24/24 horas ou divididos em duas tomadas.\n\n#### Nitratos de ação rápida:\n\n- Dinitrato de Isossorbida 5-10 mg SL, 3-4x/dia, se necessário ou preventivo;\n- Propatilnitrato 10 mg SL, 3-4x/dia, se necessário ou preventivo.\n- Cilostazol 50-100 mg VO de 12/12 horas;\n- Sildenafila 25-50 mg VO de 8/8 horas;\n- Tadalafina 20-40 mg VO 24/24 horas. Iniciar com 20 mg/dia e progredir para 40 mg após 4 semanas se tolerância.\n\n#### Prostaglandina venosa - Uso parenteral em regime de internação hospitalar:\n\n- Iloprosta 0,5-2 ng/kg/minuto (dose máxima tolerada), infundir por 8 horas em acesso venoso central, a cada 24 horas, por 3-5 dias. Repetir a cada 10-12 dias se reposta clínica.\n\n### Tratamento Não Farmacológico\n\n1. Psicoterapia visando à cessação completa do uso do tabaco.\n\n#### 2. Exercício físico:\n\n> 30 minutos/dia por, ao menos, 3-5x na semana.\n3. Compressão pneumática intermitente (método questionável e pouco disponível ambulatorialmente).\n4. Revascularização cirúrgica ou endovascular, se factível - geralmente reservada a pacientes com oclusões de vasos tronculares com leito arterial distal disponível.\n5. Simpatectomia e estimulação do cordão espinhal (terapias de exceção para controle de dor).\n\n#### 6. Amputação:\n\nindicada quando há gangrena tecidual ou infecção não controlada. Muitas vezes inevitável em pacientes que não cessam completamente o uso do tabaco.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

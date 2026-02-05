@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Amiloidose Cardiaca",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Amiloidose ATTR - Tratamento Específico\n\n### Orientação ao Prescritor\n\n- O Patisiran está indicado para pacientes com neuropatia amiloidótica e pode ser usado em pacientes com AC associada.\n\n### Tratamento Farmacológico\n\nEscolha um dos esquemas abaixo ou associe-os conforme a necessidade clínica.\n\n#### Esquema A:\n\n#### Tratamento específico:\n\n- Tafamidis : Tafamidis (Vyndamax®) 61 mg VO 1x/dia e Tafamidis meglumine (Vyndaqel®) 80 mg VO 1x/dia. Sem ajuste para função renal;\n- Patisiran : Posologia depende do peso, conforme descrito abaixo . Corrigir para função renal:\n- < 100 kg: 0,3 mg/kg IV 1x a cada 3 semanas;\n- ≥ 100 kg: 30 mg IV 1x a cada 3 semanas.\n\n#### Esquema B:\n\nDiuréticos (tratamento sintomático).\n\n- Furosemida (40 mg/comprimido). Avaliar dose diária conforme congestão . Reduzir a dose conforme melhora do paciente;\n- Espironolactona (25 mg/comprimido): 25-200 mg VO de 24/24 horas, caso a pressão arterial e os eletrólitos sejam permissivos. Utilizar como adjuvante sintomático da Furosemida, conforme o quadro clínico do paciente.\n\n### Tratamento Não Farmacológico\n\n- Avaliar a necessidade de transplante cardíaco e hepático.\n- Restrição hídrica conforme os sintomas e a congestão (geralmente, 1 L/dia).\n\n### Amiloidose AL\n\n### Orientação ao Prescritor\n\n- Para mais informações sobre pacientes com Amiloidose AL, acesse doença de depósito de cadeia leve.\n\n### Tratamento Farmacológico\n\n- Tratamento da doença de base.\n\n### Tratamento Sintomático\n\n### Tratamento Farmacológico\n\n- Diuréticos: Escolha uma das opções ou associe-as:\n- Furosemida (40 mg/comprimido). Avaliar a dose conforme congestão . Reduzir conforme melhora do paciente;\n- Espironolactona (25 mg/comprimido): 25-200 mg VO de 24/24 horas, caso a pressão arterial e os eletrólitos sejam permissivos. Utilizar como adjuvante sintomático da Furosemida, conforme o quadro clínico do paciente.\n\n### Tratamento Não Farmacológico\n\n- Restrição hídrica conforme os sintomas e a congestão (em geral, 1 L/dia).\n\n### Amiloidose com Fibrilação Atrial\n\n### Tratamento Farmacológico – Específico\n\n- Anticoagulação (uso contínuo). Escolha uma das opções:\n- Varfarina sódica (5 mg/comprimido): 5 mg VO de 24/24 horas. Ajustar a dose conforme INR (manter entre 2-3);\n- Rivaroxabana (20 mg/comprimido): 20 mg VO de 24/24 horas, com alguma refeição;\n- Apixabana (2,5 ou 5 mg/comprimido): 5 mg VO de 12/12 horas;\n- Dabigatrana (75, 110, 150 mg/comprimido): 150 mg VO 12/12 horas (110 mg para idosos e pacientes com in suficiência renal crônica em estágios não avançados);\n- Edoxabana (30-60 mg/comprimido): 60 mg VO de 24/24 horas para pacientes com > 60 kg ou 30 mg VO de 24/24 horas em pacientes com ≤ 60 kg.\n- Controle de ritmo: Amiodarona (100 mg/comprimido): 100-200 mg VO até de 8/8 horas.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

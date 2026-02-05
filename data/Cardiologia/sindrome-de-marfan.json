@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Sindrome de Marfan",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Tratamento Farmacológico - Se Acometimento Aórtico\n\n#### Betabloqueadores:\n\n- Atenolol (25 mg/comprimido): 25-100 mg VO de 12/12 horas;\n- Bisoprolol (1,25 mg/comprimido): 1,25-10 mg VO de 24/24 horas;\n- Carvedilol (3,125 mg/comprimido): 3,125-25 mg VO de 12/12 horas;\n- Succinato de metoprolol (100 mg/comprimido): 25-200 mg de 24/24 horas.\n\n#### Antagonista do receptor da angiotensina:\n\n- Losartana (25 mg/comprimido): 25-50 mg VO de 12/12 horas.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

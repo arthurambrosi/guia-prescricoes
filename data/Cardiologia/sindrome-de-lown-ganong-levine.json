@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Sindrome de Lown Ganong Levine",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Síndrome de Lown-Ganong-Levine Fora das Arritmias\n\n### Tratamento Farmacológico\n\n#### Drogas que reduzem a condução no nó AV:\n\n- Digoxina 0,25 mg VO de 24/24 horas;\n- Atenolol 25 mg VO de 24/24 horas. Iniciar com doses baixas e aumentar até 100 mg/dia, conforme sintomas;\n- Metoprolol 25 mg VO de 12/12 horas. Iniciar com doses baixas e aumentar até 200 mg/dia, conforme sintomas;\n- Verapamil 40 mg VO de 8/8 horas. Iniciar com doses baixas e aumentar até dose máxima de 120 mg VO de 6/6 horas, conforme sintomas;\n- Diltiazem 90 mg VO de 12/12 horas. Iniciar com doses baixas e aumentar até dose máxima de 180 mg VO de 12/12 horas, conforme sintomas.\n\n### Tratamento Não Farmacológico\n\n- Ablação por radiofrequência em casos de taquicardia por mecanismo de reentrada.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

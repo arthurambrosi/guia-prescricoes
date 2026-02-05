@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Choque Cardiogenico",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Dieta e Hidratação\n\n- Dieta conforme estado clínico:\n- Dieta zero se dose de aminas elevadas;\n- Dieta enteral, se aminas em doses aceitáveis e ventilação mecânica.\n- Evitar sobrecargas de volume.\n\n### Tratamento Farmacológico\n\nEscolha uma das classes ou associe-as conforme clínica.\n\n#### Diurético:\n\n- Furosemida (20 mg/2 mL) 0,5-1 mg/kg EV até de 6/6 horas, caso congestão.\n\n#### Amina vasoativa:\n\n- Noradrenalina (1 mg/mL) 20 mL + 80 mL SG 5% (concentração de 200 microgramas/mL); infundir 0,05-1 micrograma/kg/minuto EV contínuo.\n\nQual a melhor amina no choque cardiogênico?\n\n#### Inotrópico positivo:\n\n- Dobutamina (250 mg/20 mL) 60 mL puro (concentração de 12.500 microgramas/mL) ou 60 mL + 190 mL de SG 5% (concentração 3.000 microgramas/mL); infundir 5-20 microgramas/kg/minuto EV contínuo:\n- Desmame paulatino conforme melhora do quadro.\n- Milrinona (1 mg/mL) 20 mL + 180 mL SF 0,9% (concentração de 100 microgramas/mL); infundir 0,375-0,75 micrograma/kg/minuto EV contínuo:\n- Evitar nos casos em que PA sistólica < 90 mmHg;\n- Permite suspensão súbita do medicamento em caso de melhora do quadro.\n- Levosimendana (2,5 mg/mL) 5 mL + 495 mL SG 5% EV (concentração de 25 microgramas/mL). Dose de ataque: 6-12 microgramas/kg em 10 minutos (pouco utilizada). Dose de manutenção: 0,05-0,2 micrograma/kg/minuto EV contínuo por 24 horas:\n- Evitar nos casos em que PA sistólica < 90 mmHg;\n- Medicamento mais indicado para indivíduos betabloqueados.\n- Nitroprussiato de sódio dose inicial: 0,5 micrograma/kg/minuto EV. Aumentar conforme a pressão arterial, com incrementos de 0,5 micrograma até dose de 10 microgramas/kg/minuto; diluição: 2 mL (50 mg) + 248 mL SG 5% ;\n- Nitroglicerina iniciar 5-10 microgramas/minuto EV, podendo aumentar em 10 microgramas/minuto até a obtenção do efeito desejado ou provocar hipotensão; diluição: 1 ampola (50 mg/10 mL) + 240 mL de SG 5% ; concentração: 0,2 mg/mL; dose máxima: 200 microgramas/minuto (60 mL/hora).\n\n#### Qual inotrópico utilizar no choque cardiogênico:\n\nMilrinona ou Dobutamina?\n\n### Tratamento Não Farmacológico\n\n- Há necessidade de intubar e ventilar um paciente em choque cardiogênico?\n\n### Profiláticos e Sintomáticos\n\n#### Analgésico e antitérmico:\n\n- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);\n- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;\n- Dipirona sódica 500-1.000 mg VO até de 4/4 horas;\n- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;\n- Paracetamol 500-750 mg VO até de 6/6 horas.\n\n#### Antiemético:\n\n- Metoclopramida (10 mg/2 mL) 10 mg EV diluídos em água destilada até de 8/8 horas;\n- Metoclopramida (4 mg/mL) 50 gotas VO de 8/8 horas;\n- Metoclopramida 10 mg VO de 8/8 horas;\n- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas;\n- Bromoprida (4 mg/mL) 1-3 gotas/kg VO de 8/8 horas.\n\n#### Proteção gástrica:\n\n- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas pela manhã;\n- Pantoprazol sódico 20-40 mg VO de 24/24 horas em jejum;\n- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

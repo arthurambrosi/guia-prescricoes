@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Sincope Reflexa",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Ambulatório\n\n### Orientações ao Paciente\n\n- Manter-se hidratado;\n- Evitar fatores desencadeantes: jejum prolongado, locais apertados ou abafados, situações de medo ou receio ou qualquer outro fator relacionado;\n- Restringir condução de veículo automotores e operação de máquinas de alta periculosidade.\n\n#### Síncope reflexa recorrente:\n\n- Manter tratamento padrão não farmacológico;\n- Avaliar reduzir, trocar ou até suspender anti-hipertensivos.\n\n### Tratamento Farmacológico\n\n#### Síncope reflexa recorrente com pressão baixa:\n\n- Fludrocortisona 0,05-0,2 mg VO 1x/dia. Em caso de hipertensão, reduzir para a menor dose eficaz.\n\n### Tratamento Não Farmacológico\n\n- Pacientes que apresentam pródromos podem se beneficiar da elevação dos membros inferiores para facilitar o retorno venoso:\n- A manobra de hand grip ou outros exercícios isométricos (cruzar as pernas com força, contração abdominal, agachamento) podem aliviar transitoriamente os sintomas, possibilitando que o paciente se posicione de maneira mais segura (deitado ou sentado).\n- Tilt training fora das crises (efetividade questionada).\n- Se síncope reflexa recorrente: Avaliar implante de marca-passo em pacientes com resposta cardioinibitória predominante e documentada.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

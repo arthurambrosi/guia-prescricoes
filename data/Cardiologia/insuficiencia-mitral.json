@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Insuficiencia Mitral",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Insuficiência Mitral Crônica\n\n### Orientação ao Prescritor\n\n- O tratamento farmacológico é recomendado na insuficiência mitral (IM) crônica sintomática, objetivando exclusivamente a melhora de classe funcional, enquanto o paciente aguarda o procedimento cirúrgico, que deve ser realizado o mais rápido possível.\n\n### Tratamento Farmacológico\n\n- Enalapril 2,5-20 mg VO a cada 12 horas;\n- Losartana 25-50 mg VO a cada 12 horas.\n\n#### Diurético:\n\n- Furosemida 20-40 mg VO a cada 12 horas (até 6/6 horas), dependendo dos sintomas (dose máxima: 600 mg/dia).\n- Succinato de metoprolol 25-200 mg VO a cada 24 horas;\n- Bisoprolol 2,5-20 mg VO a cada 24 horas;\n- Carvedilol 3,125-25 mg VO a cada 12 horas.\n- Atenolol 25-100 mg VO a cada 24 horas;\n- Succinato de metoprolol 25-200 mg VO a cada 24 horas;\n- Bisoprolol 2,5-20 mg VO a cada 24 horas;\n- Carvedilol 3,125-25 mg VO a cada 12 horas.\n- Digoxina 0,125-0,25 mg VO a cada 24 horas.\n\n### Insuficiência Mitral Aguda\n\n### Dieta e Hidratação\n\n- Dieta oral conforme aceitação.\n- Evitar sobrecarga de volume.\n\n### Tratamento Farmacológico\n\n#### Vasodilatador venoso:\n\n- Nitroprussiato de sódio (50 mg/2 mL) 2 mL + Soro glicosado ( SG) a 5 % 248 mL EV (concentração: 200 microgramas/mL). Dose inicial: 0,5 micrograma/kg/minuto. Titular conforme resposta, com incrementos de 0,5 micrograma (dose máxima: 2-3 microgramas/kg/minuto);\n- Nitroglicerina (50 mg/5 mL) 50 mg + SG 5% 245 mL EV (concentração: 200 microgramas/mL). Dose inicial: 5 a 10 microgramas/minuto (1,5-3 mL/hora). Titular conforme resposta, podendo aumentar em 10 microgramas/minuto (dose máxima: 60 mL/hora).\n- Furosemida (10 mg/mL - ampola 2 mL) 0,5 a 1 mg/kg EV a cada 6 horas.\n\n### Profiláticos e Sintomáticos\n\n#### Analgésico e antitérmico:\n\n- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);\n- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;\n- Dipirona sódica 500 a 1.000 mg VO até de 4/4 horas;\n- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;\n- Paracetamol 500 a 750 mg VO até de 6/6 horas.\n\n#### Antiemético:\n\n- Metoclopramida (10 mg/2 mL) 10 mg EV, diluídos em água destilada, até de 8/8 horas;\n- Metoclopramida (4 mg/mL) 50 gotas VO a cada 8 horas;\n- Metoclopramida 10 mg VO a cada 8 horas;\n- Bromoprida (10 mg/2 mL) 10 mg EV a cada 8 horas;\n- Bromoprida (4 mg/mL) 1-3 gotas/kg VO a cada 8 horas.\n\n#### Proteção gástrica:\n\n- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV a cada 24 horas, pela manhã;\n- Pantoprazol sódico (20 ou 40 mg/cp) 20-40 mg VO a cada 24 horas, em jejum;\n- Pantoprazol sódico (40 mg/10 mL) 40 mg EV a cada 24 horas.\n\n### Tratamento Cirúrgico\n\nO preparo para o tratamento transcateter ou cirúrgico inclui estabilização do quadro clínico e compensação clínica para melhor resultado dessas abordagens, com controle adequado das possíveis complicações.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

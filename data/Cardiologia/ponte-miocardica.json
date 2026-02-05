@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Ponte Miocardica",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Ambulatório\n\n### Orientações ao Prescritor\n\n- As medicações são utilizadas para o alívio dos sintomas, uma vez que, na maioria dos casos, a doença apresenta caráter benigno;\n- As medicações podem ser combinadas, desde que com cautela, devido ao risco de bloqueio atrioventricular ou bradicardia sintomática;\n- Devido ao seu mecanismo de ação, a Ivabradina deve ser utilizada apenas em pacientes em ritmo sinusal;\n- Os bloqueadores dos canais de cálcio não devem ser utilizados em pacientes com insuficiência cardíaca com fração de ejeção reduzida.\n\n### Tratamento Farmacológico\n\n#### Betabloqueadores:\n\n- Atenolol 25-100 mg VO de 12/12 horas;\n- Bisoprolol 1,25-10 mg VO de 24/24 horas;\n- Carvedilol 3,125-25 mg VO de 12/12 horas;\n- Succinato de metoprolol 25-200 mg de 24/24 horas.\n\n#### Inibidores dos canais F:\n\n- Ivabradina 5-7,5 mg de 12/12 horas.\n\n#### Bloqueadores de canais de cálcio não di-hidropiridínicos:\n\n- Verapamil liberação retardada 120-480 mg/dia VO de 24/24 horas;\n- Diltiazem liberação prolongada 180-480 mg/dia VO de 24/24 horas.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

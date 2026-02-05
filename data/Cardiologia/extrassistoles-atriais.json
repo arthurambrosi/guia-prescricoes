@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Extrassistoles Atriais",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Forma/Situação Clínica\n\n### Modificações no Estilo de Vida e Manejo de Comorbidades\n\nEvitar gatilhos (cafeína, álcool, estresse), otimizar sono (7-8 horas/noite) e hidratação.\nCorreção de distúrbios eletrolíticos (K⁺ ≥ 4,0 mEq/L; Mg²⁺ ≥ 2,0 mg/dL).\nControle rigoroso de pressão arterial e glicemia.\n\n### Tratamento Farmacológico\n\n#### Paciente sintomático sem cardiopatia estrutural:\n\n- Beta-bloqueadores (escolher um):\n- Succinato de Metoprolol 50-200 mg/dia VO (24/24 horas);\n- Atenolol 25-100 mg/dia VO (12/12 horas);\n- Bisoprolol 2,5-10 mg/dia VO (24/24 horas).\n- Bloqueadores de cálcio não-diidropiridínicos (alternativa):\n- Verapamil 120-480 mg/dia VO (8/8 horas ou 12/12 horas);\n- Diltiazem 120-360 mg/dia VO (12/12 horas ou 24/24 horas).\n\n#### Casos refratários ou sintomas incapacitantes:\n\n- Antiarrítmico classe IC (restritos a pacientes sem cardiopatia):\n- Propafenona 450-900 mg/dia VO (8/8 horas).\n- Antiarrítmicos classe III:\n- Sotalol 80-320 mg/dia VO (12/12 horas);\n- Amiodarona 200-400 mg/dia VO (24/24 horas) – uso limitado a curto prazo.\n\n### Forma/Situação Clínica\n\n### Dieta e Hidratação\n\nEvitar cafeína e monitorar boa hidratação.\nObservação! Manter ou suspender tratamento medicamentoso ambulatorial à critério médico, dependendo da conduta definida abaixo.\n\n### Ablação por Cateter\n\n#### Indicações:\n\n- Extrassístoles atriais (EA) sintomáticas refratárias a dois ou mais fármacos acima;\n- Carga ectópica superior a 10% a 20% associada à disfunção ventricular;\n- EAs desencadeantes de taquiarritmias sustentadas.\n\n#### Técnicas e taxa de sucesso:\n\n- Radiofrequência ou crioablação guiada por mapeamento tridimensional com ou sem fluoroscopia;\n- Taxa de sucesso: 70% a 90% (dependendo da localização do foco).\n\n### Emergência por Taquiarritmia Induzida por EAs\n\n#### Estabilização hemodinâmica:\n\n- Amiodarona IV 150 mg em 10 minutos (dose de ataque);\n- Cardioversão elétrica sincronizada (100-200 J) se instabilidade.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

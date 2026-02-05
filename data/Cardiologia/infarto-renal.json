@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Infarto Renal",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Forma/Situação Clínica\n\nPaciente estável, sem dor intensa ou complicações agudas, após diagnóstico e estabilização do infarto renal.\n\n### Tratamento Farmacológico\n\n#### Anticoagulação oral (manutenção), escolha uma das opções:\n\n- Varfarina dose ajustada para manter INR entre 2,0-3,0, monitorar semanalmente até estabilização;\n- Dabigatrana 150 mg VO 12/12 horas (ajustar conforme função renal);\n- Rivaroxabana 20 mg VO 1x/dia (ajustar conforme função renal);\n- Apixabana 5 mg VO 12/12 horas (reduzir dose em idosos, baixo peso ou disfunção renal).\n\n#### Controle da pressão arterial (escolha uma das opções):\n\n- Enalapril 5-20 mg VO 12/12 horas;\n- Ramipril 2,5-10 mg VO 12/12 horas;\n- Captopril 25-50 mg VO 8/8 horas;\n- Losartana 50-100 mg VO 12/12 horas;\n- Valsartana 80-160 mg VO 12/12 horas;\n- Olmesartana 20-40 mg VO 24/24 horas;\n- Anlodipino 5-10 mg VO 24/24 horas.\n\n#### Analgésico (se dor residual leve):\n\n- Dipirona 500-1.000 mg VO 6/6 horas se necessário.\n\n#### Orientações gerais:\n\n- Monitorar função renal (ureia, creatinina) e eletrólitos periodicamente;\n- Avaliar sinais de sangramento ou complicações tromboembólicas;\n- Encaminhar para investigação da etiologia (cardiológica, vascular, trombofílica).\n\n### Forma/Situação Clínica\n\nPaciente com dor aguda, instabilidade hemodinâmica ou complicações associadas ao infarto renal.\n\n### Tratamento Farmacológico\n\n#### Anticoagulação parenteral (fase aguda):\n\n- Heparina não fracionada 60-80 UI/kg IV em bólus, seguido de 12-18 UI/kg/h IV, ajustar conforme TTPa; ou\n- Heparina de baixo peso molecular (ex: Enoxaparina) 1 mg/kg SC 12/12 horas.\n\n#### Anticoagulação oral (após estabilização):\n\n- Iniciar Varfarina, Dabigatrana, Rivaroxabana ou Apixabana conforme protocolo de tratamento ambulatorial acima e conforme função renal.\n\n#### Controle da pressão arterial:\n\n- Utilizar inibidor da enzima conversora de angiotensina (ECA) ou bloqueador do receptor da angiotensina (BRA), conforme protocolo de tratamento ambulatorial previamente descrito e de acordo com a função renal do paciente, com titulação progressiva conforme a resposta clínica. Associar outros anti-hipertensivos conforme necessidade, como betabloqueadores ou bloqueadores dos canais de cálcio, individualizados de acordo com a condição clínica.\n\n### Profiláticos e Sintomáticos\n\n#### Analgésico (dor aguda):\n\n- Dipirona 1 g IV 6/6 horas, se necessário.\n\n### Monitoramento\n\nEvitar anti-inflamatórios não esteroidais (AINEs) devido ao risco de lesão renal adicional.\nFunção renal diária (ureia, creatinina, eletrólitos). Hemograma e coagulograma seriados. Monitorização cardíaca contínua (risco de arritmias/fibrilação atrial).\nConsiderar trombólise ou abordagem endovascular em casos de infarto extenso, bilateral ou com falência renal aguda, especialmente se diagnóstico precoce (< 6 horas do início dos sintomas).\nEcocardiograma transesofágico, Doppler de vasos renais, painel trombofílico, conforme indicação.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

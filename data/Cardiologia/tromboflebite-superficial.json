@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Tromboflebite Superficial",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Baixo Risco\n\n### Tratamento Farmacológico\n\n#### Analgésico:\n\n- Ibuprofeno (400 ou 600 mg/comprimido) 400-600 mg VO até de 6/6 horas;\n- Diclofenaco (50 mg/comprimido) 50 mg VO até de 8/8 horas;\n- Indometacina (25 mg/comprimido) 50 mg VO até de 6/6 horas;\n- Cetoprofeno (150 mg/comprimido) 150 mg VO até de 12/12 horas;\n- Nimesulida (100 mg/comprimido) 100 mg VO até de 12/12 horas.\n\n### Tratamento Não Farmacológico\n\n- Compressa morna ou fria 2-3x/dia até melhora do quadro.\n- Elevação dos membros.\n- Meias compressivas (18-21 mmHg).\n\nTrombose venosa superficial (TVS) próxima ao sistema venoso profundo distando > 3 cm da junção safeno-femoral, mas com > 5 cm de comprimento, principalmente se envolver a safena magna ou a safena.\nAnticoagulação profilática com Fondaparinux 2,5 mg/dia ou Rivaroxabana 10 mg/dia.\n\n- Anticoagulação profilática: Escolha uma das opções (por 45 dias):\n- Fondaparinux (2,5 mg/0,5 mL): 2,5 mg SC de 24/24h;\n- Rivaroxabana (10 mg): 10 mg VO de 24/24h.\n\n### Tratamento Não Farmacológico\n\n- Compressa morna ou fria 2-3x/dia até melhora do quadro.\n- Elevação dos membros.\n- Meias compressivas (18-21 mmHg).\n\n### Pacientes com TVS nos troncos principais da safena a menos de 3 cm da junção safeno-femoral\n\n### Tratamento Não Farmacológico\n\n- Compressa morna ou fria 2-3x/dia até melhora do quadro.\n- Elevação dos membros.\n- Meias compressivas (18-21 mmHg).\n\n### Tratamento Farmacológico\n\nAnticoagulação plena por, no mínimo, 6 semanas.\n\n### Trombose que progride apesar da anticoagulação profilática ou recorrência da trombose após cessar anticoagulação\n\n### Tratamento Farmacológico\n\nO tratamento segue o mesmo protocolo da trombose venosa profunda , com anticoagulação plena por pelo menos 3 meses. Para mais informações, acesse o conteúdo específico.\n\n### Tratamento Não Farmacológico\n\n- Compressa morna ou fria 2-3x/dia até melhora do quadro.\n- Elevação dos membros.\n- Meias compressivas (18-21 mmHg).",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

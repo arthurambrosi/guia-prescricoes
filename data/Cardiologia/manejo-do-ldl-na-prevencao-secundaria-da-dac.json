@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Manejo do Ldl na Prevencao Secundaria da Dac",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Ambulatório\n\n### Orientações ao Prescritor\n\n- O Ezetimiba é usado como t erapia adicional ou como terapia para pacientes intolerantes às estatinas;\n- Os inibidores da PCSK9 ( Evolocumabe), Ácido bempedoico ou Inclisiran são usados como terapia adicional contínua às outras medicações.\n\n### Tratamento Farmacológico\n\nEscolha uma das classes ou associe-as conforme a necessidade clínica e \"Orientações ao Prescritor\".\n\n### Estatinas de alta potência para u\n\n- Atorvastatina 40-80 mg VO de 24/24 horas, à noite, mais bem tolerada por renais crônicos;\n- Rosuvastatina 20-40 mg VO de 24/24 horas.\n\n#### Classe B:\n\n#### Ezetimiba:\n\n- Ezetimiba 10 mg VO de 24/24 horas.\n\n#### Classe C:\n\n#### Inibidores da PCSK9:\n\n- Evolocumabe 140 mg SC 1x a cada 2 semanas ou 420 mg 1x a cada 4 semanas, uso contínuo.\n\n#### Classe D:\n\n- Inclisiran 284 mg/1,5 mL SC em dose única; repetir com 3 meses e, depois, a cada 6 meses, uso contínuo.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

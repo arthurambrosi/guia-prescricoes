@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Cardiomiopatia Arritmogenica do Vd",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Cardiomiopatia Arritmogênica do Ventrículo Direito Sintomática\n\n### Orientações ao Prescritor\n\n- Orientar o paciente a cessar atividades físicas competitivas e/ou de alta intensidade devido ao risco de morte súbita arritmogênica e progressão da cardiomiopatia;\n- Os betabloqueadores são a terapia inicial para arritmias ventriculares. Caso haja falha no controle das arritmias após a mudança do estilo de vida e o uso de betabloqueadores, podem ser administrados antiarrítmicos;\n- A Amiodarona pode ser utilizada isoladamente ou em associação com betabloqueadores (efeito sinérgico). Além disso, o Sotalol é uma alternativa à Amiodarona, considerando os efeitos adversos desta última a longo prazo. No entanto, sua eficácia e segurança devem ser cuidadosamente avaliadas, e o tratamento deve ser individualizado com base nas características clínicas e na resposta de cada paciente;\n- A Flecainida (indisponível no Brasil) pode ser associada aos betabloqueadores para pacientes refratários à Amiodarona ou ao Solatol;\n- Pacientes que apresentam fibrilação atrial (FA) devem receber anticoagulação, a independentemente do escore CHADS2-VASc, devido ao alto índice de eventos cardioembólicos.\n\n### Tratamento Farmacológico\n\n- Atenolol (25 mg/comprimido) 25-50 mg VO de 12/12 horas;\n- Carvedilol (6,25 mg/comprimido) 6 ,25 mg VO de 12/12 horas; aumentar a dose conforme a resposta (dose máxima: 50 mg/dia; em pacientes com mais de 90 kg, pode-se chegar a 100 mg/dia);\n- Metoprolol (25, 50 e 100 mg/comprimido) 25 mg VO 1xdia; aumentar a dose conforme a resposta (dose máxima: 200 mg/dia);\n- Bisoprolol (5 mg/comprimido) 2,5 mg VO de 24/24 horas; aumentar a dose conforme a resposta (dose máxima: 10 mg/dia);\n- Propranolol (40 mg/comprimido) 40 mg VO de 8/8 horas; aumentar a dose conforme a resposta (dose máxima: 320 mg/dia).\n- Amiodarona (100 mg/comprimido) 100 mg VO de 8/8 horas; aumentar a dose conforme a resposta (dose máxima: 600 mg/dia);\n- Sotalol (80 mg/comprimido) 80 mg VO de 12/12 horas; aumentar a dose conforme a resposta (dose máxima: 640 mg/dia).\n\n### Tratamento Não Farmacológico\n\n- Implante de CDI em pacientes que sofreram morte súbita abortada ou como profilaxia primária para aqueles com risco aumentado. Para mais informações, acesse o tema na íntegra.\n- Ablação por radiofrequência para reduzir as terapias de choque pelo CDI em pacientes nos quais a terapia antiarrítmica mostrou-se ineficaz.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

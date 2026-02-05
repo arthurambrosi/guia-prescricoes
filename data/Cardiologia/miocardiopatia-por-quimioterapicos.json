@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Miocardiopatia por Quimioterapicos",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Prevenção de Disfunção Gerada por Antraciclinas\n\n### Tratamento Farmacológico\n\n- Redutores do risco de disfunção:\n- Dexrazoxano: Diluir em 75 mL de Ringer lactato e aplicar EV, 15 minutos antes da aplicação da Antraciclina.\n\n### Tratamento Não Farmacológico\n\n- Prática de atividades físicas regulares e controle do peso.\n- Controle de fatores de risco cardiovasculares.\n- Monitorização da função ventricular com ecocardiograma seriado.\n\n### Disfunção Ventricular Gerada por Quimioterápicos\n\n### Tratamento Farmacológico\n\nAssocie um betabloqueador a outra classe de escolha.\n\n#### Classe A:\n\n#### Betabloqueador:\n\n- Carvedilol 12,5-50 mg/dia VO de 12/12 horas;\n- Succinato de metoprolol 50-100 mg VO de 12/12 horas;\n- Bisoprolol 2,5-10 mg VO de 24/24 horas;\n- Nebivolol 5 mg/dia VO de 24/24 horas.\n\n#### Classe B:\n\n#### IECA. Uso contínuo:\n\n- Enalapril 5-20 mg VO de 12/12 horas;\n- Lisinopril 5-20 mg VO de 24/24 horas;\n- Perindopril 4-8 mg VO de 24/24 horas.\n\n#### Classe C:\n\n#### BRA. Uso contínuo:\n\n- Candesartana 8-32 mg VO de 24/24 horas;\n- Valsartana 80-320 mg VO de 24/24 horas;\n- Losartana 25-100 mg VO de 12/12 horas.\n\n### Tratamento Não Farmacológico\n\n- Prática de atividades físicas regulares.\n- Controle de fatores de risco cardiovasculares.\n- Monitorização da função ventricular com ecocardiograma seriado.\n- Suspender quimioterapia ou optar por um tratamento menos cardiotóxico.\n\n### Miocardite Gerada por Inibidores do Controle Imunológico\n\n### Tratamento Farmacológico\n\n#### Corticoterapia:\n\n- Metilprednisolona 500-1.000 mg, diluídos em 250 mL de SF 0,9% ou SG 5% EV, infundidos em 2 horas de 24/24 horas, por 3-5 dias;\n- Pednisona 1-2 mg/kg VO de 24/24 horas, por 3-5 dias.\n\n#### Imunossupressores. Uso até melhora do quadro :\n\n- Micofenolato de mofetila 1,5 g VO de 12/12 horas;\n- Infliximabe (100 mg): Diluir em 240 mL de SF 0,9% e infundir em 2 horas a dose de 5 mg/kg em 2 e 6 semanas após a primeira infusão. Após, infundir a cada 6 semanas.\n\n### Tratamento para Demais Complicações\n\n### Tratamento Farmacológico\n\n- Tratamento para hipertensão arterial.\n- Tratamento para doença coronariana.\n- Tratamento para pericardite.\n- Tratamento para hipertensão pulmonar.\n- Tratamento para insuficiência cardíaca aguda.\n- Tratamento para insuficiência cardíaca crônica.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

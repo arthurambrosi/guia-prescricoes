@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Aterosclerose",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Abordagem Clínica\n\n### Orientações ao Prescritor\n\n- O tratamento da aterosclerose é multifacetado e tem como objetivo reduzir os sintomas, prevenir complicações e retardar a progressão da doença;\n- A abordagem inclui mudanças no estilo de vida, controle rigoroso das comorbidades e o uso de medicamentos específicos para cada uma delas.\n\n### Tratamento Farmacológico\n\n#### Depende da condição clínica associada:\n\n- Redução do colesterol de acordo com a estratificação de risco cardiovascular: Estatinas, Ezetimibe, Ácido bempedoico, Inclisirana ou inibidores da PCSK9, a depender do risco cardiovascular de cada paciente. Para mais informações, acesse a prescrição de Dislipidemia;\n- Controle da pressão arterial em hipertensos: Qualquer uma das classes de primeira opção, a depender das características de cada paciente. Para mais informações, acesse a prescrição de Hipertensão Arterial;\n- Controle da glicemia em pré-diabéticos e diabéticos: Hipoglicemiantes, a depender das características de cada paciente. Para pacientes com doença cardiovascular (DCV) estabelecida os inibidores de SGT2 e análogos de GLP-1 são a primeira escolha. Para mais informações, acesse a prescrição de Diabetes Tipo 2;\n- Antiagregantes plaquetários: Ácido acetilsalicílico ou inibidores de P2Y12, a depender das características de cada paciente em caso de DCV estabelecida. Para mais informações, acesse a prescrição de Doença Coronariana Crônica.\n\n### Tratamento Não Farmacológico\n\n- Mudanças no estilo de vida:\n- Dieta: Limitar a ingestão de sal e açúcares adicionados, alimentos ricos em gorduras saturadas e trans, como carnes, laticínios integrais e alimentos ultraprocessados. Preferir alimentos ricos em fibras, como frutas, vegetais e grãos integrais, peixes magros, azeite de oliva e castanhas;\n- Exercício físico : Pelo menos 150 minutos de atividade aeróbica moderada ou 75 minutos de atividade vigorosa por semana, combinada com exercícios de fortalecimento muscular;\n- Tabagismo: Aconselhamento, terapia de reposição de nicotina e medicamentos via oral para cessação do tabagismo (Bupropiona, Vareniclina);\n- Estresse: Meditação, ioga, exercícios de respiração profunda e psicoterapia; higiene do sono;\n- Apneia do sono: Uso de pressão positiva contínua nas vias aéreas (CPAP) ou, eventualmente, realização de cirurgia de septo nasal ou de correção da maxila e mandíbula, a depender das alterações anatômicas do paciente.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}

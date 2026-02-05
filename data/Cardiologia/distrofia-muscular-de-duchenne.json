@@ -1,0 +1,17 @@
+{
+  "area": "Cardiologia",
+  "assunto": "Distrofia Muscular de Duchenne",
+  "espacamento": "normal",
+  "criterios": "",
+  "criterios_tom": "neutro",
+  "dicas": "",
+  "dicas_tom": "neutro",
+  "exames": "",
+  "exames_tom": "neutro",
+  "prescricao": "## Terapia Modificadora de Doença\n\n### Orientações ao Prescritor\n\n#### Glicocorticoides:\n\n- Devem ser iniciados precocemente, tão logo se diagnostique a doença. Não se deve esperar sintomas importantes e incapacitantes para início do tratamento;\n- Mecanismo de benefício incerto;\n- Melhoram as funções motora e ventilatória e minimizam a ocorrência de escoliose;\n- Podem reduzir a progressão da cardiomiopatia e, em alguns estudos, até aumentarem a sobrevida;\n- 1,3 mg de Deflazacorte é equivalente a 1 mg de Prednisona;\n- A maioria dos estudos tiveram duração de 6 a 18 meses de tratamento, com maior benefício após 1 ano de tratamento.\n\nIECA (Inibidores da Enzima Conversora de Angiotensina)/BRA (Bloqueadores dos Receptores de Angiotensina) e betabloqueador:\n\n- O uso de betabloqueadores e IECA/BRA tende a melhorar os sintomas da insuficiência cardíaca e sua progressão e deve ser iniciada tão logo se documente o acometimento cardíaco pela doença, o que ocorre por volta dos 10 anos.\n\n#### Antagonistas mineralocorticoides:\n\n- Em um estudo randomizado com meninos com cardiomiopatia inicial, a Eplerenona foi efetiva em minimizar a piora da função do ventrículo esquerdo (VE).\n\n### Tratamento Farmacológico\n\n- Prednisona 0,75 mg/kg VO de 24/24 horas. Uso contínuo. Regimes alternativos: 5 mg/kg/dia, 2x/semana em dias consecutivos ou 0,75 mg/kg/dia por 10 dias seguidos e 10 dias de folga. Dose diária máxima de 30-36 mg. Uso por tempo indefinido;\n- Deflazacorte 0,9 mg/kg VO de 24/24 horas. Uso contínuo. Dose diária máxima de 36-40 mg. Uso por tempo indefinido.\n\n#### IECA:\n\n- Perindopril Adulto: iniciar 2 mg/dia VO de 24/24 horas e aumentar a cada 1-2 semanas até 8-16 mg/dia. Uso contínuo. Pediátrico: 2-4 mg/dia;\n- Captopril Adulto: 6,25-50 mg 8/8 horas. Dose máxima 150 mg/dia. Pediátrico: 0,1-3 mg/kg/dose (bebês) e 0,3-0,5 mg/kg/dose VO de 6/6 a 8/8 horas. Dose máxima 6 mg/kg/dia. Uso contínuo;\n- Enalapril Adulto 5-20 mg 12/12 horas de acordo com a tolerância. Pediátrico: 0,1-0,5 mg/kg/dia VO de 12/12 horas. Dose máxima 0,5 mg/kg/dia. Uso contínuo.\n\n#### 3. Betabloqueador:\n\n- Carvedilol Adulto: 3,125 mg VO 2x/dia, por 2 semanas. Se bem tolerada, poderá ser aumentada, a cada 2 semanas. Dose máxima de 37,5 mg 2x/dia (50 mg 2x/dia, se > 90 kg). Pediátrico: 0,04-0,075 mg/kg 2x/dia, aumentar 50% a 100% da dose a cada 2 semanas se tolerado. Dose máxima 50 mg/dia;\n- Metoprolol Adulto: 25 mg/dia VO, por 2 semanas. Recomenda-se que a dose seja dobrada a cada 2 semanas de acordo com a tolerância. Dose máxima de 200 mg/dia VO. Pediátrico: 0,1-0,2 mg/kg/dose 2x/dia, aumentar a cada 2 semanas até 1 mg/kg/dia. Dose máxima 2 mg/kg/dia ou 200 mg/dia.\n\n### 4. Antagonista mineralocorticoid\n\n- Eplerenona Adulto: iniciar com 25 mg/dia VO e titular para 50 mg/dia VO, preferencialmente em 4 semanas, considerando os níveis séricos de potássio;\n- Espironolactona Adulto: 25 mg, VO 24/24 horas. Pediatria: 1-3 mg/kg/dia VO de 12/12 ou 24/24 horas.",
+  "prescricao_tom": "neutro",
+  "prescricao_copiavel": true,
+  "prescricao_copia": "",
+  "prescricao_copiar_rotulo": "Copiar prescrição",
+  "atualizado_em": "2026-02-05"
+}
