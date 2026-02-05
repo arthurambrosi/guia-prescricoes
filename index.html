@@ -168,41 +168,26 @@
       gap: 16px;
       z-index: 30;
     }
+    .sideLogoBtn{
+      border: 0;
+      background: transparent;
+      padding: 0;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      transition: transform var(--t), box-shadow var(--t);
+    }
+    .sideLogoBtn:hover{
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(15,23,42,.08);
+    }
     .sideLogo{
       width: 44px;
       height: 44px;
       object-fit: contain;
       border-radius: 12px;
     }
-    .sideNavIcons{
-      display:flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-top: 6px;
-      align-items:center;
-    }
-    .sideNavBtn{
-      width: 42px;
-      height: 42px;
-      border-radius: 12px;
-      border: 1px solid transparent;
-      background: #fff;
-      color: #94a3b8;
-      display:grid;
-      place-items:center;
-      cursor: pointer;
-      transition: background var(--t), color var(--t), border-color var(--t), transform var(--t);
-    }
-    .sideNavBtn:hover{
-      background: #f8fafc;
-      transform: translateY(-1px);
-    }
-    .sideNavBtn.is-active{
-      color: #f97316;
-      border-color: rgba(249,115,22,.25);
-      background: #fff7ed;
-    }
-    .sideNavBtn svg{ width: 20px; height: 20px; }
     .mainContent{
       min-width: 0;
     }
@@ -729,15 +714,10 @@
         position: static;
         height: auto;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
         border-right: 0;
         border-bottom: 1px solid var(--line);
         padding: 10px 12px;
-      }
-      .sideNavIcons{
-        flex-direction: row;
-        gap: 8px;
-        margin-top: 0;
       }
     }
     @media (max-width: 980px){
@@ -753,44 +733,12 @@
     }
   </style>
 </head>
-<body>
+<body class="list-closed">
   <div class="appShell">
     <aside class="sideNav" aria-label="Navegação">
-      <img class="sideLogo" alt="Logo UsoJaleco" src="https://raw.githubusercontent.com/arthurambrosi/usojaleco/0204905b333f11d1eec3c7c6667d17dbfb457774/Design%20sem%20nome%20(28).png" />
-      <nav class="sideNavIcons">
-        <button class="sideNavBtn is-active" type="button" aria-label="Início">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M4 10.5L12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-7H10v7H5a1 1 0 0 1-1-1v-9.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-          </svg>
-        </button>
-        <button class="sideNavBtn" type="button" aria-label="Favoritos">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M6 3h12v18l-6-4-6 4V3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-          </svg>
-        </button>
-        <button class="sideNavBtn" type="button" aria-label="Biblioteca">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M6 4h12M6 9h12M6 14h12M6 19h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-          </svg>
-        </button>
-        <button class="sideNavBtn" type="button" aria-label="Protocolos">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M7 4h10a2 2 0 0 1 2 2v12l-4-2-4 2-4-2-4 2V6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-          </svg>
-        </button>
-        <button class="sideNavBtn" type="button" aria-label="Notas">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M6 4h9l3 3v13H6V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-            <path d="M9 11h6M9 15h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-          </svg>
-        </button>
-        <button class="sideNavBtn" type="button" aria-label="Usuários">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4Z" stroke="currentColor" stroke-width="1.8"/>
-            <path d="M4 20a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-          </svg>
-        </button>
-      </nav>
+      <button class="sideLogoBtn" type="button" aria-label="Abrir lista de prescrições" aria-expanded="false" aria-controls="appWrap">
+        <img class="sideLogo" alt="Logo UsoJaleco" src="https://raw.githubusercontent.com/arthurambrosi/usojaleco/0204905b333f11d1eec3c7c6667d17dbfb457774/Design%20sem%20nome%20(28).png" />
+      </button>
     </aside>
     <main class="mainContent">
       <div class="wrap" id="appWrap">
@@ -1284,6 +1232,21 @@
       renderFolderTabs(state.data)
     })
 
+    const logoToggle = document.querySelector('.sideLogoBtn')
+    if (logoToggle) {
+      logoToggle.addEventListener('click', () => {
+        document.body.classList.toggle('list-closed')
+        const isClosed = document.body.classList.contains('list-closed')
+        logoToggle.setAttribute('aria-expanded', String(!isClosed))
+        if (!isClosed) {
+          const target = document.getElementById('guia')
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+          }
+        }
+      })
+    }
+
     loadData()
   </script>
     </main>
@@ -1291,3 +1254,8 @@
 </body>
 </html>
 
+    body.list-closed #guia,
+    body.list-closed #areaList,
+    body.list-closed .footer{
+      display: none;
+    }
