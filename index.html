@@ -152,7 +152,7 @@
     /* ===== App wrap ===== */
     .wrap{
       width:100%;
-      max-width: 1180px;
+      max-width: 1280px;
       margin:0 auto;
       padding: 18px 32px 30px;
     }
@@ -266,95 +266,26 @@
       flex-wrap: wrap;
       gap: 10px;
     }
-    .layout{
-      display:grid;
-      grid-template-columns: 260px minmax(0, 1fr);
-      gap: var(--deskGap);
-      margin-top: 18px;
-      align-items:start;
-    }
-    .side-card{
-      padding: 16px;
-      position: sticky;
-      top: 90px;
-      align-self:start;
-    }
-    .side-title{
-      margin: 0 0 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.24em;
-      font-size: 0.7rem;
-      color: #94a3b8;
-      font-weight: 800;
-    }
-    .area-menu{
-      display:flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-    .area-btn{
-      width:100%;
-      text-align:left;
-      display:flex;
-      align-items:center;
-      gap: 10px;
-      padding: 10px 12px;
-      border-radius: 14px;
-      border: 1px solid transparent;
-      background: transparent;
-      font-weight: 800;
-      color:#334155;
-      cursor: pointer;
-      transition: background var(--t), border-color var(--t), color var(--t), transform var(--t);
-    }
-    .area-btn::before{
-      content:'';
-      width:6px;
-      height:6px;
-      border-radius:999px;
-      background:#cbd5e1;
-      flex: 0 0 auto;
-    }
-    .area-btn:hover{
-      background:#f8fafc;
-      border-color: rgba(15,23,42,.08);
-      transform: translateY(-1px);
-    }
-    .area-btn.is-active{
-      background:#fff7ed;
-      border-color: rgba(249,115,22,.25);
-      color:#9a3412;
-    }
-    .area-btn.is-active::before{
-      background: var(--accent);
-    }
-    .area-btn.is-disabled{
-      opacity:.5;
-      cursor: default;
-    }
-    .area-btn.is-disabled:hover{
-      transform:none;
-      background: transparent;
-      border-color: transparent;
-    }
-    .area-label{
-      flex: 1;
-      min-width: 0;
-    }
-    .area-badge{
-      font-size: 0.72rem;
-      font-weight: 800;
-      padding: 2px 8px;
-      border-radius: 999px;
-      background: #fff;
-      border: 1px solid var(--line);
-      color: #64748b;
-    }
-    .content-col{
+    .heroAside{
       display:grid;
       gap: var(--deskGap);
+    }
+    .stat{
+      padding: 18px 20px;
+    }
+    .statValue{
+      font-size: 2.1rem;
+      font-weight: 900;
+      color: #0f172a;
+    }
+    .statLabel{
+      color: var(--muted);
+      margin-top: 4px;
+      font-size: 0.95rem;
+      font-weight: 700;
     }
     .filters{
+      margin-top: 18px;
       padding: 18px 20px;
     }
     .filtersGrid{
@@ -366,6 +297,7 @@
     .cards{
       display:grid;
       gap: var(--deskGap);
+      margin-top: 16px;
     }
     .area-card{
       padding: 16px 18px;
@@ -390,6 +322,7 @@
       display:flex;
       flex-direction: column;
       gap: 6px;
+      text-align: left;
     }
     .area-title h2{
       margin: 0;
@@ -413,63 +346,48 @@
     .area-body{
       display: none;
       margin-top: 14px;
+      text-align: left;
     }
     .area-card.is-open .area-body{
-      display: grid;
-      grid-template-columns: minmax(200px, 260px) minmax(0, 1fr);
-      gap: 12px;
-    }
-    .area-card.is-locked .area-header{
-      cursor: default;
-    }
-    .area-card.is-locked .area-toggle{
-      display:none;
+      display: block;
     }
     .subject-list{
       display:flex;
-      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-start;
       gap: 8px;
-      margin-bottom: 0;
+      margin-bottom: 14px;
+      text-align: left;
     }
     .subject-btn{
       border: 1px solid var(--line);
-      border-radius: 12px;
-      padding: 10px 12px;
+      border-radius: 999px;
+      padding: 6px 12px;
       background: #fff;
       font-weight: 800;
       cursor: pointer;
       color: var(--text);
       transition: background var(--t), color var(--t), border-color var(--t);
-      font-size: 0.9rem;
+      font-size: 0.84rem;
       font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      display:flex;
-      align-items:center;
-      justify-content: space-between;
       -webkit-appearance: none;
       appearance: none;
       -webkit-text-fill-color: var(--text);
-    }
-    .subject-btn::after{
-      content:'›';
-      font-size: 1.2rem;
-      color:#94a3b8;
     }
     .subject-btn:hover{
       border-color: rgba(249,115,22,.35);
       color: #0f172a;
     }
     .subject-btn.is-active{
-      background: #fff7ed;
-      color: #9a3412;
-      border-color: rgba(249,115,22,.45);
-      -webkit-text-fill-color: #9a3412;
-    }
-    .subject-btn.is-active::after{
-      color:#9a3412;
+      background: var(--accent);
+      color: #fff;
+      border-color: transparent;
+      -webkit-text-fill-color: #fff;
     }
     .subject-detail{
       display: grid;
       gap: 12px;
+      text-align: left;
     }
     .guide-detail{
       border-radius: var(--rMid);
@@ -619,6 +537,12 @@
     .guide-panel ol{
       padding-left: 20px;
     }
+    .guide-panel blockquote{
+      margin: 0 0 12px;
+      padding-left: 18px;
+      border-left: 4px solid var(--accent);
+      color: var(--text);
+    }
     .panel-tools{
       display:flex;
       justify-content:flex-end;
@@ -674,16 +598,6 @@
       .toggle{
         min-width: 90px;
       }
-      .layout{
-        grid-template-columns: 1fr;
-      }
-      .side-card{
-        position: relative;
-        top: 0;
-      }
-      .area-card.is-open .area-body{
-        grid-template-columns: 1fr;
-      }
     }
   </style>
 </head>
@@ -704,7 +618,7 @@
 
   <!-- ========================= UJ DESIGN KIT (PAGE WRAP) Seu esqueleto entra aqui ========================= -->
   <div class="wrap" id="appWrap">
-    <section class="hero">
+            <section class="hero">
       <div class="heroMain card">
         <p class="eyebrow">Guia de Prescrições</p>
         <h1>Protocolos práticos no ponto de cuidado.</h1>
@@ -716,34 +630,24 @@
       </div>
     </section>
 
-    <div class="layout" id="guia">
-      <aside class="card side-card">
-        <p class="side-title">Especialidades</p>
-        <div class="area-menu" id="areaMenu"></div>
-      </aside>
-
-      <div class="content-col">
-        <section class="filters card">
-          <div class="filtersGrid">
-            <div>
-              <label class="label" for="search">Buscar</label>
-              <input class="field" type="search" id="search" placeholder="Buscar por assunto ou palavra-chave" />
-            </div>
-            <div>
-              <label class="label" for="clear">Ações</label>
-              <button class="btn btnGhost" id="clear" type="button">Limpar filtros</button>
-            </div>
-          </div>
-        </section>
-
-        <section class="cards" id="areaList"></section>
+            <section class="filters card" id="guia">
+      <div class="filtersGrid">
+        <div>
+          <label class="label" for="search">Buscar</label>
+          <input class="field" type="search" id="search" placeholder="Buscar por assunto ou palavra-chave" />
+        </div>
+        <div>
+          <label class="label" for="clear">Ações</label>
+          <button class="btn btnGhost" id="clear" type="button">Limpar filtros</button>
+        </div>
       </div>
-    </div>
+    </section>
 
+    <section class="cards" id="areaList"></section>
     <div class="footer mutedNote">Dica: escolha uma área para ver os assuntos. Para criar divisórias no editor, use três traços `---` em uma linha.</div>
   </div>
 
-  <template id="areaTemplate">
+    <template id="areaTemplate">
     <article class="card area-card">
       <button class="area-header" type="button">
         <div class="area-title">
@@ -759,10 +663,9 @@
     </article>
   </template>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     const areaListEl = document.getElementById('areaList')
-    const areaMenuEl = document.getElementById('areaMenu')
     const searchInput = document.getElementById('search')
     const clearBtn = document.getElementById('clear')
     const templateArea = document.getElementById('areaTemplate')
@@ -792,9 +695,7 @@
     ]
 
     const state = {
-      data: [],
-      areas: [],
-      selectedArea: null
+      data: []
     }
 
     function normalize(value) {
@@ -1015,13 +916,7 @@
       return map
     }
 
-    function getOrderedAreas(map) {
-      const ordered = AREA_FILES.filter((area) => map.has(area))
-      const extras = Array.from(map.keys()).filter((area) => !AREA_FILES.includes(area))
-      return [...ordered, ...extras]
-    }
-
-    function buildAreaCard(area, items, autoOpen = false, lockOpen = false) {
+    function buildAreaCard(area, items, autoOpen = false) {
       const node = templateArea.content.cloneNode(true)
       const card = node.querySelector('.area-card')
       const header = node.querySelector('.area-header')
@@ -1043,7 +938,7 @@
         empty.className = 'empty-state'
         empty.textContent = 'Nenhum assunto encontrado nesta área.'
         detail.appendChild(empty)
-      } else if (!autoOpen && !lockOpen) {
+      } else if (!autoOpen) {
         const hint = document.createElement('div')
         hint.className = 'mutedNote'
         hint.textContent = 'Selecione um assunto para ver os detalhes.'
@@ -1062,37 +957,30 @@
           detail.appendChild(buildDetail(item))
         })
         subjectList.appendChild(btn)
-        if ((autoOpen || lockOpen) && index === 0) {
+        if (autoOpen && index === 0) {
           btn.click()
         }
       })
 
-      if (!lockOpen) {
-        header.addEventListener('click', () => {
-          const isOpen = card.classList.toggle('is-open')
-          toggle.textContent = isOpen ? 'Ocultar assuntos' : 'Ver assuntos'
-        })
-      }
+      header.addEventListener('click', () => {
+        const isOpen = card.classList.toggle('is-open')
+        toggle.textContent = isOpen ? 'Ocultar assuntos' : 'Ver assuntos'
+      })
 
-      if (autoOpen || lockOpen) {
+      if (autoOpen) {
         card.classList.add('is-open')
         toggle.textContent = 'Ocultar assuntos'
-      }
-
-      if (lockOpen) {
-        card.classList.add('is-locked')
-        toggle.textContent = 'Assuntos'
       }
 
       return node
     }
 
-    function renderAreas(items, autoOpen = false, lockOpen = false, emptyLabel = '') {
+    function renderAreas(items, autoOpen = false) {
       areaListEl.innerHTML = ''
       if (!items.length) {
         const empty = document.createElement('div')
         empty.className = 'empty-state'
-        empty.textContent = emptyLabel || 'Nenhuma prescrição encontrada. Verifique os arquivos na pasta data.'
+                        empty.textContent = 'Nenhuma prescrição encontrada. Verifique os arquivos na pasta data.'
         areaListEl.appendChild(empty)
         return
       }
@@ -1101,52 +989,7 @@
       const extras = Array.from(map.keys()).filter((area) => !AREA_FILES.includes(area))
       const areas = [...ordered, ...extras]
       areas.forEach((area) => {
-        areaListEl.appendChild(buildAreaCard(area, map.get(area), autoOpen, lockOpen))
-      })
-    }
-
-    function renderAreaMenu(allItems, filteredItems, activeArea, term) {
-      areaMenuEl.innerHTML = ''
-      if (!allItems.length) {
-        const empty = document.createElement('div')
-        empty.className = 'mutedNote'
-        empty.textContent = 'Nenhuma especialidade disponível.'
-        areaMenuEl.appendChild(empty)
-        return
-      }
-
-      const mapAll = groupByArea(allItems)
-      const mapFiltered = groupByArea(filteredItems)
-      const areas = state.areas.length ? state.areas : getOrderedAreas(mapAll)
-
-      areas.forEach((area) => {
-        const totalCount = (mapAll.get(area) || []).length
-        const filteredCount = (mapFiltered.get(area) || []).length
-        const count = term ? filteredCount : totalCount
-
-        const btn = document.createElement('button')
-        btn.type = 'button'
-        btn.className = 'area-btn'
-        if (activeArea === area) {
-          btn.classList.add('is-active')
-        }
-        if (term && count === 0) {
-          btn.classList.add('is-disabled')
-        }
-        btn.innerHTML = `
-          <span class="area-label">${area}</span>
-          <span class="area-badge">${count}</span>
-        `
-
-        if (!(term && count === 0)) {
-          btn.addEventListener('click', () => {
-            state.selectedArea = area
-            searchInput.value = ''
-            renderSelectedArea()
-            renderAreaMenu(state.data, state.data, state.selectedArea, '')
-          })
-        }
-        areaMenuEl.appendChild(btn)
+        areaListEl.appendChild(buildAreaCard(area, map.get(area), autoOpen))
       })
     }
 
@@ -1173,28 +1016,10 @@
       })
     }
 
-    function renderSelectedArea() {
-      if (!state.selectedArea && state.areas.length) {
-        state.selectedArea = state.areas[0]
-      }
-      if (!state.selectedArea) {
-        renderAreas(state.data)
-        return
-      }
-      const items = state.data.filter((item) => (item.area || 'Sem área') === state.selectedArea)
-      renderAreas(items, true, true)
-    }
-
     function filterAndRender() {
       const term = normalize(searchInput.value.trim())
-      if (!term) {
-        renderSelectedArea()
-        renderAreaMenu(state.data, state.data, state.selectedArea, '')
-        return
-      }
       const results = filterItems(term)
-      renderAreas(results, true, false, 'Nenhum assunto encontrado para essa busca.')
-      renderAreaMenu(state.data, results, null, term)
+      renderAreas(results, term !== '')
     }
 
     async function loadArea(area) {
@@ -1226,27 +1051,20 @@
       state.data = collected
       if (!state.data.length) {
         renderAreas([])
-        renderAreaMenu([], [], null, '')
         return
       }
 
-      const map = groupByArea(state.data)
-      state.areas = getOrderedAreas(map)
-      state.selectedArea = state.areas[0] || null
-
-      renderAreaMenu(state.data, state.data, state.selectedArea, '')
-      renderSelectedArea()
+      renderAreas(state.data)
 
       if (missing.length) {
-        console.warn('Arquivos não encontrados:', missing)
+                        console.warn('Arquivos não encontrados:', missing)
       }
     }
 
     searchInput.addEventListener('input', filterAndRender)
     clearBtn.addEventListener('click', () => {
       searchInput.value = ''
-      renderSelectedArea()
-      renderAreaMenu(state.data, state.data, state.selectedArea, '')
+      renderAreas(state.data)
     })
 
     loadData()
