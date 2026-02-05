@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Guia de Prescrições</title>
+  <title>Guia de PrescriÃ§Ãµes</title>
   <!-- ========================= UJ DESIGN KIT (HEAD) Fontes + Tokens + CSS base ========================= -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <!-- Outfit (brand only) -->
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <!-- Montserrat (área + assuntos) -->
+  <!-- Montserrat (Ã¡rea + assuntos) -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
@@ -190,7 +190,7 @@
       box-shadow: 0 0 0 3px rgba(249,115,22,.18);
       background: #fff;
     }
-    /* ===== Botões (genéricos) ===== */
+    /* ===== BotÃµes (genÃ©ricos) ===== */
     .btn{
       cursor:pointer;
       border-radius: var(--rBtn);
@@ -554,7 +554,7 @@
     .folder-panel.is-active{
       display: block;
     }
-    /* ===== Prescrição look (Montserrat + estilo semelhante ao exemplo) ===== */
+    /* ===== PrescriÃ§Ã£o look (Montserrat + estilo semelhante ao exemplo) ===== */
     .guide-panel[data-panel="prescricao"]{
       font-family: "Montserrat", Manrope, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       font-size: 15px;
@@ -662,9 +662,9 @@
   <div class="wrap" id="appWrap">
             <section class="hero">
       <div class="heroMain card">
-        <p class="eyebrow">Guia de Prescrições</p>
-        <h1>Protocolos práticos no ponto de cuidado.</h1>
-        <p class="lead">Organize critérios, dicas, exames complementares e prescrições em um só lugar. Selecione a aba para ver os assuntos disponíveis.</p>
+        <p class="eyebrow">Guia de PrescriÃ§Ãµes</p>
+        <h1>Protocolos prÃ¡ticos no ponto de cuidado.</h1>
+        <p class="lead">Organize critÃ©rios, dicas, exames complementares e prescriÃ§Ãµes em um sÃ³ lugar. Selecione a aba para ver os assuntos disponÃ­veis.</p>
         <div class="heroActions">
           <a class="btn btnPrimary" href="/admin/">Adicionar ou editar</a>
           <a class="btn btnGhost" href="#guia">Ver guias</a>
@@ -679,14 +679,14 @@
           <input class="field" type="search" id="search" placeholder="Buscar por assunto ou palavra-chave" />
         </div>
         <div>
-          <label class="label" for="clear">Ações</label>
+          <label class="label" for="clear">AÃ§Ãµes</label>
           <button class="btn btnGhost" id="clear" type="button">Limpar filtros</button>
         </div>
       </div>
     </section>
 
     <section class="cards" id="areaList"></section>
-    <div class="footer mutedNote">Dica: escolha uma aba para ver os assuntos. Para criar divisórias no editor, use três traços `---` em uma linha.</div>
+    <div class="footer mutedNote">Dica: escolha uma aba para ver os assuntos. Para criar divisÃ³rias no editor, use trÃªs traÃ§os `---` em uma linha.</div>
   </div>
 
     <template id="areaTemplate">
@@ -729,7 +729,7 @@
 
     function markdown(value) {
       if (!value) {
-        return '<p class="mutedNote">Sem conteúdo.</p>'
+        return '<p class="mutedNote">Sem conteÃºdo.</p>'
       }
       return marked.parse(value)
     }
@@ -857,7 +857,7 @@
           panel.className = 'guide-panel'
           panel.dataset.panel = key
           const content = (tab.content || '').trim()
-          panel.innerHTML = content ? content : '<p class="mutedNote">Sem conteúdo.</p>'
+          panel.innerHTML = content ? content : '<p class="mutedNote">Sem conteÃºdo.</p>'
           if (tab.lineHeight) {
             panel.style.lineHeight = tab.lineHeight
           }
@@ -866,7 +866,7 @@
           if (isPrescription && content) {
             const tools = document.createElement('div')
             tools.className = 'panel-tools'
-            tools.appendChild(createCopyButton('Copiar prescrição', toPlainText(content)))
+            tools.appendChild(createCopyButton('Copiar prescriÃ§Ã£o', toPlainText(content)))
             panel.prepend(tools)
           }
 
@@ -884,10 +884,10 @@
       wrapper.innerHTML = `
         <h3>${title}</h3>
         <div class="guide-tabs">
-          <button class="guide-tab" type="button" data-tab="criterios">Critérios</button>
+          <button class="guide-tab" type="button" data-tab="criterios">CritÃ©rios</button>
           <button class="guide-tab" type="button" data-tab="dicas">Dicas</button>
           <button class="guide-tab" type="button" data-tab="exames">Exames complementares</button>
-          <button class="guide-tab" type="button" data-tab="prescricao">Prescrição</button>
+          <button class="guide-tab" type="button" data-tab="prescricao">PrescriÃ§Ã£o</button>
         </div>
         <div class="guide-panel" data-panel="criterios"></div>
         <div class="guide-panel" data-panel="dicas"></div>
@@ -920,7 +920,7 @@
           if (allowCopy && copyText) {
             const tools = document.createElement('div')
             tools.className = 'panel-tools'
-            const label = item.prescricao_copiar_rotulo || 'Copiar prescrição'
+            const label = item.prescricao_copiar_rotulo || 'Copiar prescriÃ§Ã£o'
             tools.appendChild(createCopyButton(label, copyText))
             panel.prepend(tools)
           }
@@ -938,7 +938,7 @@
     function groupByArea(items) {
       const map = new Map()
       items.forEach((item) => {
-        const area = item.area || 'Sem área'
+        const area = item.area || 'Sem Ã¡rea'
         if (!map.has(area)) {
           map.set(area, [])
         }
@@ -1006,7 +1006,7 @@
       if (!items.length) {
         const empty = document.createElement('div')
         empty.className = 'empty-state'
-        empty.textContent = 'Nenhuma prescrição encontrada. Verifique os arquivos na pasta data.'
+        empty.textContent = 'Nenhuma prescriÃ§Ã£o encontrada. Verifique os arquivos na pasta data.'
         areaListEl.appendChild(empty)
         return
       }
@@ -1132,3 +1132,4 @@
   </script>
 </body>
 </html>
+
