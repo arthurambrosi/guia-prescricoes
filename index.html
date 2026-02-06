@@ -610,6 +610,47 @@
       background: var(--surface2);
       border: 1px solid var(--line);
     }
+    .detailHeader{
+      display:flex;
+      align-items:flex-start;
+      gap: 12px;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .detailTitles{
+      display:flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .detailTitle{
+      margin: 0;
+      font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .detailSubtitle{
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .detailTools{
+      margin-left: auto;
+      display:flex;
+      align-items:center;
+    }
+    .detailTools .copyBtn{
+      height: 32px;
+      font-size: 0.76rem;
+      padding: 0 10px;
+    }
+    .detailSectionTitle{
+      font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 0.9rem;
+      margin: 0 0 6px;
+      color: var(--text);
+    }
     .guide-detail h3{
       margin: 0 0 8px;
       font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -1071,108 +1112,75 @@
       const wrapper = document.createElement('div')
       wrapper.className = 'guide-detail'
       const title = item.assunto || 'Sem assunto'
+      const area = item.area || 'Sem área'
       const tabsData = Array.isArray(item.tabs) ? item.tabs : []
+      const spacing = item.espacamento || 'normal'
+
+      const header = document.createElement('div')
+      header.className = 'detailHeader'
+      const titles = document.createElement('div')
+      titles.className = 'detailTitles'
+      const h3 = document.createElement('h3')
+      h3.className = 'detailTitle'
+      h3.textContent = title
+      const subtitle = document.createElement('div')
+      subtitle.className = 'detailSubtitle'
+      subtitle.textContent = area
+      titles.appendChild(h3)
+      titles.appendChild(subtitle)
+      header.appendChild(titles)
+
+      let copyText = ''
+      let allowCopy = true
+      if (tabsData.length) {
+        const prescTab = tabsData.find((tab) => normalize(tab.title).includes('prescri'))
+        if (prescTab && prescTab.content) {
+          copyText = toPlainText(prescTab.content)
+        }
+      } else if (item.prescricao) {
+        allowCopy = item.prescricao_copiavel !== false
+        copyText = (item.prescricao_copia || '').trim() || toPlainText(item.prescricao)
+      }
+
+      if (allowCopy && copyText) {
+        const tools = document.createElement('div')
+        tools.className = 'detailTools'
+        const label = item.prescricao_copiar_rotulo || 'Copiar prescrição'
+        tools.appendChild(createCopyButton(label, copyText))
+        header.appendChild(tools)
+      }
+
+      wrapper.appendChild(header)
+
+      function addSection(label, html, tone) {
+        const panel = document.createElement('div')
+        panel.className = 'guide-panel is-active'
+        const content = html && html.trim() ? html : '<p class="mutedNote">Sem conteúdo.</p>'
+        panel.innerHTML = `<div class="detailSectionTitle">${label}</div>${content}`
+        applyPanelStyle(panel, tone, spacing)
+        wrapper.appendChild(panel)
+      }
 
       if (tabsData.length) {
-        const tabsWrap = document.createElement('div')
-        tabsWrap.className = 'guide-tabs'
-        const panelsWrap = document.createElement('div')
-        panelsWrap.className = 'guide-panels'
-
-        const heading = document.createElement('h3')
-        heading.textContent = title
-        wrapper.appendChild(heading)
-        wrapper.appendChild(tabsWrap)
-        wrapper.appendChild(panelsWrap)
-
         tabsData.forEach((tab, index) => {
-          const key = (tab.id || `tab_${index}`).toString()
-          const btn = document.createElement('button')
-          btn.className = 'guide-tab'
-          btn.type = 'button'
-          btn.dataset.tab = key
-          btn.textContent = tab.title || `Aba ${index + 1}`
-          tabsWrap.appendChild(btn)
-
-          const panel = document.createElement('div')
-          panel.className = 'guide-panel'
-          panel.dataset.panel = key
+          const label = tab.title || `Seção ${index + 1}`
           const content = (tab.content || '').trim()
-          panel.innerHTML = content ? content : '<p class="mutedNote">Sem conteúdo.</p>'
+          const panel = document.createElement('div')
+          panel.className = 'guide-panel is-active'
+          panel.innerHTML = `<div class="detailSectionTitle">${label}</div>${content || '<p class="mutedNote">Sem conteúdo.</p>'}`
           if (tab.lineHeight) {
             panel.style.lineHeight = tab.lineHeight
           }
-
-          const isPrescription = normalize(tab.title).includes('prescri')
-          if (isPrescription && content) {
-            const tools = document.createElement('div')
-            tools.className = 'panel-tools'
-            tools.appendChild(createCopyButton('Copiar prescrição', toPlainText(content)))
-            panel.prepend(tools)
-          }
-
-          panelsWrap.appendChild(panel)
+          applyPanelStyle(panel, tab.tone, spacing)
+          wrapper.appendChild(panel)
         })
-
-        tabsWrap.querySelectorAll('.guide-tab').forEach((tab) => {
-          tab.addEventListener('click', () => activateTab(wrapper, tab.dataset.tab))
-        })
-
-        activateTab(wrapper, (tabsData[0].id || 'tab_0').toString())
         return wrapper
       }
 
-      wrapper.innerHTML = `
-        <h3>${title}</h3>
-        <div class="guide-tabs">
-          <button class="guide-tab" type="button" data-tab="criterios">Critérios</button>
-          <button class="guide-tab" type="button" data-tab="dicas">Dicas</button>
-          <button class="guide-tab" type="button" data-tab="exames">Exames complementares</button>
-          <button class="guide-tab" type="button" data-tab="prescricao">Prescrição</button>
-        </div>
-        <div class="guide-panel" data-panel="criterios"></div>
-        <div class="guide-panel" data-panel="dicas"></div>
-        <div class="guide-panel" data-panel="exames"></div>
-        <div class="guide-panel" data-panel="prescricao"></div>
-      `
-
-      const panels = wrapper.querySelectorAll('.guide-panel')
-      const tabs = wrapper.querySelectorAll('.guide-tab')
-      const spacing = item.espacamento || 'normal'
-
-      panels.forEach((panel) => {
-        if (panel.dataset.panel === 'criterios') {
-          panel.innerHTML = markdown(item.criterios)
-          applyPanelStyle(panel, item.criterios_tom, spacing)
-        }
-        if (panel.dataset.panel === 'dicas') {
-          panel.innerHTML = markdown(item.dicas)
-          applyPanelStyle(panel, item.dicas_tom, spacing)
-        }
-        if (panel.dataset.panel === 'exames') {
-          panel.innerHTML = markdown(item.exames)
-          applyPanelStyle(panel, item.exames_tom, spacing)
-        }
-        if (panel.dataset.panel === 'prescricao') {
-          panel.innerHTML = markdown(item.prescricao)
-          applyPanelStyle(panel, item.prescricao_tom, spacing)
-          const allowCopy = item.prescricao_copiavel !== false
-          const copyText = (item.prescricao_copia || '').trim() || toPlainText(item.prescricao)
-          if (allowCopy && copyText) {
-            const tools = document.createElement('div')
-            tools.className = 'panel-tools'
-            const label = item.prescricao_copiar_rotulo || 'Copiar prescrição'
-            tools.appendChild(createCopyButton(label, copyText))
-            panel.prepend(tools)
-          }
-        }
-      })
-
-      tabs.forEach((tab) => {
-        tab.addEventListener('click', () => activateTab(wrapper, tab.dataset.tab))
-      })
-
-      activateTab(wrapper, 'criterios')
+      addSection('Critérios', markdown(item.criterios), item.criterios_tom)
+      addSection('Dicas', markdown(item.dicas), item.dicas_tom)
+      addSection('Exames complementares', markdown(item.exames), item.exames_tom)
+      addSection('Prescrição', markdown(item.prescricao), item.prescricao_tom)
       return wrapper
     }
 
@@ -1356,7 +1364,9 @@
         if (!response.ok) return []
         const payload = await response.json()
         const files = Array.isArray(payload) ? payload : (payload.files || [])
-        return Array.isArray(files) ? files : []
+        if (!Array.isArray(files)) return []
+        const unique = Array.from(new Set(files.filter(Boolean)))
+        return unique
       } catch (err) {
         return []
       }
