@@ -1003,6 +1003,9 @@
 
     const areaSections = new Map()
     let currentFilter = ''
+    const pendingByArea = new Map()
+    const areaOrder = []
+    let drainScheduled = false
 
     function normalize(value) {
       if (!value) {
@@ -1311,7 +1314,66 @@
     function filterAndRender() {
       currentFilter = normalize(searchInput.value.trim())
       const results = filterItems(currentFilter)
+      pendingByArea.clear()
+      areaOrder.length = 0
+      drainScheduled = false
       renderAreaList(results)
+    }
+
+    function ensurePendingArea(area) {
+      if (!pendingByArea.has(area)) {
+        pendingByArea.set(area, [])
+        areaOrder.push(area)
+      }
+      return pendingByArea.get(area)
+    }
+
+    function enqueueItems(items) {
+      items.forEach((item) => {
+        const area = item.area || 'Sem área'
+        ensurePendingArea(area).push(item)
+      })
+    }
+
+    function pendingCount() {
+      let total = 0
+      pendingByArea.forEach((queue) => {
+        total += queue.length
+      })
+      return total
+    }
+
+    function drainPending() {
+      drainScheduled = false
+      if (currentFilter) {
+        pendingByArea.clear()
+        areaOrder.length = 0
+        return
+      }
+      const start = performance.now()
+      let appended = true
+      while (appended) {
+        appended = false
+        areaOrder.forEach((area) => {
+          const queue = pendingByArea.get(area)
+          if (queue && queue.length) {
+            appendItem(queue.shift())
+            appended = true
+          }
+        })
+        if (performance.now() - start > 12) {
+          break
+        }
+      }
+      if (pendingCount() > 0) {
+        requestAnimationFrame(drainPending)
+      }
+    }
+
+    function scheduleDrain() {
+      if (drainScheduled) return
+      drainScheduled = true
+      requestAnimationFrame(drainPending)
     }
 
     function updateProgress(loaded, total) {
@@ -1391,6 +1453,9 @@
     async function loadData() {
       state.data = []
       areaListEl.innerHTML = ''
+      pendingByArea.clear()
+      areaOrder.length = 0
+      drainScheduled = false
 
       const files = await loadIndexFiles()
       state.total = files.length
@@ -1421,7 +1486,8 @@
           if (currentFilter) {
             renderAreaList(filterItems(currentFilter))
           } else {
-            items.forEach((item) => appendItem(item))
+            enqueueItems(items)
+            scheduleDrain()
           }
         }
         updateProgress(state.loaded, state.total)
