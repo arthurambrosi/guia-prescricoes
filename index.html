@@ -1250,9 +1250,6 @@
       card.appendChild(header)
       card.appendChild(body)
       areaListEl.appendChild(card)
-      if (areaSections.size === 0) {
-        card.classList.add('is-open')
-      }
       const section = { card, list: subjectList }
       areaSections.set(area, section)
       return section
