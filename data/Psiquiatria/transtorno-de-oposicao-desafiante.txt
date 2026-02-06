@@ -1,0 +1,16 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+O tratamento é feito principalmente a partir de psicoeducação e psicoterapia para os pais e o paciente. Para os pais, indica-se treinamento de manejo parental. Para o(a) paciente, indicam-se terapia cognitivo-comportamental e/ou terapia familiar sistêmica.
+Caso comorbidades estejam presentes, estas devem ser tratadas segundo suas próprias recomendações.
+A farmacoterapia é controversa, e não existem fármacos específicos para o transtorno. O uso de antipsicóticos atípicos é off-label e envolve uma série de discussões abordando tanto seus eventuais benefícios como seus riscos. A indicação do uso deve ser feita caso a caso, não sendo recomendada sua prescrição de maneira geral por enquanto. Outros psicofármacos vêm sendo estudados, mas ainda não há suporte robusto para sua prescrição.
+
+### Tratamento Não Farmacológico
+
+- Orientação escolar.
+- Psicoeducação para família, além de psicoterapia para os pais, sendo sugerido treinamento de manejo parental.
+- Psicoterapia para a criança ou adolescente: terapia cognitivo-comportamental (ex.: manejo da raiva e treinamento de habilidades sociais) e/ou terapia familiar sistêmica.
+- Tratamento das comorbidades quando presentes.

@@ -1,0 +1,31 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+#### Recomendações:
+
+- O quadro costuma surgir na adolescência e tem características semelhantes às da apresentação em adultos;
+- O tratamento pode ser composto por abordagens não farmacológicas (psicoterapia), farmacológicas ou ambas;
+- Inicialmente, é necessário fazer uma boa psicoeducação: Explicar para o paciente e sua família o transtorno, como o quadro pode evoluir e como funciona o tratamento;
+- Casos leves a moderados: Apresentam como tratamento de primeira linha a psicoterapia, sendo a abordagem de destaque a técnica cognitivo-comportamental (TCC);
+- Caso se opte pela medicação: Sugere-se que as medicações sejam iniciadas preferencialmente a partir dos 7 anos de idade. A preferência é pelos inibidores seletivos da recaptação de serotonina (ISRS). Recomenda-se iniciar com baixa dose e fazer uma progressão lenta até a dose terapêutica eficaz e melhora sintomática. O uso de subdoses não é recomendado. O efeito pleno da medicação pode demorar cerca de 4 semanas com tratamento em doses terapêuticas para ser observado:
+- Os antidepressivos tricíclicos não devem ser a primeira escolha farmacológica;
+- A FDA ( Food and Drug Administration - EUA) publicou um aviso para o uso de alguns antidepressivos em crianças e adolescentes que possam ter diagnóstico de depressão, alertando para o risco de aumento de pensamentos ou ideação suicida;
+- Embora isso seja controverso na literatura, um estudo recente observou que a Venlafaxina estaria associada a um maior risco do que os ISRS. Dessa forma, sugere-se cautela na prescrição dessas medicações e reavaliações médicas periódicas;
+- O uso de antidepressivos também pode ocasionar quadros de mania em pacientes bipolares.
+- Casos graves: Devem ser abordados com a associação entre a psicoterapia e a terapia farmacológica;
+- Embora benzodiazepínicos possam ser usados (Alprazolam e Clonazepam - nível 4 de evidência), deve-se tomar cuidado com a possibilidade de reação paradoxal à medicação (mais comum em crianças pequenas) e com possíveis sintomas de uma síndrome de retirada em caso de descontinuação abrupta. Por isso, seu uso deve ser restrito e, quando necessário, feito de forma pontual e pelo menor tempo possível.
+
+### Tratamento Farmacológico
+
+- Fluoxetina p rogredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 40 mg/dia:
+- ≤ 11 anos de idade: 5 mg/dia VO;
+- ≥ 12 anos de idade: 10 mg/dia VO.
+- Sertralina a partir dos 6 anos de idade: 25 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 200 mg/dia.
+
+### Tratamento Não Farmacológico
+
+- Psicoeducação para a família e o paciente.
+- Terapia cognitivo-comportamental (TCC).

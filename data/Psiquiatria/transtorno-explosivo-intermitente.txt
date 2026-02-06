@@ -1,0 +1,42 @@
+# Prescrição Ambulatorial
+
+## Orientações ao Prescritor
+
+- O tratamento envolve abordagem psicoterápica e farmacológica, sendo a psicoterapia a primeira escolha;
+- Não há medicação aprovada por agências regulatórias, como o FDA;
+- Dentre as psicoterapias, a terapia cognitivo-comportamental destaca-se como a mais estudada e com maior respaldo de literatura.
+
+#### Tratamento farmacológico:
+
+- A primeira linha são os inibidores seletivos da recaptação de serotonina (ISRS), sendo o mais estudado a Fluoxetina no controle da irritabilidade e da agressividade. É importante orientar o paciente quanto à possibilidade de sintomas de ativação após o inicio do ISRS, levando a risco aumentado de explosões de raiva nos primeiros dias do tratamento;
+- Em casos em que há resposta parcial ou ausente, pode-se associar ou usar em monoterapia anticonvulsivantes, sendo a Oxcarbazepina a mais estudada. A Fenitoína costumava estar em guidelines mais antigos, mas hoje apresenta menos respaldo em literatura e uso limitado pelos seus efeitos colaterais. Estudos recentes demonstraram ausência de diferença de taxa de resposta do Divalproato ao placebo, associado a um maior número de efeitos colaterais;
+- O uso de antipsicóticos de segunda geração, betabloqueadores ou agonistas alfa-2 é reservado para situações específicas e refratárias, off label .
+
+### Tratamento Farmacológico
+
+#### 1. Inibidores da recaptação de serotonina (ISRS):
+
+- Fluoxetina 20 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 60 mg/dia);
+- Escitalopram 10 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 20 mg/dia);
+- Sertralina 50 mg/dia. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia);
+- Citalopram 20 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 40 mg/dia).
+
+#### 2. Anticonvulsivantes:
+
+- Oxcarbazepina 600 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 1.200 mg/dia).
+
+### Tratamento Não Farmacológico
+
+#### Psicoterapia:
+
+- Terapia congnitivo-comportamental: B aseada em psicoeducação, reestruturação cognitiva, aquisição de habilidades para controle da raiva, aperfeiçoamento na resolução de problemas e estratégias de enfrentamento;
+- Terapia de família;
+- Terapia de grupo.
+
+#### Manejo dos fatores de vulnerabilidade aos comportamentos impulsivos:
+
+- Evitar ingestão de bebidas alcoólicas;
+- Evitar uso de substâncias psicoativas;
+- Avaliação e manejo do sono;
+- Prática de atividades físicas;
+- Ensino de técnicas de relaxamento/respiração.

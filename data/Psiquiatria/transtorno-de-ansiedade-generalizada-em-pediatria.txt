@@ -1,0 +1,47 @@
+# Prescrição Ambulatorial
+
+## Transtorno de Ansiedade Generalizada em Pediatria
+
+### Orientações ao Prescritor
+
+- Psicoeducação dos pacientes e suas famílias: Indicada para todos os casos:
+- Consiste em explicar o transtorno e seus sintomas, orientando sobre o quadro e o tratamento, procurando esclarecer dúvidas.
+- Psicoterapia: I ndicada para todos os casos, sendo a abordagem preferencial para quadros leves a moderados:
+- Grande destaque para a técnica cognitivo-comportamental (TCC).
+- Mudanças do estilo de vida: Recomenda-se a prática regular de exercícios físicos e a moderação no consumo de cafeína;
+- Farmacoterapia: Indicada preferencialmente para casos moderados e graves:
+- As medicações de escolha são os inibidores seletivos da recaptação de serotonina (ISRSs). Os fármacos Fluoxetina, Fluvoxamina, Paroxetina e Sertralina detêm uso off-label para TAG em menores de 18 anos. A única medicação de fato indicada é o Escitalopram;
+- Outras opções, que não são consideradas de primeira linha por seus efeitos adversos, são os duais (inibidores seletivos da recaptação de serotonina e noradrenalina – ISRSN) e os tricíclicos (ATC). Dentre os ISRSNs, a Duloxetina foi aprovada pelo FDA ( Food and Drug Administration ) para o tratamento da ansiedade em crianças e adolescentes a partir dos 7 anos;
+- Benzodiazepínicos não costumam ser prescritos por seu potencial de efeitos adversos, como efeito paradoxal em crianças pequenas ou potencial uso abusivo/dependência;
+- Ainda não há recomendação para o uso de Buspirona, antipsicóticos ou anti-histamínicos nesta população. Da mesma forma, a Pregabalina não é aprovada pelo FDA para o tratamento da ansiedade em crianças e adolescentes.
+
+#### Farmacoterapia:
+
+- Iniciar com dose menor que a dose terapêutica mínima, progredindo até a dose mínima em alguns dias;
+- O efeito pleno da medicação ocorre em algumas semanas;
+- Em caso de aumento da dose, aguardar algumas semanas (entre 1,5-2 meses) para avaliar a resposta e a necessidade de reajuste;
+- Ao fim do tratamento, diminuir a dose de maneira gradual;
+- A FDA emitiu um sinal de alerta para o uso de antidepressivos nesta faixa etária, pois podem aumentar o risco de suicídio:
+- Embora haja controvérsias a esse respeito, sugere-se um acompanhamento cuidadoso dos jovens que recebam esses fármacos, especialmente nos primeiros meses de tratamento.
+- Há evidências de maior eficácia quando há a combinação entre psicoterapia e medicação.
+
+### Tratamento Farmacológico
+
+#### ISRS:
+
+- Sertralina (off-label) iniciar com 25 mg/dia, VO, em crianças com idade ≥ 6 anos. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 200 mg/dia;
+- Escitalopram i niciar com 5 mg/dia, VO, em crianças com idade ≥ 7 anos. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 20 mg/dia;
+- Fluoxetina (off-label) i niciar com 10 mg/dia, VO, em crianças com idade ≥ 8 anos. P rogredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 40 mg/dia;
+- Paroxetina (off-label) progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente. Posologias conforme faixa etária:
+- Crianças: Iniciar com 5 mg/dia, VO. Dose máxima de 10 mg/dia;
+- Adolescentes: I niciar com 10 mg/dia, VO. Dose máxima de 40 mg/dia.
+- Fluvoxamina ( off-label) iniciar com 25 mg/dia, VO, em crianças com idade ≥ 8 anos. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 200 mg/dia em crianças e de 300 mg/dia em adolescentes (a partir dos 12 anos).
+
+### Tratamento Não Farmacológico
+
+1. Psicoeducação.
+2. Psicoterapia. Terapia cognitivo-comportamental (TCC).
+
+#### 3. Estilo de vida:
+
+prática regular de atividade física e restrição na quantidade de cafeína consumida diariamente.

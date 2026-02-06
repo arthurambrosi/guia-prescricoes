@@ -1,0 +1,133 @@
+# Prescrição Hospitalar
+
+## Priapismo Isquêmico (Baixo Fluxo)
+
+### Orientações ao Prescritor
+
+- Avaliação de distúrbio hematológico (anemia falciforme ) e instituição de medidas para seu controle, se presente;
+- Avaliação imediata por urologista ou cirurgião geral;
+- A aspiração e irrigação (simpaticomiméticos) dos cavernosos é o tratamento após falha da abordagem clínica. Em alguns casos, a abordagem cirúrgica é necessária;
+- Tratamento da causa base.
+
+### Dieta e Hidratação
+
+1. Dieta oral livre.
+2. SF 0,9% ~ 30-40 mL/kg IV em 24 horas (se necessário).
+
+### Tratamento Específico
+
+Escolha um dos esquemas abaixo.
+
+#### Esquema A:
+
+#### Se menos de 4 horas do início:
+
+- Aspiração lateral dos corpos cavernosos (5 mL), após anestesia local, com ou sem irrigação ( SF 0,9% gelado).
+
+#### Esquema B:
+
+#### Se menos de 4 horas do início e sem melhora com aspiração dos corpos cavernosos:
+
+- Realizar injeção intracavernosa de agonista alfa- adrenérgico. A monitorização da pressão arterial é recomendada para todos os doentes , e a monitorização eletrocardiográfica, se houver história de doença cardiovascular. Escolha uma das opções:
+- Fenilefrina (10 mg/mL) 1 mL diluído em SF 0,9% (concentração final de 100-500 microgramas/mL), injetando em um dos lados do corpo cavernoso a cada 5-10 minutos, até a resolução ou até 1 hora (dose máxima: 1 mg);
+- Noradrenalina (1 mg/mL) 2-4 microgramas, intracavernoso.
+
+#### Esquema C:
+
+#### Se mais de 4 horas do início:
+
+#### Associação:
+
+- I. Aspiração lateral dos corpos cavernosos (5 mL), após anestesia local, com ou sem irrigação (SF 0,9% gelado).
+- II. Agonista alfa-adrenérgico intracavernoso.
+
+#### Opções de agonista alfa-adrenérgico intracavernoso (II):
+
+- Fenilefrina (10 mg/mL) 1 mL diluído em SF 0,9% (concentração final de 100-500 microgramas/mL), injetando em um dos lados do corpo cavernoso a cada 5-10 minutos, até a resolução ou até 1 hora (dose máxima: 1 mg);
+- Noradrenalina (1 mg/mL) 2-4 microgramas, intracavernoso.
+
+Ao proceder à injeção intracavernosa de agonista alfa-adrenérgico, é importante realizar a monitorização da pressão arterial em todos os doentes , e, também, a monitorização eletrocardiográfica, se houver história de doença cardiovascular.
+
+#### Esquema D:
+
+#### Se falha terapêutica:
+
+- Realizar shunting distal. Shunt distal percutâneo ( shunt de Winter ou Ebbehoj, shunt em T) é o primeiro a ser tentado por facilidade técnica e menos complicações associadas. Shunt distal aberto (Al-Ghorab, Burnett) é alternativa após falha do shunt percutâneo ;
+- Se nova falha terapêutica, proceder novamente ao shunting distal ou proximal ( Quackels, Grayhack - maior taxa de TEP, trombose local, além de taxa de sucesso 50-70%).
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico comum:
+
+- Dipirona sódica (500 mg/mL) 1-2 g IV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica 500-1.000 mg VO até 4/4 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+
+#### Opioide:
+
+- Tramadol (50 mg/mL) 50-100 mg IV diluídos em 100 mL SF 0,9% até de 6/6 horas;
+- Morfina (10 mg/mL) 2-4 mg IV a cada 4/4 horas.
+
+#### Antiemético:
+
+- Metoclopramida (10 mg/2 mL) 10 mg IV, diluídos em água destilada, até de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg IV de 8/8 horas.
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/IV de 24/24 horas, pela manhã;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg VO/IV de 24/24 horas.
+
+### Priapismo não Isquêmico (Alto Fluxo)
+
+### Orientações ao Prescritor
+
+- Avaliação por urologista ou cirurgião geral;
+- Tratamento da causa base.
+
+#### Tratamento específico:
+
+- A aspiração e os agentes simpaticomiméticos injetáveis não se mostraram eficazes.
+
+### Dieta e Hidratação
+
+1. Dieta oral livre.
+2. SF 0,9% ~ 30-40 mL/kg IV em 24 horas (se necessário).
+
+### Tratamento Específico
+
+Escolha um dos esquemas abaixo.
+
+#### Esquema A:
+
+#### Tratamento de escolha:
+
+- Observação (incluindo gelo local e compressão local da fístula) por tempo ainda não bem definido.
+
+#### Esquema B:
+
+#### Na ausência de resolução ou se o paciente não puder ser observado:
+
+- Proceder à arteriografia e angioembolização da fístula;
+- Se a embolização inicial falhar, pode-se repetir a embolização angiográfica ou realizar ligadura cirúrgica aberta da artéria lesionada.
+
+### Profiláticos e Sintomáticos
+
+- Dipirona sódica (500 mg/mL) 1-2 g IV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica 500-1.000 mg VO até 4/4 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+
+#### Opioide:
+
+- Tramadol (50 mg/mL) 50-100 mg IV diluídos em 100 mL SF 0,9% até de 6/6 horas;
+- Morfina (10 mg/mL) 2-4 mg IV a cada 4/4 horas.
+
+#### Antiemético:
+
+- Metoclopramida (10 mg/2 mL) 10 mg IV, diluído em água destilada, até de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg IV de 8/8 horas.
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/IV de 24/24 horas, pela manhã;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg VO/IV de 24/24 horas.

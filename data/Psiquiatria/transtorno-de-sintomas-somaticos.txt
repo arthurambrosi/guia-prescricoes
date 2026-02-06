@@ -1,0 +1,34 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Embora esses pacientes ocasionalmente exijam muito do médico assistente, este deve adotar uma postura na qual possa ouvir o doente e reconhecer os sintomas e o impacto que causam em sua vida e na de seus familiares;
+- Abordagens que permitam que o paciente lide com os sintomas em vez do uso de uma abordagem curativa devem ser priorizadas;
+- A psicoeducação para o paciente e sua família são estratégias que ajudam a melhorar os relacionamentos interpessoais e seu funcionamento;
+- Os médicos assistentes devem:
+- Marcar consultas regulares para esses pacientes;
+- Evitar exames, medicações e encaminhamentos desnecessários;
+- Avaliar as comorbidades e tratá-las ou encaminhar a um especialista;
+- Tentar técnicas de relaxamento;
+- Encaminhar para psicoterapia;
+- Na hipótese de sentir-se seguro, iniciar farmacoterapia apropriada enquanto busca compreender o significado do sintoma para o paciente.
+- Caso inicie o tratamento com psicofármaco, esteja atento, pois seus efeitos adversos também podem se tornar fonte de queixa;
+- Recomenda-se que os casos resistentes e complicados sejam encaminhados ao psiquiatra.
+
+### Tratamento Farmacológico
+
+#### Antidepressivos:
+
+- Citalopram iniciar com 10 mg/dia VO. Progredir a dose conforme a resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 40 mg/dia);
+- Duloxetina iniciar com 20 mg/dia VO. Progredir a dose conforme a resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 120 mg/dia);
+- Nortriptilina iniciar com 10 mg/dia VO. Progredir a dose conforme a resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 150 mg/dia).
+
+### Tratamento Não Farmacológico
+
+- Opções:
+- Psicoterapia de família;
+- Psicoterapia psicodinâmica;
+- Terapia de suporte;
+- Técnicas de controle do estresse.

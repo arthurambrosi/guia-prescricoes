@@ -1,0 +1,39 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Intervenções farmacológicas d e stinam-se ao tratamento da abstinência e do transtorno por uso de álcool visando reduzir a intensidade da ingestão alcóolica e aumentar os dias de abstinência. Tem pequenas medidas de efeito em estudos clínicos e por vezes contraditórias;
+- Inicialmente, deve se estabelecer o objetivo do tratamento. Abstinência é sempre o objetivo primário, mas para pacientes que não estão motivados a interromper o uso, uma redução na intensidade do consumo pode ser uma alternativa sob uma perspectiva de redução de danos;
+- Avaliar história prévia de sintomas de abstinência e estimar probabilidade de ocorrência de abstinência alcóolica conforme padrão de uso. Caso necessário, tratar primariamente a abstinência;
+- Para pacientes não motivados à mudança, recomenda-se a realização de entrevista motivacional e psicoeducação;
+- Avaliar gravidade do transtorno por uso de álcool e presença de comorbidades psiquiátricas;
+- Intervenções psicossociais e psicoterapia são efetivas e necessárias ao tratamento do transtorno por uso de álcool;
+- Deve-se dar maior enfoque à adesão às medidas psicossociais e psicoterapêuticas;
+- A recuperação do paciente pode ser um processo longo;
+- O plano de tratamento deve ser continuamente avaliado e modificado conforme necessário.
+
+### Tratamento Farmacológico
+
+#### Primeira linha:
+
+- Naltrexona i niciar 50 mg/dia VO. Evitar uso em hepatopatas. Não se deve introduzir para pacientes em uso crônico de opioides, pois pode desencadear síndrome de abstinência (iniciar após 7 dias de abstinência do opioide). Uma vez alcançados os objetivos, manter inicialmente por 3-6 meses, porém esse tempo pode ser individualizado;
+- Topiramato i niciar 25 mg/dia VO. A introdução deve ser escalonada, aumentando-se 25 mg/dia até atingir a dose alvo. Dose terapêutica entre 100-300 mg.
+
+#### Segunda linha:
+
+- Dissulfiram (não está disponível no mercado brasileiro, mas em alguns grandes centros há possibilidade de ser manipulado): 250 mg/dia em dose única diária, após um intervalo de, pelo menos, 12 horas de abstinência. Os pacientes também podem se beneficiar com doses de 500 mg/dia. A duração recomendada para o tratamento é de 1 ano;
+- Gabapentina 600-1.800 mg/dia VO, dividido em 3 tomadas.
+
+### Tratamento Não Farmacológico
+
+- Entrevista motivacional: Busca trabalhar a ambivalência, possui larga evidência quanto à eficácia na redução do risco de beber pesado;
+- Terapia cognitivo comportamental (TCC) : Focada na mudança de distorções cognitivas, crenças disfuncionais e comportamentos negativos, melhorando a regulação das emoções e desenvolvimento de estratégias de enfrentamento;
+- Manejo de contingência: Visa reforçar o comportamento desejado e extinguir o comportamento problema, através de estratégias de reforço positivo ou negativo;
+- Programa de 12 passos : Algumas evidências que sugerem que é equivalente ao TCC em eficácia;
+- Intervenções baseadas em mindfulness ;
+- Terapia Dialética Comportamental (DBT) : Há um protocolo de cuidados e habilidades específicas para uso de substâncias, álcool e outros comportamentos compulsivos;
+- Grupos de psicoterapia de abordagens diversas: O tratamento em grupo cria um ambiente de acolhimento, identificação e validação para os participantes através da troca de vivências individuais e pode também funcionar como rede de apoio;
+- Grupos externos: A lcoólicos anônimos ;
+- Grupos/terapia individual com protocolo de Prevenção de recaída : Enfoque no desenvolvimento e reforço da autoeficácia, identificação de gatilhos/fatores de risco para o uso e também para a manutenção, criação de novas estratégias comportamentais em substituição ao uso.

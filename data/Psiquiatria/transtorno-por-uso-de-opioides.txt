@@ -1,0 +1,29 @@
+# Prescrição Ambulatorial
+
+## Tratamento do Transtorno por Uso de Opioides
+
+### Orientações ao Prescritor
+
+#### Orientações gerais:
+
+- O quadro de intoxicação por opioides encontra-se descrito no guia de intoxicações;
+- O tratamento medicamentoso deve ser associado a intervenções psicossociais;
+- Conforme os critérios do paciente e a disponibilidade do sistema de saúde, essa abordagem pode ser realizada em contexto ambulatorial, em hospital-dia ou em regime de internação;
+- O manejo envolve um período de desintoxicação, seguido de uma fase de manutenção, sendo que a associação com a terapia de substituição com opioides mostrou-se mais eficaz do que a abstinência com controle sintomático apenas;
+- As diretrizes sugerem que a preferência no tratamento medicamentoso seja pelos agonistas opioides (Buprenorfina e metadona) em vez de pelos antagonistas (Naltrexona);
+- Como segunda linha, em especial naqueles que apresentam quadros leves, e que necessariamente conseguem se manter abstinentes e estão motivados a seguir o tratamento, tem-se a Naltrexona;
+- Não há uma recomendação bem estabelecida quanto ao tempo mínimo de duração do tratamento, mas há uma consistente associação de terapias de longo prazo com redução das taxas de recaída.
+
+### Tratamento Farmacológico
+
+#### Terapia de substituição com agonistas e antagonistas opioides:
+
+- Metadona 10-30 mg VO no 1º dia + 10 mg se houver sintomas de abstinência. Dose máxima no 1º dia: 40 mg/dia. Progredir a dose conforme resposta e tolerância do paciente, com aumentos de 5-10 mg/dia a cada 3 dias. Dose habitual: 60-80 mg/dia. Dose máxima: 120 mg/dia. Descontinuação gradual: 5 mg da dose diária por semana, até a retirada completa, associando-se então Clonidina. No Brasil recomenda-se uso apenas em regime de internação hospitalar;
+- Naltrexona 25 mg/dia VO no 1º dia. Progredir a dose conforme resposta e tolerância do paciente. Dose máxima: 50 mg/dia;
+- Clonidina d ose inicial de 0,1 mg a cada 6 ou 8 horas. Aumento gradual até 0,3 mg a cada 6 ou 8 horas. Dose máxima: 1,2 mg/dia. Descontinuação gradual: 0,1 mg/dia a cada 2 ou 3 dias, por efeitos rebote de hiperatividade simpática.
+
+### Tratamento Não Farmacológico
+
+- Psicoeducação;
+- Psicoterapias baseadas em evidência, como terapia cognitivo-comportamental (TCC) e entrevista motivacional (EM);
+- Terapias em grupo e grupos de aconselhamento e autoajuda (ex.: Narcóticos Anônimos).

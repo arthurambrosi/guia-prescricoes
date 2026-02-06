@@ -1,0 +1,80 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- É importante considerar que a maior parte das insônias são secundárias (ocorrem como sintoma de outra condição subjacente), e a prioridade deve ser o tratamento do quadro que está causando a insônia;
+- O tratamento envolve medidas comportamentais (higiene do sono) e, eventualmente, associação de medicamentos;
+- O tratamento farmacológico da insônia abrange várias classes de medicamentos com diferentes mecanismos de ação;
+- Não há nas diretrizes uma classe de medicação considerada primeira linha. A escolha deve sempre ser fundamentada pelo tipo de insônia e o perfil de segurança e risco de dependência;
+- Pelos riscos que possuem, os benzodiazepínicos (BZD) não são drogas de escolha para o tratamento da insônia;
+- Na insônia inicial, BZDs com meia-vida curta e intermediária (Alprazolam, Flunitrazepam, Estazolam, Midazolam, e Bromazepam) são geralmente mais usados;
+- BZD com meia-vida longa (Clonazepam, Diazepam e Flurazepam) são melhores para casos de insônia de manutenção e terminal;
+- Os agonistas dos receptores benzodiazepínicos (drogas Z) inicialmente foram considerados mais seguro em comparação aos benzodiazepínicos (BZD), mas, ao contrário do que se imaginava, essas medicações têm grande potencial de abuso e dependência;
+- Não é recomendado usar BZDs ou drogas Z por mais de 4 semanas;
+- Os antidepressivos sedativos são uma opção segura quanto à eficácia e à ausência de risco de dependência. A despeito do seu uso ser majoritariamente off label , é frequentemente escolhida empiricamente pela segurança a longo prazo;
+- Não há evidência consistente que endosse o uso de melatonina para tratar insônia em adultos jovens saudáveis (excetuando-se os distúrbios do ritmo circadiano);
+- Embora as evidências não sejam robustas, a melatonina pode ser indicada no tratamento da insônia em adultos mais velhos (> 55 anos) e crianças com transtorno do espectro autista e transtorno do déficit de atenção e hiperatividade.
+
+### Tratamento Farmacológico
+
+#### Escolha uma das opções abaixo:
+
+#### Benzodiazepínicos:
+
+- Alprazolam (0,25 mg/comprimido) 0,5-3 mg/dia VO;
+- Clonazepam (2 mg/comprimido) 4-10 mg/dia VO;
+- Diazepam (5 mg/comprimido) 5-20 mg/dia VO;
+- Estazolam (2 mg/comprimido) 0,5-2 mg/dia VO;
+- Flurazepam (15 mg/comprimido) 15-30 mg/dia VO;
+- Lorazepam (1 mg/comprimido) 1-10 mg/dia VO;
+- Flunitrazepam (0,5 mg/comprimido) 0,5-2 mg/dia VO;
+- Nitrazepam (5 mg/comprimido) 5-10 mg/dia VO.
+
+#### Agonistas dos receptores benzodiazepínicos:
+
+- Zolpidem (5, 6,25, 10 e 12,5 mg comprimido revestido) 5-12,5 mg/dia VO ou SL;
+- Zopiclona (7,5 mg/comprimido) 3,75-7,5 mg/dia VO;
+- Eszopiclona (2 mg/comprimido ou 3 mg/comprimido) 1-3 mg/dia VO.
+
+#### Agonistas de receptor de melatonina:
+
+- Ramelteona (8 mg/comprimido) 8 mg/dia VO, 30 minutos antes de deitar.
+
+#### Antidepressivos sedativos:
+
+- Doxepina (manipulado): 1-6 mg/dia VO, 30 minutos antes de deitar, longe das refeições;
+- Amitriptilina (12,5 ou 25 mg/comprimido) 12,5-50 mg/dia VO à noite;
+- Trazodona (50 mg/comprimido) 25-100 mg/dia VO à noite. Usar apresentação de liberação imediata;
+- Mirtazapina (15 mg/comprimido) 7,5 mg-15mg/dia VO à noite;
+
+### Tratamento Não Farmacológico
+
+#### Higiene do sono:
+
+- Não passar o dia se preocupando com o sono;
+- Ter horários regulares de sono, mesmo nos finais de semana;
+- Dirigir-se à cama apenas quando estiver com sono. Se não conseguir dormir, levante-se depois de 30 minutos. Procure se distrair: leia, escute música, realize alguma atividade relaxante em ambiente com pouca luminosidade. Só volte para a cama quando estiver com sono;
+- Interromper o uso de substâncias que contenham cafeína e /ou nicotina entre 4 a 6 horas antes do horário de dormir (chá mate, chá preto, achocolatados);
+- Não ingerir bebidas alcoólicas por no mínimo 6 horas antes de dormir;
+- Não praticar exercícios físicos próximos ao horário de dormir, tendo um intervalo mínimo de 3 horas entre a atividade física e a hora de deitar;
+- Evite cochilar ou deitar durante o dia;
+- Evite refeições pesadas e excesso de líquidos próximos ao horário de sono;
+- Busque ter exposição à luz solar logo após se levantar e ao final da tarde;
+- Certifique-se de ter um ambiente adequado para dormir quanto à luminosidade, ao barulho, à temperatura e ao tamanho da cama;
+- De preferência usar a cama e o quarto para dormir e relação sexual;
+- Reserve 20 a 30 minutos do seu tempo à noite (4 horas antes de dormir), para "resolver"seus problemas; a fim de não levá-los para cama e, com isso, atrapalhar seu sono. Você pode, por exemplo, escrever num papel suas preocupações e tensões;
+- Não dormir mais do que o suficiente para sentir-se descansado.
+
+#### Terapia cognitivo comportamental para insônia (TCC-I):
+
+É a primeira linha para tratamento de insônia crônica. Os componentes da TCC-I incluem psicoeducação e higiene do sono, controle de estímulos, técnica de restrição do sono, terapia cognitiva, reestruturação cognitiva e técnicas de relaxamento. Leva, em média, quatro a oito sessões, com duração de 60 a 90 minutos.
+
+#### Terapia de aceitação e compromisso:
+
+Visa desenvolver a flexibilidade psicológica, que é a capacidade de responder aos desafios da vida com ampla consciência e engajamento em valores pessoais.
+
+#### Técnicas de m indfulness:
+
+As intervenções incorporam técnicas de mindfulness a componentes de TCC-I.

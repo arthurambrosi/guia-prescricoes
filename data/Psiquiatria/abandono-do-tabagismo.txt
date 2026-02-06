@@ -1,0 +1,35 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Ao se deparar com um paciente tabagista, oriente-o sobre as complicações que este hábito traz, sobre os benefícios da cessação e, se possível, estimule sua interrupção. Mesmo pacientes que já apresentam alguma patologia relacionada podem se beneficiar da cessação deste hábito;
+- Oriente também sobre o risco do tabagismo passivo par a pessoas próximas e familiares, já que podem desenvolver complicações;
+- Muitos pacientes tentam interromper o uso, mas infelizmente a maioria será malsucedida nesta tentativa. É comum um paciente tentar parar de fumar várias vezes;
+- Geralmente, recomenda-se que o paciente escolha uma data para interromper o uso. Alguns podem preferir uma diminuição gradual da quantidade de cigarros fumados, apesar de esta não ser a técnica mais usada hoje;
+- O tratamento pode envolver técnicas não farmacológicas (nomeadamente a psicoterapia) e a farmacoterapia. No entanto, parece haver melhor resposta para o tratamento combinado com medicação e psicoterapia;
+- Dentre as psicoterapias , destacam-se as técnicas comportamentais, cognitivo-comportamentais e a entrevista motivacional;
+- Já o tratamento farmacológico divide-se entre o uso da terapia de reposição de Nicotina (TRN) ou o uso de antidepressivos. Sugere-se iniciar com uma das opções, adicionando uma segunda adjuvante, caso necessário. A escolha do fármaco ocorre conforme a disponibilidade, as necessidades, preferências e contraindicações de cada paciente;
+- Embora a Vareniclina também seja considerada como primeira linha, sua comercialização está suspensa no Brasil desde 2022;
+- Terapia de reposição de Nicotina: As opções são gomas, pastilhas e adesivos. Caso seja feita a opção pelo uso de gomas, orientar o paciente a evitar o consumo de bebidas ou alimentos 15 minutos antes do uso e durante o uso. Já os adesivos devem ser colados pela manhã numa área da pele livre de pelos (entre o pescoço e a cintura), sendo os locais dos adesivos alternados a cada dia. Já as pastilhas não devem ser deglutidas e são uma boa opção para os pacientes que fumam assim que acordam;
+- Dos antidepressivos, a preferência é pela Bupropiona;
+- A duração do tratamento farmacológico pode variar entre 3 e 12 meses, conforme o caso e as chances de recaída.
+
+### Tratamento Não Farmacológico
+
+1. Psicoeducação.
+
+#### 2. Psicoterapia:
+
+D estaque para as técnicas cognitivas, cognitivo-comportamental e a entrevista motivacional.
+
+### Tratamento Farmacológico
+
+- Goma Iniciar com goma de 2 mg para quem fuma após a primeira meia hora ao acordar; ou 4 mg para quem fuma dentro da primeira meia hora ao acordar. Quantidade máxima de gomas: 24 gomas/dia;
+- Pastilha Iniciar com goma de 2 mg para quem fuma após a primeira meia hora ao acordar; ou 4 mg para quem fuma dentro da primeira meia hora ao acordar. U sar 1 pastilha a cada 1-2 horas e diminuir seu consumo progressivamente. Dose máxima: 15 pastilhas/dia;
+- Adesivo: A dose total não deve ultrapassar 42 mg/dia:
+- < 5 cigarros/dia: O uso de adesivos não é recomendado. Caso necessário, preferir os métodos de liberação rápida;
+- < 10 cigarros/dia: Iniciar com adesivo de 14 mg/dia;
+- > 10 cigarros/dia: Iniciar com adesivo de 21 mg/dia;
+- Bupropiona (geralmente disponível no SUS) Iniciar com 150 mg/dia, por 3 dias. Aumentar para 150 mg 2x/dia a partir de então. As doses devem ser tomadas com, pelo menos, 8 horas de intervalo. Dose máxima: 300 mg/dia.

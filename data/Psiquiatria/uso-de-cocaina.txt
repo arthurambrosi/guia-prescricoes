@@ -1,0 +1,74 @@
+# Prescrição Ambulatorial
+
+## Uso Abusivo
+
+### Orientações ao Prescritor
+
+- A abordagem pode ocorrer em dois contextos: no atendimento do padrão abusivo e na intoxicação;
+- O tratamento do padrão abusivo pode ser feito inicialmente de forma ambulatorial. Conforme a necessidade, pode-se lançar mão do hospital dia ou internação hospitalar;
+- No atendimento do transtorno por uso de cocaína, o tratamento é multidisciplinar e fundamentalmente baseado em intervenções psicossociais, como manejo de contingências;
+- Nenhuma medicação se mostrou eficaz de forma consistente até o momento;
+- É necessário diagnosticar e tratar possíveis comorbidades.
+
+### Tratamento Não Farmacológico
+
+Os tratamentos psicossociais representam o padrão-ouro para manejo do transtorno por uso de cocaína, sendo o manejo de contingências a intervenção com mais evidência.
+
+- Entrevista motivacional;
+- Terapia cognitivo comportamental;
+- Manejo de contingências;
+- Narcóticos anônimos;
+- Redução de danos.
+
+### Intoxicação
+
+### Orientações ao Prescritor
+
+- Esteja atento para a possibilidade de coingestão de outras substâncias, o que pode alterar as medidas a serem adotadas;
+- Iniciar com a estabilização do paciente: Expansão volêmica e drogas vasoativas se hipotensão, oxigênio suplementar se indicado e intubação orotraqueal se necessário;
+- Os benzodiazepínicos ajudam no controle da agitação, nos sintomas adrenérgicos (taquicardia, hipertensão), na hipertermia, rabdomiólise e nas convulsões;
+- Evitar Quetamina e Succinilcolina na intubação, preferindo Rocurônio, Midazolam, Propofol ou Etomidato. Para mais informações, acesse Intubação Orotraqueal;
+- Nos quadros de agitação psicomotora, sempre que possível, evite a contenção mecânica;
+- Evitar neurolépticos (Haloperidol, Clorpromazina), pois reduzem o limiar convulsivo e podem piorar os efeitos cardíacos e a hipertermia;
+- Tratar taquiarritmias após o uso de cocaína com bólus de 1-2 mEq/kg de Bicarbonato de sódio, pois sua ocorrência está relacionada com o bloqueio de canais de sódio;
+- Na intoxicação por cocaína, evite o uso de betabloqueadores.
+
+### Dieta e Hidratação
+
+- Dieta zero .
+- Hidratação : SF 0,9% 30 mL/kg EV em 24 horas, se necessário.
+
+### Tratamento Farmacológico
+
+- Diazepam 5-10 mg EV a cada 5-10 minutos até controle dos sintomas;
+- Midazolam 1 5 mg IM, dose única.
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO até de 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+
+#### Antiemético:
+
+- Metoclopramida (10 mg/2 mL) 10 mg EV, diluído em água destilada, até de 8/8 horas;
+- Metoclopramida (4 mg/mL) 50 gotas VO de 8/8 horas;
+- Metoclopramida 10 mg VO de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas;
+- Bromoprida (4 mg/mL) 1-3 gotas/kg VO de 8/8 horas.
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas, pela manhã;
+- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.
+
+### Cuidados
+
+1. Eletrocardiograma.
+2. Cuidados gerais e sinais vitais.
+3. Glicemia capilar.

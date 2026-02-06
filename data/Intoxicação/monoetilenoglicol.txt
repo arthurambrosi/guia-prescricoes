@@ -1,0 +1,92 @@
+# Prescrição Hospitalar
+
+## Intoxicação por Monoetilenoglicol
+
+### Orientações ao Prescritor
+
+- Vias aéreas: Manutenção de via aérea pérvea;
+- Oxigenioterapia e suporte ventilatório: Avaliações seriadas devido a rápida deteriorização do quadro;
+- Tratamento de instabilidade hemodinâmica: Teste volêmico, aminas, inotrópicos se necessário;
+- Avaliação periódica da Glicemia: Alterações glicêmicas são frequentes tanto na intoxicação quanto durante o tratamento;
+- Lavagem gástrica: Pode ser realizada em até 1 hora da ingestão;
+- Carvão ativado: Não tem benefícios.
+
+#### Critérios para iniciar tratamento com antídotos:
+
+- Concentração plasmática documentada ≥ 20 mg/dl OU;
+- História de ingestão recente de Etilenoglicol e gap osmolar > 10 ou;
+- Suspeita de ingestão de EG e pelo menos dois desses critérios:
+- pH sérico < 7,3;
+- Bicarbonato sérico < 20 mEq/L;
+- Hiato osmolar > 10;
+- Cristalúria por oxalato .
+
+#### Hemodiálise:
+
+- A Hemodiálise é efetiva em remover o Etilenoglicol e seus metabólitos tóxicos, além de colaborar na correção de distúrbios hidroeletrolíticos e na acidose metabólica;
+- As indicações para o procedimento são:
+- Piora do quadro clínico;
+- Acidose metabólica: Sangue arterial pH < 7,30;
+- Insuficiência renal;
+- Distúrbios hidroeletrolíticos graves.
+
+### Dieta e Hidratação
+
+- Dieta zero pelo menos nas primeiras 24 horas da intoxicação ou até que sejam tratados os sinais clínicos de gravidade:
+- Considerar dieta enteral via SNE, conforme gravidade;
+- Vide o tema Suporte Nutricional para mais detalhes.
+- Soro glicosado 50% 100 mL EV distribuídos nos frascos de SF 0,9% ou Ringer lactato , enquanto estiver com dieta suspensa.
+- Glicemia Capilar de horário . Realizar de 1/1 hora durante infusão do etanol pelo risco de hipoglicemia.
+- SF 0,9% ou Ringer lactato 500 a 1.000 mL EV, correr rápido. Se necessário, pode-se repetir (volume recomendado: ~30 mL/kg);
+- Atenção a critérios de hipervolemia no paciente com oligúria ou insuficiência renal.
+
+### Tratamento Farmacológico - Adjuvante
+
+- Bicarbonato de Sódio A acidemia deve ser tratada agressivamente objetivando um pH > 7,3. Altas doses de bicarbonato podem ser necessárias:
+- Dose preconizada: 1-3 mEq/Kg EV até a correção da acidose - de acordo com o grau de acidose, mais de 500-1.000 mL de Bicarbonato de sódio 8,4% podem ser necessárias nas primeiras horas, atenção à hipernatremia, hipocalemia e edema agudo de pulmão.
+- Cálcio: A infusão de cálcio é indicada se hipocalcemia, que contribui significativamente para sintomas como espasmos musculares ou convulsões.
+- Dose preconizada: Vide nossa calculadora sobre Correção dos Distúrbios do Cálcio.
+- Piridoxina e Tiamina: Têm potencial utilidade nos casos de intoxicação por EG, na tentativa de aumentar a conversão de ácido glicoxílico em glicina, diminuindo assim a produção de ácido oxálico:
+- Dose preconizada de Piridoxina : 100 mg/dia;
+- Dose preconizada de Tiamina : 300 mg/dia.
+
+### Tratamento Farmacológico - Antídoto
+
+O nível sérico de etanol deve ser monitorizado durante todo o tratamento e a dose deve ser ajustada se necessário. O recomendado é 100 a 150 mg/dL. Estar atento à glicemia e nível de consciência do paciente durante todo o tratamento:
+
+- Via endovenosa:
+- Dose: 0,6-1,0 g/kg (7,5-12,5 ml de solução de etanol a 10% em glicose/kg);
+- . Dose de manutenção: A dose de manutenção pode ser calculada da seguinte forma:
+- Crianças: 0,8 ml de solução de etanol a 10% em glicose/kg/h;
+- Adulto (ingestão ocasional de álcool): 1,4 ml de solução de etanol a 10% em glicose/kg/h;
+- Etilistas: 2,0 ml de solução de etanol a 10% em glicose/kg/h.
+- Dose de manutenção durante a hemodiálise: Uma dose adicional de 1,9 ml de solução de etanol a 10% em glicose/kg/h deve ser administrada por via intravenosa:
+- Crianças: 2,7 ml de solução de etanol a 10% em glicose/kg/h;
+- Adulto (ingestão ocasional de álcool): 3,3 ml de solução de etanol a 10% em glicose/kg/h;
+- Etilistas: 3,9 ml de solução de etanol 10% em glicose/kg/h.
+- Via Oral:
+- Dose: 0,80 g/Kg de etanol a 20% diluído em suco;
+- Dose de manutenção : 80 mg/Kg/h;
+- Em hemodiálise : aumentar para 250 mg/Kg/h.
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/ml) 2 ml EV, diluído em água destilada, até de 4/4 horas.
+
+#### Antiemético:
+
+- Metoclopramida (10 mg/2 mL) 10 mg EV, diluído em água destilada, até de 8/8 horas;
+- Ondansetrona (4 mg/2 ml) 8 mg EV diluído em água destilada, até de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas.
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas pela manhã;
+- Pantoprazol Sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.
+
+#### Profilaxia de TVP:
+
+- Enoxaparina 40 mg SC de 24/24 horas;
+- Heparina não fracionada 5.000 UI SC de 8/8 ou de 12/12 horas, conforme risco.

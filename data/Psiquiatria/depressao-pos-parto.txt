@@ -1,0 +1,23 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- A abordagem costuma ser multidisciplinar, envolvendo o médico obstetra, pediatra, psiquiatra, psicólogo, entre outros. O tratamento se relaciona com a gravidade da doença;
+- A abordagem dos quadros leves a moderados envolve psicoterapia, tratamentos adjuvantes (ex.: práticas de exercícios físicos, suporte social, educação aos pais e terapia de família) e, caso necessário, farmacoterapia. Caso a psicoterapia não esteja disponível, não seja bem-sucedida ou no caso de a paciente rejeitar essa opção, a medicação deve ser tentada;
+- Os quadros graves devem ser tratados com antidepressivos e a psicoterapia é adjuvante. Na presença de forte ideação suicida ou nos casos em que se acredita ser possível uma ameaça de infanticídio, uma opção é a Eletroconvulsoterapia (ECT) e avaliar internação hospitalar;
+- Vale lembrar que o tratamento farmacológico não surte efeito imediato e são necessárias algumas semanas (4-8) para avaliar sua eficácia. Se houver risco de recorrência, deve ser avaliada a terapia de manutenção;
+- Os quadros graves, com comorbidades, resistentes, refratários ou de difícil manejo devem ser encaminhados a um especialista. Algumas situações podem requerer hospitalização (quadro grave que envolve sintomas psicóticos e afetivos, havendo risco de suicídio e infanticídio);
+- Se a paciente já fez ou faz uso de uma medicação, dar preferência à manutenção desta, se compatível com a amamentação.
+
+### Tratamento Farmacológico
+
+- Sertralina (50 mg/cp) 50 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância da paciente (dose máxima: 200 mg/dia);
+- Paroxetina (20 mg/cp) 20 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância da paciente (dose máxima: 60 mg/dia).
+
+### Tratamento Não Farmacológico
+
+1. Psicoeducação.
+2. Psicoterapia ( destaque para as técnicas cognitivo-comportamental ou interpessoal).
+3. Exercícios físicos.

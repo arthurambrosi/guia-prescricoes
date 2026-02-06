@@ -1,0 +1,139 @@
+# Prescrição Hospitalar
+
+## Impregnação Neuroléptica
+
+### Orientação ao Prescritor
+
+- Em pacientes com impregnação neuroléptica aguda: Após melhora do quadro, o paciente pode ter a dieta por via oral liberada;
+- Em pacientes com impregnação neuroléptica apresentando rigidez importante que não melhora com o uso do antídoto específico : A via oral só deve ser liberada após avaliação da capacidade de deglutição;
+- A impregnação neuroléptica geralmente ocorre em dose terapêutica ou pouco acima desta, das seguintes substâncias: Metocloplamida, Bromoprida, neurolépticos em geral.
+
+#### Critério de alta:
+
+- Paciente 12 horas assintomático após administração do Biperideno.
+
+### Dieta e Hidratação
+
+- Dieta oral zero: Até melhora da contratura muscular.
+- Manter aporte de glicose e hidratação: Enquanto estiver com a dieta suspensa: SF0,9% + SGH50% EV contínuo.
+- Se rigidez importante associada à rabdomiólise : Manter hidratação a fim de atingir débito urinário em torno de 2 mL/kg/hora: SF0,9% ou Ringer lactato.
+- Correção de distúrbios hidroeletrolíticos.
+
+### Tratamento Farmacológico
+
+- Medidas de descontaminação: N ão são indicadas, visto que a reação não se associa à superdosagem.
+- Antídotos: Escolha uma das opções:
+- Biperideno (antídoto) 0,04 mg/kg EV lento diluído em 9 mL de água bidestilada. Dose recomendada em adultos e crianças.
+- Doses repetidas: Pode ser repetido na mesma dosagem, até de 6/6 horas, caso as contraturas voltem a aparecer;
+- Atenção! Se realizado em bólus rápido, o Biperideno pode provocar agitação, alucinações, hipo/hipertensão, taquicardia e rubor facial.
+- Difenidramina 50 mg/mL ‒ Adulto: 50 mg EV ou IM. Criança: 0,5-1 mg/kg. Se não houver resposta em 30-60 minutos, repetir a dose até um máximo de 100 mg.
+- Manutenção oral (prevenir recorrência): Adulto: 25-50 mg; Criança: 12,5 mg; a cada 4-6 horas por 2-3 dias;
+- Dose máxima diária: 300 mg (criança) e 400 mg (adultos).
+- Terapia adjuvante: Diazepam Adulto: 5-10 mg EV lento. Criança: 0,1-0,2 mg/kg EV lento. Deve ser prescrito na presença de contraturas musculares intensas causando dor e desconforto apesar do uso dos antídotos específicos.
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO até 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+
+#### Antiemético:
+
+- Ondansetrona 8 mg VO até de 8/8 horas;
+- Ondansetrona 4 mg/mL 8 mg EV até de 8/8 horas;
+- Atenção! Metoclopramida e Bromoprida podem agravar o quadro de impregnação e são contraindicados.
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas, pela manhã;
+- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.
+
+### Síndrome Neuroléptica Maligna
+
+### Orientações ao Prescritor
+
+- Quadro muito grave: Associado à elevada mortalidade;
+- Atenção à necessidade de suporte ventilatório devido à rigidez torácica e de comprometimento cardíaco com necessidade de inotrópicos e antiarrítmicos;
+- Trata-se de pacientes graves, que podem evoluir para insuficiência renal, com necessidade de diálise, além de apresentarem distúrbios hidroeletrolíticos graves;
+- Monitorização laboratorial constante e hidratação cautelosa são fundamentais;
+- Principal conduta: Remoção do agente causador (medicamento neuroléptico);
+- Suspender outras medicações que podem agravar a síndrome: Tais como lítio, anticolinérgicos como antidepressivos tricíclicos, serotoninérgicos como os IRSS;
+- Atenção! A síndrome neuroléptica maligna deve ser tratada em ambiente de terapia intensiva.
+
+### Dieta e Hidratação
+
+- Dieta oral zero.
+- Aporte calórico e hídrico: Através de esquema de SF0,9% e glicose 50%.
+- Hidratação vigorosa, sobretudo se rabdomiólise presente: Manter débito urinário > 2 mL/kg/hora com SF0,9% ou Ringer lactato.
+- Tratamento da hipotensão: Em caso de hipotensão, realizar teste volêmico com 500 a 1.000 mL de SF0,9% EV.
+- Correção de distúrbios hidroeletrolíticos.
+
+### Tratamento Farmacológico ‒ Específico
+
+#### Escolha um dos esquemas ou associe-os conforme apresentação clínica:
+
+- Lorazepam 1-2 mg IM ou EV de 4/4 ou 6/6 horas;
+- Diazepam 10 mg EV de 8/8 horas.
+
+#### Esquema B:
+
+## Casos moderados a graves
+
+- Amantadina 1 00 mg por SNG de 12/12 horas.
+
+#### Esquema C:
+
+#### Casos graves refratários ao Esquema B (Rigidez intensa + Confusão mental + Temperatura > 40 graus, FC > 120 bpm):
+
+- Dantrolene 1-2,5 mg/kg EV, pode ser repetido até no máximo 10 mg/kg/dia. Deve ser mantido por 10 a 14 dias e ser retirado em desmame;
+- Riscos: Hepatotoxicidade associada ao uso prolongado.
+
+### Tratamento Farmacológico ‒ Adjuvante
+
+#### Escolha um dos esquemas ou associe-os conforme apresentação clínica:
+
+#### Esquema A:
+
+#### Se hipertermia importante (> 40 graus sem melhora com o uso de antitérmicos):
+
+- Uso de compressas de gelo em axilas.
+
+#### Esquema B:
+
+#### Se hipertensão arterial (sistólica > 180 mmHg e/ou diastólica > 120 mmHg):
+
+- Clonidina 0,1-0,2 mg VO de 6/6 horas de acordo com reavaliação;
+- Nitroprussiato de sódio Iniciar a 0,25-0,5 microgramas/kg/minuto e titular até atingir a pressão alvo;
+- Para evitar toxicidade, a dose limite é menor que 2 microgramas/kg/minuto. Diluição: 2 mL (50 mg) + 248 mL de SG5%.
+
+#### Esquema C:
+
+#### Se hipotensão/choque refratário a volume:
+
+- Noradrenalina: (1 mg/mL): 20 mL + 80 mL SG5%. Infundir de 0,1-1 micrograma/kg/minuto EV contínuo.
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico:
+
+- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO até 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas;
+- Atenção! A hipertermia associada à síndrome neuroléptica maligna não cede com o uso de antitérmicos, portanto, seu uso seria restrito à função de analgesia.
+
+#### Antiemético:
+
+- Ondansetrona 4 mg/mL-8 mg EV até de 8/8 horas;
+- Atenção! Metoclopramida e Bromoprida podem agravar o quadro de impregnação e são contraindicadas.
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas, pela manhã;
+- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.
+- Enoxaparina 40 mg SC de 24/24 horas. Fazer ajuste da dose se paciente com comprometimento da função renal;
+- Heparina não fracionada: 5.000 unidades/0,25 mL. Dose: 5.000 unidades de 12/12 ou 8/8 horas SC.

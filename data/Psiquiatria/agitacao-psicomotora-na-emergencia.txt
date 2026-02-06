@@ -1,0 +1,97 @@
+# Prescrição Hospitalar
+
+## Hospitalar
+
+### Orientação ao Prescritor
+
+#### Ao se deparar com um paciente agitado, o médico e a equipe de saúde devem se preparar:
+
+- Perceber pequenos indícios de agitação leve, mas que podem facilmente escalonar para quadros mais graves e abordá-los;
+- O atendimento precisa ser realizado em equipe, e o reforço para ajuda extra deve ser de fácil acesso;
+- A abordagem deve ser conduzida por um membro da equipe;
+- O paciente agitado deve ser separado dos demais pacientes e/ou de outras pessoas próximas;
+- O ambiente em que o paciente se encontra deve estar livre de objetos que possam ser usados para agredir os outros ou a si;
+- O médico e a equipe de saúde devem permanecer próximos à porta ou de uma saída;
+- Tentar estabelecer a causa do quadro (inclusive causas orgânicas) e possíveis gatilhos para o seu agravamento;
+- Avaliar as medicações ou substâncias ingeridas nas últimas 24 horas;
+- Durante a abordagem verbal ao paciente, tranquilizá-lo ou distraí-lo;
+- Evitar interromper o paciente ou criticá-lo e não mentir para ele.
+
+#### Processo durante o atendimento:
+
+- Tentar criar um vínculo enquanto respeita o espaço pessoal do paciente;
+- Explicar que não será tolerada a violência, mas não o fazer em tom de desafio;
+- Tranquilizar e procurar identificar emoções e desejos ou oferecer escuta empática;
+- Ouvir o que o paciente tem a dizer;
+- Oferecer medicação por via oral (VO).
+
+Se nada até aqui surtir efeito e houver um escalonamento do quadro, proceder a contenção mecânica + química ao mesmo tempo em que explica o que acontecerá.
+
+#### Orientações gerais:
+
+- Para a contenção química, a via de preferência é sempre a oral. A via endovenosa (EV) deve ser evitada pelo maior risco de efeitos colaterais;
+- Não utilizar Diazepam por via intramuscular (IM) por conta da sua distribuição errática;
+- Para pacientes com agitação por síndrome de abstinência, benzodiazepínicos são a medicação de escolha;
+- Em pacientes com intoxicação alcoólica, lembrar-se de que o uso concomitante de benzodiazepínicos aumenta o risco de depressão respiratória;
+- Em idosos, evitar benzodiazepínicos e preferir antipsicóticos atípicos em doses baixas;
+- Não há estudos que endossem o uso de benzodiazepínicos em monoterapia VO. A recomendação é usar em associação a antipsicóticos.
+
+### Dieta e Hidratação
+
+- Dieta zero.
+- Acesso venoso salinizado.
+
+### Tratamento Farmacológico
+
+#### Escolher uma dose por classe conforme a necessidade clínica e "Orientações ao Prescritor":
+
+#### Classe A:
+
+Benzodiazepínicos.
+
+- Clonazepam 2 mg VO (dose máxima: 8 mg/dia);
+- Diazepam 5 mg VO (dose máxima: 30 mg/dia);
+- Lorazepam 1 mg VO (dose máxima: 4 mg/dia);
+- Midazolam 1 5 mg IM (dose máxima: não há).
+
+#### Classe B:
+
+Antipsicóticos típicos.
+
+- Haloperidol 1,5-5 mg VO ou 5 mg IM (dose máxima: 30 mg/dia);
+- Clorpromazina 25-50 mg VO ou 25 mg IM. Se necessário, repetir em 1 hora e, depois, a cada 4-6 horas (dose máxima: 200 mg/dia).
+
+#### Classe C:
+
+Antipsicóticos atípicos.
+
+- Risperidona 1-2 mg VO (dose máxima: 6 mg/dia);
+- Olanzapina 5 mg VO (dose máxima: 20 mg/dia).
+
+### Tratamento Não Farmacológico
+
+As intervenções não medicamentosas são a primeira escolha. A contenção química deve ser a última conduta.
+
+#### Descalonamento verbal:
+
+- Respeitar o espaço individual do paciente;
+- Usar linguagem apropriada (concisa e clara, com tom de voz calmo);
+- Evitar movimentos bruscos e contato visual;
+- Evitar comentários que possam ser entendidos como provocações;
+- Identificar as causas da agressividade, ouvindo com atenção o que o paciente fala;
+- Evitar ao máximo discordar do paciente;
+- Estabelecer regras e limites claros;
+- Acolher e mostrar preocupação com o bem-estar do paciente (pode ser oferecendo água, comida, cobertor).
+
+#### Contenção física:
+
+- Usada quando há falha no descalonamento verbal;
+- Precisa ser feita por equipe treinada, em que cada membro saiba previamente o que fazer;
+- O ideal é que haja cinco pessoas para a imobilização: cada uma fica responsável por um membro (braço e perna), e o coordenador segura a cabeça e evita traumas cranianos;
+- Importante garantir que o paciente seja informado sobre o que acontecerá;
+- Conter com faixas específicas para imobilização;
+- Não usar as faixas em locais que possam comprimir nervos e vasos;
+- O paciente deve ficar em decúbito dorsal e com a cabeceira da cama elevada;
+- Monitorar sinais vitais a cada 15 a 30 minutos e fazer reavaliação psiquiátrica a cada 30 minutos;
+- Manter a contenção até que o paciente esteja mais calmo ou a medicação tenha surtido efeito;
+- A contenção mecânica sempre deve ser seguida de contenção química.

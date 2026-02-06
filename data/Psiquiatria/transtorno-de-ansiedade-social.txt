@@ -1,0 +1,42 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- O tratamento pode ser farmacológico, psicoterápico ou combinado, com efeito análogo no curto prazo do tratamento farmacológico e psicoterápico;
+- O tratamento farmacológico traz efeitos mais rápidos; enquanto a psicoterapia promove mudanças mais duradouras;
+- A escolha do tratamento depende da preferência e das possibilidades/limitações do paciente e do julgamento clínico;
+- Após iniciados, os antidepressivos levam até 12 semanas semanas para demonstrar eficácia:
+- Estima-se que o tratamento possa ter uma duração inicial de 6 a 12 meses após remissão com doses terapêuticas das medicações, embora possa ter duração prolongada em alguns casos (ex.: recaídas).
+- Antes de se considerar troca de tratamento, recomenda-se ensaio clínico de até 12 semanas com dose otimizada do fármaco de primeira linha, devendo-se avançar para tratamentos de segunda linha após falha terapêutica com dois a três fármacos de primeira linha;
+- Em caso de necessidade de terapia adjuvante ou refratariedade, recomenda-se o encaminhamento a um especialista.
+
+### Tratamento Farmacológico - 1 a Linha
+
+- Ser tralina 50 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia);
+- Escitalopram 10 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 20 mg/dia);
+- Paroxetina 20 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 60 mg/dia) - medicação de escolha, se tolerada pelo paciente;
+- Fluvoxamina 100 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 300 mg/dia);
+- Pregabalina (ausência de resposta a ISRS e/ou intolerabilidade; ausência de quadro de humor comórbido) 150 mg/dia VO, 2-3x/dia. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 600 mg/dia);
+
+### Tratamento Farmacológico - 2ª Linha
+
+#### Escolha uma das opções:
+
+- Venlafaxina (caso não haja resposta a um ISRS) 75 mg/dia, VO (dose única se liberação lenta ou fracionada). Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 375 mg/dia);
+- Citalopram 20 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 40 mg/dia. Em idosos, dose máxima: 20 mg/dia);
+- Gabapentina 300 mg, 2x/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 3.600 mg, 3x/dia);
+- Clonazepam 0,25 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 4 mg/dia);
+- Alprazolam 0,25 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 4 mg/dia).
+
+### Tratamento Farmacológico - Ansiedade de Desempenho
+
+- Propranolol 10 mg VO 1 hora antes da exposição. Dose máxima: 40 mg.
+
+### Tratamento Não Farmacológico
+
+- 1 a linha: Psicoterapia: A técnica da terapia cognitivo-comportamental (TCC) tem eficácia comparável às medicações em estudos controlados.
+- Psicoeducação.
+- Atividade física.
+- Exposição.

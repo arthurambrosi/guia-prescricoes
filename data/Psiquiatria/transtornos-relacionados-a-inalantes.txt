@@ -1,0 +1,41 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Boa parte dos casos se refere à experimentação e não irá necessitar de uma abordagem sistemática em saúde mental. Contudo, deve-se afastar o indivíduo da substância e investir em psicoeducação;
+- É necessário avaliar a presença de outras comorbidades psiquiátricas (incluindo o transtorno por uso de outras substâncias) e tratá-las;
+- A escolha do regime de tratamento depende da gravidade do caso.
+
+#### Orientações sobre o tratamento:
+
+- Não há tratamento medicamentoso específico aprovado para o transtorno por uso de inalantes;
+- Para síndrome de abstinência, devido à tolerância cruzada entre inalantes e álcool, o uso de benzodiazepínicos é a primeira linha de tratamento;
+- Sugere-se (baseado em estudos pequenos e de baixa qualidade metodológica) que algumas medicações podem ser úteis na fissura;
+- Do mesmo modo que outros transtornos por uso de substâncias, as intervenções psicossociais são a base do tratamento;
+- A intoxicação dessas substâncias e suas abordagens estão melhor descritas no Guia de Intoxicações de cada um:
+- Lança-perfume;
+- Gasolina;
+- Solventes;
+- Tíner;
+- Tolueno .
+
+### Tratamento Farmacológico
+
+#### Síndrome de abstinência:
+
+- Diazepam 10-20 mg, VO, podendo ser repetido a cada 6 horas. Dose máxima: 40 mg/dia;
+- Lorazepam 2-4 mg VO, a cada hora, até melhora. Dose máxima: 10 mg/dia;
+
+#### Fissura:
+
+- Risperidona 1-2 mg VO, em dose única ou dividida. Ajustar dose conforme sintomatologia. Dose máxima: 8 mg/dia.
+
+### Tratamento Não Farmacológico
+
+- Entrevista motivacional;
+- Psicoeducação;
+- Terapia cognitivo-comportamental;
+- Terapia familiar;
+- Terapia de grupo.

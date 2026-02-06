@@ -1,0 +1,48 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+#### Inibidores seletivos de recaptação de serotonina (ISRSs):
+
+- Primeira escolha farmacológica para o transtorno disfórico pré-menstrual (TDPM), com melhor evidência de eficácia e tamanho de efeito em estudos;
+- Podem ser usados contínuos ou intermitentes (fase lútea); evidências recentes favorecem regime contínuo para maior redução global dos sintomas;
+- A resposta clínica costuma ocorrer dentro de 1-2 ciclos;
+- O tratamento geralmente é mantido por 12 meses, com tentativa posterior de redução ou intermitência conforme resposta;
+- Se recorrência dos sintomas, recomenda-se retorno ao esquema eficaz anterior por tempo indeterminado e individualizado caso a caso.
+
+#### Recomendações gerais:
+
+- Anticoncepcionais combinados com Drospirenona: opção de 2ª linha, com maior evidência quando usados em formulação DRSP 3 mg + EE 20-30 microgramas. Evitar se houver sintomas depressivos relevantes;
+- Agonistas de GnRH: considerar apenas em casos refratários após falha de ISRS e contraceptivos, sempre com terapia estrogênica de proteção.
+
+### Tratamento Farmacológico - 1ª Linha
+
+### ISRS (1ª linha)
+
+- Fluoxetina 20 mg/dia VO. Progredir dose conforme resposta a cada 4-6 semanas (dose máxima: 80 mg/dia);
+- Sertralina 50 mg/dia VO. Progredir dose conforme resposta a cada 4-6 semanas (dose máxima: 200 mg/dia);
+- Escitalopram 10 mg/dia VO. Progredir dose conforme resposta a cada 4-6 semanas (dose máxima: 20 mg/dia);
+- Citalopram 20 mg/dia VO. Progredir dose conforme resposta a cada 4-6 semanas (dose máxima: 40 mg/dia);
+- Paroxetina 20 mg/dia VO. Progredir dose conforme resposta a cada 4-6 semanas (dose máxima: 60 mg/dia).
+
+### Tratamento Farmacológico - 2ª Linha
+
+#### Anticoncepcional oral:
+
+Drospirenona (DRSP) 3 mg + etinilestradiol (EE) 20 microgramas .
+
+### Tratamento Não Farmacológico
+
+- Mudança no estilo de vida: Tratamento de primeira escolha à abordagem inicial: Atividade física regular (≥ 3x/semana);
+- Refeições regulares; redução de sal e cafeína;
+- Evitar tabagismo e reduzir consumo de álcool;
+- Sono adequado e rotina regular, com orientações de higiene do sono.
+- Terapia cognitivo-comportamental (TCC): Atuação através da melhora das habilidades de enfrentamento para sintomas afetivos e físicos. É uma possibilidade para as pacientes que não desejem fazer uso de medicação, mas sua eficácia é considerada moderada.
+- Cirurgia: Ooforectomia ou salpingo-ooforectomia bilateral, apenas em casos refratários graves, após:
+- Diagnóstico confirmado prospectivamente por ≥ 2 ciclos;
+- Boa resposta ao GnRH durante o período de teste, mas com contraindicação, intolerância ou impossibilidade de reposição hormonal ou com resposta clínica apenas sob supressão ovariana. Nota! Não se remove ovário se o GnRH não melhorou os sintomas;
+- Tentativa de reposição estrogênica sem controle adequado;
+- Prole constituída ou sem desejo de;
+- Plena compreensão das consequências (menopausa cirúrgica).

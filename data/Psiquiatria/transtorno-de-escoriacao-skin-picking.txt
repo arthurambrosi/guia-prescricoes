@@ -1,0 +1,42 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+O tratamento é multidisciplinar, combinando psicoeducação, psicoterapia e manejo farmacológico.
+
+#### A abordagem dermatológica das lesões pode ser necessária (ex.:
+
+antibióticos em caso de infecções).
+
+### Tratamento Farmacológico
+
+#### 1. Inibidores seletivos de recaptação de serotonina (ISRS):
+
+- Fluoxetina (10 mg/comprimido, 20 mg/comprimido, 20 mg/mL). Dose: 20-80 mg/comprimido;
+- Sertralina (25 mg/comprimido, 50 mg/comprimido, 75 mg/comprimido, 100 mg/comprimido) iniciar com 1 comprimido de 25 mg/dia. Progredir conforme a necessidade e tolerância do paciente. Dose: 50-200 mg/dia;
+- Fluvoxamina (100 mg/comprimido). Dose: 100-300 mg/dia;
+- Paroxetina (10 mg/comprimido, 12,5 mg/comprimido, 15 mg/comprimido, 20 mg/comprimido, 25 mg/comprimido, 30 mg/comprimido, 40 mg/comprimido). Dose: 20-60 mg/dia;
+- Escitalopram (10 mg/comprimido, 15 mg/comprimido, 20 mg/comprimido). Dose: 10-20 mg/dia;
+- Citalopram (20 mg/comprimido). Dose: 20-40 mg/dia.
+
+### 2. Outras medicações
+
+- N-acetil-cisteína : Dose de 1200-3000 mg/dia.
+- Lamotrigina : 25 mg/dia por 2 semanas, seguido de 50 mg/dia por mais 2 semanas. Após, aumentar 50-100 mg a cada 1-2 semanas. Dose alvo: 300 mg/dia.
+
+### Tratamento Não Farmacológico
+
+- Terapia cognitivo-comportamental (TCC).
+- Terapia de reversão de hábito (TRH).
+- Terapia comportamental de aceitação reforçada (TAR).
+
+### Pacientes Pediátricos
+
+- Fluoxetina:
+- ≤ 11 anos : Iniciar com 5 mg VO uma vez ao dia; aumentar conforme necessidade, a cada 2 semanas, até o máximo de 40 mg/dia;
+- ≥ 12 anos: Iniciar com 10 mg VO uma vez ao dia; aumentar conforme necessidade, a cada 2 semanas, até o máximo de 40 mg/dia. Pode ser necessário chegar a doses de 60 a 80 mg/dia.
+- Sertralina:
+- 6 a 12 anos: Iniciar com 12,5 a 25 mg/dia; aumentar conforme necessidade clínica, em intervalos de 1 semana (geralmente aumentos de 25 a 50 mg/semana). Dose máxima diária é de 200 mg/dia;
+- 13 a 17 anos: Iniciar com 25 a 50 mg/dia; aumentar conforme necessidade clínica, em intervalos de 1 semana (geralmente aumentos de 25 a 50 mg/semana) até a dose máxima de 200 mg/dia.

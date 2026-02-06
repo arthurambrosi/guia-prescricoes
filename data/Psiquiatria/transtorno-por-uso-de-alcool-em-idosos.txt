@@ -1,0 +1,58 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+Estratégias de redução de danos devem sempre ser avaliadas e elas podem focar em desfechos de saúde (ex.: reduzir quedas) em vez de somente reduzir o consumo da substância.
+
+### Tratamento Farmacológico
+
+#### 1. Antagonista opioide:
+
+- Naltrexona 50 mg/dia VO 1x/dia. Contraindicado em pacientes com insuficiência hepática e uso de opioides. Monitorar periodicamente função hepática. Uma vez alcançados os objetivos, manter por 3-6 meses.
+
+#### 2. Reposição vitamínica:
+
+- Tiamina 50 mg/dia VO 1x/dia. Usar em bebedores crônicos pesados como estratégia de redução de danos para prevenir a síndrome de Wernicke-Korsakoff, declínio cognitivo progressivo e aumento da fragilidade.
+
+### Tratamento Não Farmacológico
+
+Psicoeducação deve sempre ser ofertada para paciente, cuidadores e pessoas de apoio.
+Cuidadores e pessoas de apoio devem receber apoio psicossocial como parte do plano de tratamento.
+
+#### As seguintes intervenções comportamentais são baseadas em evidências:
+
+aconselhamento breve, entrevista motivacional, terapia cognitivo-comportamental.
+
+### Autoria
+
+#### Autoria principal:
+
+Tayne Miranda (Psiquiatra pela USP).
+
+#### Revisão:
+
+Lívia Capuxim (Clínica Médica e Geriatria).
+
+### Referências Bibliográficas
+
+### Fernández Castro I, Marcos Martín M, Novo Veleiro
+
+- I. Alcohol consumption in elderly people. What is the real magnitude of the problem? Rev Clin Esp (Barc). 2024; 224(8):537-545.
+
+#### Steffens DC, Wang L, Manning KJ, et al. Alcohol use disorder in older adults:
+
+a review of recent literature on epidemiology, cognitive outcomes, and neuroimaging findings and treatment. Am J Geriatr Psychiatry Open Sci Educ Pract. 2024; 1:39-51.
+Kermel-Schiffman I, Afuta M, Zur A, et al. Recovery from Alcohol Use Disorder among Older Adults: A Scoping Review. J Appl Gerontol. 2023; 42(5):1137-1150.
+White AM, Orosz A, Powell PA, et al. Alcohol and aging - An area of increasing concern. Alcohol. 2023; 107:19-27.
+Fenollal-Maldonado G, Brown D, Hoffman H, et al. Alcohol Use Disorder in Older Adults. Clin Geriatr Med. 2022; 38(1):1-22.
+Joshi P, Duong KT, Trevisan LA, et al. Evaluation and Management of Alcohol use Disorder among Older Adults. Curr Geriatr Rep. 2021; 10(3):82-90.
+
+#### Canadian Guidelines on Alcohol Use Disorder Among Older Adults. Toronto:
+
+Canadian Coalition for Seniors’ Mental Health; 2019.
+
+#### Kano MY, Santos MA dos, Pillon SC. Use of alcohol in the elderly:
+
+transcultural validation of the Michigan Alcoholism Screening Test – Geriatric Version (MAST-G). Rev Esc Enferm USP. 2014; 48(4):648-55.

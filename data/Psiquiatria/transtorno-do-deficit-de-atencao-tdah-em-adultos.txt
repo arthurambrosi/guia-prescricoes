@@ -1,0 +1,28 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- O tratamento medicamentoso é a base do tratamento de TDAH em adultos e deve figurar como primeira opção terapêutica;
+- Os estimulantes (Lisdexanfetamina ou Metilfenidato) são tratamento farmacológico de primeira linha para adultos com TDAH;
+- Considerar iniciar Metilfenidato primeiro por conta da melhor tolerabilidade. Após 6 semanas de uso em uma dose adequada sem benefício clínico, trocar para Lisdexanfetamina;
+- Não há diferença de eficácia entre as formulações de Metilfenidato;
+- Ajustes na dosagem devem ser feitos considerando o benefício clínico e a presença de efeitos colaterais associados aos estimulantes;
+- Em adultos, doses elevadas de estimulantes são mais efetivas que doses baixas;
+- Monitorar frequência cardíaca e pressão arterial de paciente em uso de estimulantes. Caso haja histórico de doença cardiovascular ou alterações no exame físico, encaminhar para a cardiologia antes de iniciar a medicação;
+- Não estimulantes são a segunda linha de tratamento. Atomoxetina é a única medicação aprovada para tratamento de TDAH comercializada no Brasil;
+- As intervenções não farmacológicas têm resultados inconsistentes na literatura, restando dúvidas sobre sua eficácia.
+
+### Tratamento Farmacológico
+
+- Metilfenidato (liberação imediata) 2 0 mg/dia VO, em 2 doses divididas antes do café da manhã e do almoço. Aumentar 10 mg semanalmente com base na resposta e tolerabilidade. Dose usual (adultos): > 60 mg/dia (dose máxima: 100 mg/dia);
+- Metilfenidato SODAS (liberação prolongada) 20 mg/dia VO, pela manhã. Aumentar 10 mg semanalmente com base na resposta e tolerabilidade. Dose usual (adultos): > 60 mg/dia (dose máxima: 100 mg/dia);
+- Metilfenidato OROS (liberação prolongada) 18-36 mg/dia VO, pela manhã. Aumentar 18 mg semanalmente com base na resposta e tolerabilidade (dose máxima: 72 mg/dia);
+- Lisdexanfetina (30 mg/comprimido ) 30 mg/dia VO, pela manhã. Aumentar 10-20 mg semanalmente com base na resposta e tolerabilidade (dose máxima: 70 mg/dia).
+
+#### Esquema B:
+
+#### Segunda linha:
+
+- Atomoxetina 40 mg/dia, VO, após 7 dias, pode aumentar para 80 mg/dia 1 vez pela manhã ou dividido; após 2–4 semanas, pode aumentar para 100 mg/dia, se necessário (dose máxima: 100 mg/dia).

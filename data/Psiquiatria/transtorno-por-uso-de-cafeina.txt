@@ -1,0 +1,58 @@
+# Prescrição Ambulatorial
+
+## Ambulatório (Abstinência)
+
+### Orientações ao Prescritor
+
+Na presença de sintomas, recomenda-se a ingestão de cafeína. Espera-se que haja melhora do quadro em pouco tempo (30-60 minutos).
+Caso pretenda interromper o consumo de cafeína, fazê-lo de forma programada e gradativa (ex.: ao longo de poucos dias ou semanas).
+Caso não seja possível ingerir cafeína ou não se deseje retomar seu uso, aconselha-se o uso de sintomáticos por alguns dias.
+
+### Intoxicação
+
+### Orientações ao Prescritor
+
+- No geral, espera-se uma redução ou desaparecimento dos sintomas num período de horas (3-10 horas) a dias. Nesses casos, o tratamento é de suporte, envolvendo hidratação e manejo da taquicardia leve;
+- Doses muito elevadas podem ser fatais (equivalente a 80-100 microgramas/dL de sangue ou 10-20 g de cafeína). O manejo desses casos varia com sua apresentação, podendo ser necessária internação em ambiente de cuidados intensivos;
+- A clínica clássica de apresentação é de coma e crises convulsivas, associados à hipotensão e a taquiarritmias.
+
+### Dieta e Hidratação
+
+- Dieta oral zero.
+- Tratar hipotensão: SF 0,9% EV 500-1.000 mL ou 20 mL/kg em 30-60 minutos.
+- Correção dos distúrbios eletrolíticos e ácido básicos, conforme indicação.
+
+### Tratamento Farmacológico
+
+- Medidas de descontaminação: Indicadas em tempo adequado (20-40 minutos), se não houver contraindicações e com proteção adequada das vias aéreas:
+- Carvão ativado:
+- Adultos: 50 g dissolvidos em 250 mL de água ou SF 0,9% por SNG, mantendo a mesma fechada;
+- Crianças: 0,5-1 g/kg (máximo de 50 g) dissolvidos em água ou SF 0,9% na proporção de 5 mL/g, por SNG, mantendo a mesma fechada;
+- Nota: Pode ser administrado VO, se o paciente estiver alerta e cooperativo. Nesse caso, é aconselhável diluir em suco de laranja para melhorar a palatabilidade.
+- Controle das convulsões: Utilizar benzodiazepínicos, por exemplo:
+- Diazepam 10 mg em bólus EV e sem diluição (não ultrapassar 40 mg), em adultos. Não exceder a velocidade de infusão de 2-5 mg/minuto. Dose máxima 40 mg/dose. Em crianças, 0,5 mg/kg/dose, podendo repetir com dose de 0,25 mg/kg/dose dentro de 10 minutos, se necessário. Dose máxima 20 mg/dose.
+- Taquiarritmias: Ver texto próprio para manejo conforme a arritmia específica.
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO até 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+
+#### Antiemético:
+
+- Metoclopramida (10 mg/2 mL) 10 mg EV, diluído em água destilada, até de 8/8 horas;
+- Metoclopramida (4 mg/mL) 50 gotas VO de 8/8 horas;
+- Metoclopramida 10 mg VO de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas;
+- Bromoprida (4 mg/mL) 1-3 gotas/kg VO de 8/8 horas.
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas, pela manhã;
+- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.

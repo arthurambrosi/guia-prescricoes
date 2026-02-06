@@ -1,0 +1,29 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Pacientes com transtorno de ansiedade de doença (TAD) podem gerar frustração no médico que os atende;
+- Por isso, esteja atento a si e à maneira como lida com o paciente.
+- O objetivo é melhorar a maneira de lidar com o medo e prevenir que os pacientes adotem um papel de doentes e se tornem inválidos crônicos;
+- Recomendações:
+- Reconhecer o medo da doença e o sofrimento do paciente e não os desvalorizar;
+- Estabelecer boa aliança terapêutica com o paciente;
+- Avaliar e tratar doenças médicas gerais diagnosticadas e as comorbidades psiquiátricas;
+- Limitar os testes diagnósticos e referências aos especialistas;
+- Agendar consultas regulares (evita a sobrecarga de emergências ou a procura por outros médicos).
+- As intervenções psicossocias são a primeira linha de tratamento;
+- Há poucos estudos com o uso de alguns inibidores seletivos da recaptação de serotonina (ISRSs), que podem ser associado ao tratamento psicoterápico. O emprego de medicação é especialmente recomendado na presença de comorbidades, como transtornos ansiosos ou depressão.
+
+### Tratamento Não Farmacológico
+
+#### 1. 1ª linha:
+
+o tratamento mais amplamente é a t erapia cognitivo-comportamental (TCC) .
+
+### Tratamento Farmacológico
+
+- Fluoxetina 20 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 80 mg/dia);
+- Paroxetina 20 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 60 mg/dia);
+- Fluvoxamina 50 mg/dia, VO. Aumentar de 25-50 mg, com base na resposta e tolerabilidade, em intervalos de, pelo menos, 3 dias, até uma dose terapêutica de 100 mg/dia. Conforme resposta terapêutica, a dose pode ser aumentada em 50 mg a cada 1-2 semanas (dose máxima: 300 mg/dia). Doses diárias totais > 100 mg/dia devem ser divididas em duas doses.

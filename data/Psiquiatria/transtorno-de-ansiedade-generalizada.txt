@@ -1,0 +1,39 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- A abordagem deve se iniciar com psicoeducação, ou seja, explicar ao paciente o que é o transtorno, quais são os sintomas possíveis, como ocorre o tratamento etc.
+- O profissional também pode, neste momento, procurar entender e explorar as preocupações do paciente, construindo um plano de enfrentamento do problema em conjunto com ele.
+- A maioria das intervenções farmacológicas teve tamanhos de efeito maiores do que as intervenções psicológicas, e a maioria das intervenções psicológicas teve tamanhos de efeito maiores do que as intervenções de autoajuda.
+
+#### Tratamento não farmacológico:
+
+- Terapia cognitivo-comportamental é a primeira linha de tratamento.
+
+#### Tratamento farmacológico:
+
+- Inibidores seletivos de recaptação de serotonina (ISRS) e inibidores seletivos de recaptação de serotonina e noradrenalina (IRSN) e Pregabalina são consideradas medicações de primeira linha;
+- Existem poucos estudos que avaliaram a adição de algum medicamento após falta de resposta com ISRS. A Pregabalina (150 a 600 mg/dia) é a única medicação com evidência;
+- Não existe consenso sobre o tempo de duração do tratamento. Recomenda-se manutenção por 12 meses após remissão dos sintomas, período que pode ser prolongado a partir das particularidades de cada paciente;
+- Muitos especialistas recomendaram o tratamento combinado, apesar das evidências insuficientes de que a terapia combinada seja mais eficaz do que a monoterapia para o TAG.
+
+### Tratamento Farmacológico
+
+#### Tratamento de 1ª linha. ISRS/ISRNS:
+
+- Sertralina iniciar com 50 mg/dia VO. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia);
+- Escitalopram iniciar com 10 mg/dia VO. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 20 mg/dia);
+- Paroxetina iniciar com 20 mg/dia VO. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 60 mg/dia);
+- Fluoxetina iniciar com 20 mg/dia VO. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 60 mg/dia);
+- Duloxetina iniciar com 60 mg/dia VO. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente(dose máxima: 120 mg/dia);
+- Venlafaxina iniciar com 37,5 mg/dia VO para adaptação por 7 dias, aumentando para 75 mg/dia VO após. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 225 mg/dia);
+- Pregabalina iniciar com 25-75 mg/dia a depender da tolerabilidade à noite ou 2x/dia. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente(dose máxima: 600 mg/dia).
+
+### Tratamento Não Farmacológico
+
+- Psicoeducação.
+- Psicoterapia: Terapia cognitivo-comportamental.
+- Opções de segunda linha: Terapia psicodinâmica em grupo, terapia de relaxamento, biofeedback e terapia de suporte.
+- Atividade física.

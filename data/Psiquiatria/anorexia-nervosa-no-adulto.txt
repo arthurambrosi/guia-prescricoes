@@ -1,0 +1,18 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- O tratamento é multidisciplinar e deve envolver um psicólogo, um nutricionista e um médico psiquiatra;
+- O ambiente clínico do tratamento depende da gravidade e cronicidade, podendo se realizar em ambulatório, hospital-dia ou internação (esteja atento aos critérios de internação);
+- Os principais pilares do tratamento: Reabilitação nutricional e psicoterapia;
+- A maior parte de estudos nos adultos recomenda a terapia cognitivo-comportamental, Modelo Maudsley de Tratamento de Anorexia Nervosa para Adultos (MANTRA), terapia interpessoal e psicodinâmica. Não há evidências de superioridade de uma intervenção em relação a outra;
+- Os psicofármacos não promovem melhora nos sintomas centrais do transtorno ou no ganho ponderal. Desse modo, medicamentos não devem ser usados como tratamento único ou primário para anorexia nervosa (AN);
+- A Olanzapina é a única medicação estudada com algum benefício, mas, ainda assim, pouco consistente. Em um estudo com dose de 10 mg/dia em adultos, houve um pequeno efeito positivo no ganho de peso e agitação, sem alterar as taxas de hospitalização. A maior parte das referências não indica o seu uso;
+- ISRS devem ser a primeira escolha para tratamento de comorbidades. Evitar o uso de antidepressivos tricíclicos, inibidores da monoaminoxidase pelo perfil de tolerabilidade e risco de toxicidade e Bupropiona (maior risco de convulsões).
+
+### Tratamento Não Farmacológico
+
+- Reabilitação nutricional: Preferência pela via oral. A dieta deve ter inicialmente baixa ingestão calórica, a qual deve ser aumentada gradativamente. O ganho de peso esperado é de 0,25-0,5 kg por semana em pacientes no ambulatório e de 0,5-1,5 kg em pacientes internados. As dosagens séricas de potássio, fósforo e magnésio devem ser diárias nos primeiros sete dias de internação hospitalar, com posterior dosagem 3x por semana até estabilização do quadro.
+- Psicoterapia: Terapia cognitivo-comportamental (TCC), Modelo Maudsley de Tratamento de Anorexia Nervosa para Adultos (MANTRA), terapia interpessoal e psicodinâmica.

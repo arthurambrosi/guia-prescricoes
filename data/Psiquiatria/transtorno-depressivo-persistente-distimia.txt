@@ -1,0 +1,28 @@
+# Prescrição Ambulatorial
+
+## Orientações ao Prescritor
+
+- A abordagem deve ser feita, sempre que possível, com tratamento combinado (medicação + psicoterapia);
+- Outros marcadores clínicos, como a qualidade de vida, devem ser usados para avaliar resposta ao tratamento, em vez do uso isolado da remissão dos sintomas;
+- O início da ação do antidepressivo não é imediato, demorando de 2-4 semanas para os primeiros efeitos serem observados, com resposta terapêutica máxima entre 6-8 semanas.
+
+### Tratamento Farmacológico
+
+#### Inibidores seletivos da recaptação de serotonina:
+
+- Citalopram 20 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 40 mg/dia);
+- Escitalopram 10 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 20 mg/dia);
+- Fluoxetina 20 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 80 mg/dia);
+- Paroxetina 20 mg/dia (liberação imediata), 25 mg/dia (liberação controlada). Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 50 mg/dia (liberação imediata), 62,5 mg (liberação controlada);
+- Sertralina 50 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia).
+
+### Tratamento Não Farmacológico
+
+- Psicoterapia : R ecomendam-se o sistema de análise cognitivo-comportamental de psicoterapia (CBASP) e a psicoterapia interpessoal;
+- Pacientes com TDP apresentam uma pior resposta terapêutica aos modelos de psicoterapia tradicionais, originalmente propostos para tratar transtorno depressivo maior.
+
+### Tratamento Farmacológico
+
+- Fluoxetina 5-10 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 60 mg/dia);
+- Sertralina 6-12 anos: 25 mg/dia, VO; > 13 anos: 50 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia);
+- Fluvoxamina 50 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 250 mg/dia).

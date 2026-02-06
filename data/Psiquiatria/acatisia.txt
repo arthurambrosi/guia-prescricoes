@@ -1,0 +1,20 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Após descartar os diagnósticos diferenciais e avaliar a relação entre os sintomas e um fármaco, sugere-se, inicialmente, diminuir a dose dessa medicação sempre que possível;
+- Caso a redução de dose não seja possível, trocar por um antipsicótico de primeira geração de menor potência (ex.: Haloperidol por Clorpromazina) ou por um antipsicótico de segunda geração com baixa probabilidade de acatisia (ex.: Quetiapina);
+- Considerar o uso de Clozapina em casos de acatisia intratável (como substituição ao fármaco causador);
+- Caso não seja possível nem reduzir a dose nem trocar o fármaco, sugere-se uma medicação para tratar a acatisia;
+- Após a melhora, é necessário estar atento ao paciente e reduzir lentamente as medicações usadas para tratar a acatisia. Se houver recorrência dos sintomas, deve-se retornar o tratamento e mantê-lo por um período prolongado.
+
+### Tratamento Farmacológico
+
+- Propranolol 10-40 mg VO, 2-3x/dia. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 120 mg/dia;
+- Clonazepam 0,5 mg VO, 2x/dia. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 2,5 mg/dia;
+- Lorazepam 1 mg VO, até 3x/dia. Dose máxima: 3 mg/dia;
+- Mirtazapina 15 mg VO, 1x/dia;
+- Clonidina 0,1 m g VO , 3x/dia;
+- Amantadina 100-200 mg VO, 2x/dia.

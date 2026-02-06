@@ -1,0 +1,55 @@
+# Prescrição Hospitalar
+
+## Hospitalar
+
+### Orientações ao Prescritor
+
+#### Recomendações:
+
+- A abordagem deve ser iniciada com suporte clínico, profilaxia das complicações, busca das causas por trás do quadro e interrupção de drogas bloqueadoras dopaminérgicas que possam estar em uso (ex.: antipsicóticos e alguns antieméticos);
+- A primeira linha de tratamento é feita com benzodiazepínicos (com destaque para o Lorazepam) e eletroconvulsiterapia (ECT). Geralmente, inicia-se com a medicação e, caso não haja resposta, opta-se pela ECT;
+- O benzodiazepínico com mais referências nas bibliografias para o tratamento deste quadro é o Lorazepam. Embora toda a classe seja citada, as doses dos outros benzodiazepínicos não se encontram bem referenciadas na literatura;
+- Após alcançada a resposta, os benzodiazepínicos devem ser mantidos por 3-6 meses, quando poderão ser lentamente descontinuados;
+- Pacientes com comorbidades cardiorrespiratórias importantes (ex.: obesos, cardiopatas, pneumopatas e idosos) devem iniciar o tratamento com uma dose menor do que a recomendada;
+- No quadro de c atatonia maligna , o paciente deve ser admitido em ambiente de cuidados intensivos para controle das complicações (hipertensão, hipertermia e instabilidade cardiovascular). A 1 a linha é a ECT, embora benzodiazepínicos também possam ser associados;
+- Os antipsicóticos devem ser evitados.
+
+### Dieta e Hidratação
+
+1. Dieta enteral ou parenteral, conforme a indicação.
+
+### Tratamento Farmacológico
+
+#### Benzodiazepínicos:
+
+- Lorazepam 1-2 mg, 3x/dia, VO. Progredir dose conforme resposta (dose máxima: 30 mg/dia);
+- Clonazepam iniciar com 0,5 mg, 1 ou 2x/dia, VO. Progredir dose conforme resposta (dose máxima: 16 mg/dia);
+- Diazepam iniciar com 5-10 mg/dia, VO. Progredir dose conforme resposta (dose máxima: 40 mg/dia).
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO até 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+
+#### Antiemético:
+
+- Metoclopramida (10 mg/2 mL) 10 mg EV, diluído em água destilada, até de 8/8 horas;
+- Metoclopramida (4 mg/mL) 50 gotas VO de 8/8 horas;
+- Metoclopramida 10 mg VO de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas;
+- Bromoprida (4 mg/mL) 1-3 gotas/kg VO de 8/8 horas.
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas, pela manhã;
+- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.
+
+4. Profilaxia para trombose venosa profunda . Para mais informações, acesse .
+5. Profilaxia para úlcera por pressão . Para mais informações, acesse .
+6. Profilaxia para pneumonia aspirativ a . Para mais informações, acesse .

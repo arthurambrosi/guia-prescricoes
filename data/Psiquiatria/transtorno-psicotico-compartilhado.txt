@@ -1,0 +1,31 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Inicialmente, o médico deve estar atento aos diagnósticos diferenciais para o transtorno delirante no caso primário;
+- O princípio da abordagem envolve a separação cautelosa dos indivíduos com o transtorno;
+- Os pacientes podem se beneficiar de psicoterapia e, quando necessário, de farmacoterapia ou mesmo eletroconvulsoterapia (ECT):
+- A farmacoterapia está indicada na maior parte dos casos. As evidências mais recentes mostram que a separação dos casos é insuficiente para a remissão dos sintomas;
+- A eleição do fármaco deve ocorrer conforme a patologia psiquiátrica de suspeita (ex.: esquizofrenia ou transtorno esquizoafetivo ) e pode envolver classes farmacológicas distintas. Pela natureza do quadro é possível que o uso de antipsicóticos seja necessário. Todos os antipsicóticos são considerados igualmente eficazes e devem ser escolhidos pelo perfil de tolerabilidade e efeitos colaterais;
+- Contudo, a adesão ao tratamento dos pacientes com transtorno delirante pode ser desafiadora. Casos de má adesão podem ser abordados com medicação de depósito. A prescrição de fármacos de depósito deve ser precedida por um período de teste terapêutico da mesma medicação pela via oral a fim de checar tolerância à medicação e a presença de possíveis eventos adversos graves;
+- Sugere-se o encaminhamento à rede especializada em saúde mental em caso de refratariedade, má resposta ou má adesão ao tratamento.
+- Em alguns casos, a internação pode estar recomendada, como na presença de atos violentos (contra si ou outros) ou quando há importante comprometimento funcional:
+- Nesses casos, os envolvidos deveriam ser admitidos em alas ou hospitais diferentes para assegurar a separação.
+- Após a melhora, um trabalho multidisciplinar deve ser desenvolvido de forma a evitar a recorrência dos casos.
+
+### Tratamento Farmacológico
+
+- Antipsicóticos atípicos:
+- Aripiprazol 10 mg/dia, VO (aguardar 2 semanas antes de avaliar reajuste da dose). Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima 30 mg/dia;
+- Olanzapina 5 mg/dia, VO e realizar aumentos de 5 mg/dia conforme resposta terapêutica até dose máxima de 20 mg/dia;
+- Quetiapina 25 mg 2x/dia e aumentar 25-50 mg 2x/dia a cada dia até a dose alvo de 300-400 mg, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima 800 mg/dia;
+- Risperidona 2 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima 6-8 mg/dia;
+- Ziprasidona 40 mg 2x/dia, VO, durante as refeições, sendo a dose máxima 80 mg/dia 2x/dia (160 mg/dia).
+- Antipsicóticos típicos de alta potência:
+- Haloperidol 0,5 -2 mg 2-3x/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima 15 mg/dia.
+- Antipsicóticos injetáveis (considerar em casos de má adesão):
+- Haloperidol decanoato 10-20x dose oral (é necessário checar tolerância antes com uso oral). Doses > 100 mg IM precisam ser divididas em duas aplicações. Reaplicar a cada 4 semanas;
+- Palmitato de paliperidona checar tolerabilidade com Paliperidona ou Risperidona oral. 150 mg IM no primeiro dia de tratamento, seguido de 100 mg IM 1 semana após. Doses de manutenção entre 25-150 mg IM;
+- Decanoato de Zuclopentixol checar tolerabilidade com Zuclopentixol oral. 200-400 mg (1-2 mL) IM em intervalo de 2 a 4 semanas. Doses e intervalos ajustados conforme a tolerância e resposta do paciente.

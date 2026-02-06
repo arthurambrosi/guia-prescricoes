@@ -1,0 +1,51 @@
+# Prescrição Hospitalar
+
+## Tratamento Hospitalar
+
+### Orientações ao Prescritor
+
+Independentemente do transtorno de base, trata-se de uma emergência psiquiátrica, com orientação de internação hospitalar a fim de garantir a segurança da mãe e do bebê.
+O tratamento da fase aguda envolve sempre o controle rápido da psicose e estabilização do sono.
+
+- Conduta sequencial: benzodiazepínico → antipsicótico de segunda geração → lítio → ECT;
+- Combinação precoce: lítio + antipsicótico desde o início; benzodiazepínicos se necessário → ECT.
+
+A decisão é feita caso a caso, com a avaliação crítica de dados da história pregressa da paciente e da apresentação psicopatológica atual.
+Se quadro psiquiátrico primário preestabelecido ou tratamento prévio em vigência, o tratamento envolverá a estabilização da psicose e a a otimização do tratamento do transtorno primário em conjunto.
+
+### Tratamento Farmacológico
+
+- Olanzapina 5 mg/noite VO. Aumentar 5 mg a cada 3-5 dias conforme resposta e tolerância. Dose usual: 10-20 mg/dia (dose máxima: 30 mg/dia);
+- Quetiapina 50-100 mg/noite VO. Aumentar 50-100 mg a cada 3 dias até controle dos sintomas. Dose terapêutica mínima comum: 300-600 mg/dia (dose máxima: 800 mg/dia);
+- Risperidona 1 mg VO à noite, com aumento gradual de 1 mg a cada 3-5 dias até 4-6 mg/dia (dose máxima: 8 mg/dia).
+
+#### Estabilizadores de humor:
+
+- Lítio 300 mg VO 2x/dia. Titulação conforme níveis séricos e tolerância, com aumentos de 300 mg a cada 5-7 dias até alcançar níveis terapêuticos entre 0,6-1,0 mEq/L (ideal ≈ 0,8 mEq/L). Dose média: 900-1.200 mg/dia (dose máxima: 1.800 mg/dia, ajustada conforme litemia e função renal). Monitorar litemia, função renal e TSH semanalmente até estabilização, depois mensalmente;
+- Valproato de sódio 250 mg VO 2x/dia; aumentar 250-500 mg a cada 3-5 dias, conforme resposta. Dose terapêutica: 750-1.500 mg/dia (dose máxima: 2.000 mg/dia). Contraindicado em lactantes. Apenas se contraindicação ao lítio.
+
+#### Benzodiazepínicos:
+
+- Lorazepam 1 mg VO, até de 8/8 horas (dose máxima: 6 mg/dia);
+- Diazepam 5 mg VO a cada 8-12 horas (dose máxima: 30 mg/dia).
+
+#### Eletroconvulsoterapia:
+
+- Necessárias 8-12 sessões no geral. Não há protocolo específico para o puerpério;
+- Considerar se ausência de resposta ao tratamento farmacológico já otimizado ou até mesmo como terapêutica inicial se risco elevado de suicídio/infanticídio, catatonia ou agitação grave.
+
+### Tratamento Ambulatorial
+
+### Orientações ao Prescritor
+
+- Lítio: dose necessária para estabilização da fase aguda durante 12 meses;
+- Antipsicóticos de segunda geração: dose necessária para estabilização da fase aguda durante 3-6 meses.
+
+No seguimento longitudinal a médio e longo prazos, há indicação de profilaxia com lítio no pós-parto imediato para mulheres com alto risco de evoluir com psicose puerperal (diagnóstico prévio de TAB sem tratamento no momento; histórico pregresso de psicose puerperal isolada em outra gestação).
+
+### Tratamento Não Medicamentoso
+
+- Psicoeducação à família e rede de apoio, e à paciente, posteriormente à fase aguda de psicose;
+- Higiene do sono - privação de sono é contraindicada em qualquer fase do tratamento;
+- Intervenção familiar/manejo da rede de apoio da gestante: suporte intra e extra-hospitalar;
+- Psicoterapia após a fase da psicose.

@@ -1,0 +1,44 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- O tratamento baseia-se em psicoeducação, psicoterapia e farmacoterapia;
+- As psicoterapias são superiores ao tratamento medicamentoso, sendo as terapias focadas no trauma a primeira linha. O benefício da psicoterapia se mantém mesmo após seu término;
+- As medicações estão indicadas na indisponibilidade da terapia ou quando não há melhora suficiente com a psicoterapia adequada;
+- O tratamento farmacológico, especialmente com antidepressivos, deve ser iniciado com doses baixas, sendo aumentadas aos poucos. Nos pacientes com TEPT, sugere-se chegar à dose máxima das medicações antes de considerar que não houve resposta;
+- No TEPT, a resposta terapêutica pode ser mais tardia. Sugere-se aumentar a dose entre 4-6 semanas se a resposta for insuficiente, mas não considerar falha terapêutica para uma medicação antes de ao menos 12 semanas de uso;
+- O uso de benzodiazepínicos está contraindicado, especialmente logo após a exposição ao episódio traumático;
+- Recomenda-se manutenção do tratamento por, no mínimo, 1 ano após a remissão;
+- Devem ser encaminhados para atendimento especializado aqueles pacientes com quadros moderados a graves, na presença de comorbidades ou refratários ao tratamento.
+
+### Tratamento Psicoterápico
+
+#### Melhor evidência:
+
+- Exposição prolongada;
+- Terapia de processamento cognitivo;
+- Dessensibilização e reprocessamento por meios de movimentos oculares (EMDR).
+
+#### Outras terapias focadas no trauma com boa evidência:
+
+- Terapia cognitivo-comportamental focada no trauma;
+- Terapia eclética breve;
+- Terapia de exposição narrativa;
+- Terapia de exposição escrita.
+
+### Tratamento Farmacológico
+
+Escolha uma das classes de medicamentos a seguir.
+
+- Sertralina 50 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia);
+- Paroxetina 20 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 60 mg/dia);
+- Fluoxetina 20 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 80 mg/dia);
+- Escitalopram 10 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 20 mg/dia);
+- Citalopram 20 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima pacientes > 60 anos: 20 mg/dia, dose máxima pacientes < 60 anos: 40 mg/dia);
+- Fluvoxamina 75 mg 2x/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 300 mg/dia).
+
+#### Classe B:
+
+- Venlafaxina 75 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 375 mg/dia).

@@ -1,0 +1,20 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Uma vez instalados, os sintomas podem demorar a desaparecer ou se manter de forma crônica. A resposta à terapia farmacológica é limitada, justificando o foco na prevenção;
+- O ideal é reduzir a dose do fármaco para o mínimo eficaz, pelo menor tempo possível e retirar lentamente os agentes anticolinérgicos que possam estar associados. Caso sintomas residuais leves estejam presentes, adotar conduta expectante;
+- Se for possível, trocar os antipsicóticos tradicionais pelos de segunda geração: Clozapina > Quetiapina > Olanzapina > Risperidona;
+- Caso os sintomas surjam durante a descontinuação de um fármaco, aguardar, pois pode haver melhora em dias a semanas;
+- Na ausência de melhora, é possível aumentar a dose do antipsicótico enquanto outra estratégia é avaliada;
+- O tratamento farmacológico adjuvante é limitado no Brasil, pois os fármacos de primeira linha (inibidores da VMAT2) não estão disponíveis no país. Dessa maneira, as estratégias se limitam aos benzodiazepínicos, toxina botulínica (conforme o caso e a indicação) e deep brain stimuation (DBS) para casos graves e refratários;
+- Em diferentes estudos, são citados outros fármacos, sendo que alguns se encontram em contexto de pesquisa ou têm recomendação controversa;
+- Casos de mais graves devem ser encaminhados ao especialista.
+
+### Tratamento Farmacológico
+
+#### 1. Clonazepam 0,5 mg 1 comprimido à noite VO. Dose máxima:
+
+3-4,5 mg/dia.

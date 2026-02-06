@@ -1,0 +1,94 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Indicado nos casos leves e/ou assintomáticos e na ausência de história de abstinência complicada, gravidez, doenças clínicas relevantes ou com CIWA-Ar inferior a 15;
+- Deve-se estar atento para a correção de distúrbios nutricionais e/ou hidroeletrolíticos;
+- Sugere-se o uso de multivitamínicos que contenham Tiamina e Folato;
+- Dentre as opções terapêuticas indicadas na presença dos sintomas, destacam-se os benzodiazepínicos, principalmente os de meia-vida longa;
+- Para casos muito leves (CIWA-Ar < 10), pode-se optar pela Gabapentina;
+- Reavaliar o paciente diariamente;
+- O tratamento inicial deve ser mantido por cerca de 2-7 dias;
+- Encaminhar para serviço com acompanhamento multidisciplinar para manter a abstinência;
+- Na presença de complicações, comorbidades clínicas importantes ou gravidez, sugere-se avaliar os critérios de internação.
+
+### Tratamento Farmacológico
+
+- Diazepam (geralmente disponível no SUS) 10 mg VO, podendo ser repetido a cada 6 horas no primeiro dia de tratamento (dose máxima: 40 mg/dia); a cada 8 horas no segundo dia (dose máxima: 30 mg/dia), 12 horas no terceiro (dose máxima: 20 mg/dia) e 10 mg/dia no quarto dia;
+- Lorazepam (preferencial para hepatopatas): 2-4 mg, VO, podendo ser repetido conforme necessidade (dose máxima: 10 mg/dia).
+- Gabapentina 300 mg VO a cada 6 horas no primeiro dia (dose máxima: 1.200 mg/dia); 300 mg VO a cada 8 horas no segundo dia (dose máxima: 900 mg/dia); 300 mg VO a cada 12 horas no terceiro dia (dose máxima: 600 mg/dia); 300 mg VO à noite no quarto dia, dose única.
+
+## Hospitalar
+
+### Orientações ao Prescritor
+
+- Inicialmente deve-se procurar tratar as complicações clínicas e, a seguir, garantir hidratação, suplementação nutricional e tratamento farmacológico. As características do paciente e seu quadro poderão sugerir internação em CTI (vide o conteúdo da Abordagem Completa do tema );
+- As medicações de preferência são os benzodiazepínicos, especialmente os de maior meia-vida:
+- Nos casos de delirium tremens refratários ao uso de benzodiazepínicos, é possível utilizar Proporfol e Fenobarbital;
+- Como podem alterar o limiar convulsivo, recomenda-se que o uso de antipsicóticos na alucinose e delirium tremens fique reservado a quadros graves, refratários ao uso de benzodiazepínicos. Utilizar medicações que alterem menos o limiar, como Haloperidol e Olanzapina e não usar Clorpromazina e outras fenotiazidas (vide o conteúdo da Abordagem Completa do tema ) .
+- O uso de doses maiores de benzodiazepínicos ou pela via EV deve ser realizado em local que tenha suporte em caso de parada respiratória;
+- Caso o paciente esteja violento e não responda à intervenção verbal, especialmente nos casos de d elirium tremens, deve-se proceder a contenção física, com subsequente contenção química . Reavaliar a cada 15 minutos a necessidade de manutenção da contenção.
+
+### Dieta e Hidratação
+
+- Dieta oral zero no início do tratamento.
+
+### Tratamento Farmacológico
+
+- Diazepam 10-20 mg, VO, a cada hora, até melhora (dose máxima: 40 mg/dia);
+- Lorazepam 2-4 mg, VO, a cada hora, até a melhora (dose máxima: 10 mg/dia).
+
+#### 2. Tiamina:
+
+- Profilaxia: 100-300 mg, EV/IM, 1x/dia por 3-5 dias. Após, manter 100 mg VO 1x/dia;
+- Suspeita de encefalopatia: 200-500 mg EV (diluídos em 100 mL SF 0,9%), correr em 30 minutos, 3x/dia, por 2-7 dias. Manter 100 mg VO 3x/dia por 1-2 semanas, seguidos de 100 mg 1x/dia VO.
+
+### Tratamento Farmacológico – Abstinência Grave
+
+- Diazepam 5-10 mg EV lentamente. Dependendo da resposta, pode-se repetir várias vezes, a cada 15/15 minutos ou 30/30 minutos. O objetivo é deixar o paciente calmo, levemente sedado, evitando deixá-lo rebaixado. Em pacientes capazes de ingerir por via oral, pode-se alternativamente iniciar Diazepam 5-10 mg de 1/1 hora e espaçamento progressivo das doses, de acordo com as reavaliações;
+- Lorazepam (preferencial para hepatopatas): 2-4 mg, EV, repetida a cada 15 a 20 minutos, conforme a necessidade. Em pacientes capazes de ingerir por via oral, pode-se alternativamente iniciar com Lorazepam 1-4 mg de 1/1 hora e espaçamento progressivo das doses, de acordo com as reavaliações.
+- Midazolam dose inicial de 5 mg em bólus EV e depois 2 mg por hora com adequação da dose;
+- Propofol doses variam de 5-100 microgramas/kg/minuto EV;
+- Fenobarbital 120-360 mg EV a cada 15-20 minutos até o controle dos sintomas no primeiro dia (dose máxima: 15 mg/kg/dia); manutenção após o controle dos sintomas 120-360 mg/dia EV em 2 ou 3 tomadas por 3-5 dias.
+
+### Tratamento Farmacológico – Alucinose Alcoólica
+
+- Diazepam 5-10 mg, VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 40 mg/dia;
+- Lorazepam (preferencial para hepatopatas) 2-4 mg, VO, a cada hora, até a melhora (dose máxima: 10 mg/dia).
+
+#### 2. Antipsicóticos (restrito a pacientes extremamente agitados e com muitas alucinações):
+
+- Haloperidol 5 mg IM ou VO. Repetir conforme necessidade clínica (dose máxima: 30 mg/dia);
+- Olanzapina 10 mg VO. Repetir conforme necessidade clínica (dose máxima: 20 mg/dia).
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO até 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+
+#### Antiemético:
+
+- Metoclopramida (10 mg/2 mL) 10 mg EV, diluído em água destilada, até de 8/8 horas;
+- Metoclopramida (4 mg/mL) 50 gotas VO de 8/8 horas;
+- Metoclopramida 10 mg VO de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas;
+- Bromoprida (4 mg/mL) 1-3 gotas/kg VO de 8/8 horas.
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas, pela manhã;
+- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.
+
+### Cuidados
+
+- Cuidados gerais.
+- Sinais vitais.
+- Conter no leito, em caso de agitação psicomotora.

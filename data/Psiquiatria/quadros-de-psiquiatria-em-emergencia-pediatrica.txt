@@ -1,0 +1,70 @@
+# Prescrição Hospitalar
+
+## Emergência
+
+### Orientações ao Prescritor
+
+#### Avaliação:
+
+- A abordagem varia conforme a situação apresentada, o quadro clínico envolvido, a presença de comorbidades, os fatores externos (ex.: rede de suporte ou cuidado), dentre outros.
+
+#### Agitação e agressividade:
+
+- Inicialmente, garantir a segurança de todos: Equipe de saúde, familiares ou cuidadores, outras pessoas no entorno e o próprio paciente;
+- Se possível, iniciar a abordagem junto com outros membros da equipe de saúde; se não for possível, afaste-se por alguns momentos e reavalie em um momento oportuno;
+- Afaste o paciente de gatilhos externos (ex.: barulhos, pessoas que pareçam piorar a situação, etc.);
+- Procure distrair e acalmar a criança/adolescente; ofereça também a oportunidade de contar a sua versão dos fatos sem julgamentos e convide-a a participar da decisão sobre a conduta a ser traçada (quando possível);
+- Busque outras causas que justifiquem o comportamento (ex.: intoxicação, brigas, etc.);
+- Obtenha informações com os acompanhantes, familiares, cuidadores, etc.;
+- Se possível, entreviste o paciente sozinho e depois o observe junto a seus acompanhantes;
+- Crianças pequenas e sem transtornos mentais podem ser abordadas sem medicação - especialmente quando se encontram tranquilas no momento da avaliação;
+- O uso de medicação não deve ser a primeira etapa da abordagem e nem deve ser feito de forma indiscriminada, generalizada e rotineira;
+- Nos casos de intoxicação, a opção pelo uso de um psicofármaco deve ser posterior à estabilização e considerando possíveis efeitos adversos;
+- Crianças com transtornos mentais graves; crianças mais velhas e de difícil abordagem e adolescentes podem necessitar de medicação. A preferência deve ser pela via oral, sempre que possível;
+- Caso as medidas de abordagem não farmacológicas tenham falhado, pode-se recorrer à medicações, com destaque para os antipsicóticos (ex.: Risperidona);
+- O uso de benzodiazepínicos para essa função é o ff-label e há o risco de reação paradoxal;
+- Esteja atento ao diagnóstico e tratamento de um transtorno mental específico (caso presente), perfil de efeitos adversos, reações alérgicas, outras condições clínicas e perfil de interação farmacológica ao optar por uma medicação;
+- A contenção mecânica só deve ser empregada quando houve falha de todas as abordagens anteriores e há sinal de perigo iminente. A contenção deve ser preferencialmente conduzida por pessoas do mesmo gênero que o paciente. Durante a contenção, o paciente deve ter seus sinais vitais monitorados;
+- Critérios para o uso de contenção mecânica e internação ou observação prolongada podem ser acessados no conteúdo.
+
+#### Maus-tratos:
+
+- Na suspeita de maus-tratos, acionar os serviços de assistência social;
+- Documentar toda a avaliação, exames, laudos, intervenções, condutas e suspeitas;
+- Esteja atento aos possíveis riscos para a integridade física e/ou emocional da criança/adolescente.
+
+#### Ideação suicida e automutilação:
+
+- Preste atenção aos sinais de alerta e aos critérios de internação;
+- Procure entender o que se passou antes e como o paciente se sentiu/sente após a realização deste ato;
+- Encoraje a conversa sobre sentimentos e pensamentos com figuras da rede de apoio;
+- Avalie a estrutura da rede de apoio para ajudar a determinar a conduta.
+
+### Dieta e Hidratação
+
+- Dieta oral livre conforme aceitação.
+- Hidratação oral livre conforme aceitação.
+
+### Tratamento Farmacológico da Agitação e Agressividade
+
+#### Antipsicóticos:
+
+- > 5 anos: Risperidona dose dependente do peso conforme descrito a seguir. Progredir dose conforme resposta e tolerância do paciente;
+- < 20 kg: Iniciar com 0,25 mg VO. Dose máxima: 1,5 mg/dia;
+- > 20 kg: iniciar com 0,5 mg VO. Dose máxima 2,5 mg/dia ou se > 45 kg, 3,5 mg/dia;
+- > 3 anos: Haloperidol 0,1 mg a cada 3 kg de peso até 2x/dia. Progredir dose conforme resposta e tolerância do paciente;
+- > 2 anos: Clorpromazina iniciar com 1 mg/kg/dia, dividido em 2 ou 3 doses. Progredir dose conforme resposta e tolerância do paciente. Dose máxima: 40 mg/dia, se > 5 anos ou 75 mg/dia, se mais velhas.
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Paracetamol gotas (200 mg/mL) 0,75-1,1 gotas/kg/dose (10-15 mg/kg/dose) VO de 4/4 ou 6/6 horas.
+- < 12 anos: 35 gotas/dose ou 5,6 gotas/kg/dia - 75 mg/kg/dia;
+- > 12 anos: 55 gotas/dose ou 300 gotas/dia - 4.000 mg/dia.
+- Dipirona (500 mg/mL) 0,04-0,05 mL/kg/dose (20-25 mg/kg/dose) EV até 6/6 horas em caso de dor ou febre. Dose máxima: 2,5 mL/dose (5 g/dia).
+
+#### Antiemético:
+
+- Ondansetrona (2 mg/mL) 0,075 mL/kg/dose (0,15 mg/kg/dose) EV até 8/8 horas. Dose máxima: 8 mL/dose (16 mg/dose);
+- Bromoprida (10 mg/2mL) 0,03-0,06 mL/kg/dose (0,5-1 mg/kg/dia) EV/IM até 8/8 horas. Dose máxima: 2 mL/dose (10 mg/dose).

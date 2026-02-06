@@ -1,0 +1,28 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Ofereça uma escuta ativa e encoraje o paciente, caso queira compartilhar informações;
+- Contudo, seja empático e não o force a falar sobre o evento, pois pode precipitar sintomas que causam sofrimento;
+- Não minimize ou se utilize de clichês durante a comunicação com o doente;
+- Consulte mais referências na abordagem de primeiros socorros em saúde mental, no conteúdo sobre "Primeiros socorros em saúde mental na Covid-19".
+- Ofereça psicoeducação ao paciente e aos familiares. Estimule-os a manterem o contato e a evitarem o isolamento;
+- A 1 a linha de tratamento é a terapia cognitivo-comportamental (TCC). Outras técnicas de psicoterapias podem ser utilizadas, mas a TCC ganha destaque na literatura;
+- O benefício da farmacoterapia neste momento parece ser limitado: Alguns fármacos podem auxiliar em alguns sintomas centrais do transtorno, mas não há evidência de que algum deles ajude a prevenir o desenvolvimento de transtorno de estresse pós-traumático (TEPT);
+- Os antidepressivos, por exemplo, apresentam benefícios no TEPT, mas não necessariamente no estresse agudo; essas medicações podem demorar semanas para que seu efeito seja sentido;
+- Já Benzodiazepínicos poderiam ser úteis para sintomas ansiosos, de excitabilidade ou alterações no sono. Ou seja, apresentam efeito sobre diferentes tipos de sintomas, mas sua indicação requer cautela, pois devem ser prescritos na menor dose e pelo menor tempo possível;
+- Opções aos Benzodiazepínicos seriam betabloqueadores para sintomas de excitabilidade e anti-histamínicos para alterações do sono.
+
+### Tratamento Farmacológico
+
+#### Benzodiazepínicos:
+
+- Clonazepam iniciar com 0,5 mg/dia ao deitar, VO. Progredir dose conforme resposta (dose máxima: 6 mg/dia);
+- Alprazolam iniciar com 0,5 mg/dia ao deitar, VO. Progredir dose conforme resposta (dose máxima: 10 mg/dia).
+
+### Tratamento Não Farmacológico
+
+- Psicoeducação para o paciente e a família.
+- Psicoterapia: Terapia cognitivo-comportamental.

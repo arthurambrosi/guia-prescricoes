@@ -1,0 +1,36 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Não farmacológica: C onsiste em psicoeducação - isto é, instruir o paciente e seus familiares sobre o que é o transtorno, os sintomas que podem surgir, como evolui, como é o tratamento, etc. - e em psicoterapia :
+- A técnica de psicoterapia mais recomendada é a terapia cognitivo-comportamental (TCC) adaptada para a faixa etária infantil e púbere;
+- Essa abordagem é considerada primeira linha de tratamento nos casos leves a moderados;
+- Indicada também para crianças pequenas, cuja idade possa representar um desafio para o uso inicial de psicofármacos;
+- Nos casos graves, recomenda-se que seja associada ao tratamento farmacológico.
+- Farmacológica: Envolve principalmente os psicofármacos, com grande destaque para os ini bidores seletivos da recaptação de serotonina (ISRSs):
+- O uso de fármacos deve ser considerado em casos moderados e graves, havendo benefícios com a associação à psicoterapia;
+- Para que o tratamento seja efetivo, deve-se evitar o uso de subdoses.
+- Ao se iniciar uma medicação, deve-se começar com baixas doses, promovendo aumentos graduais até a remissão dos sintomas e conforme a tolerância do paciente:
+- Nesse início, é possível que haja efeitos adversos, como agitação, mas que tendem a melhorar com alguns dias de tratamento;
+- Nessa etapa, é possível também que haja aumento da ideação suicida (embora isso seja controverso), por isso sugere-se monitoramento mais intenso;
+- O uso de antidepressivos também pode causar mania, caso o paciente tenha transtorno afetivo bipolar . O efeito pleno da medicação é alcançado cerca de 4 semanas após o início do tratamento;
+- O desmame da medicação também deve ocorrer de modo gradual e lento. Sua interrupção súbita causar a síndrome da descontinuação.
+
+### Tratamento Farmacológico
+
+- Fluoxetina progredir dose conforme resposta até a remissão dos sintomas e tolerância do paciente (dose máxima: 40 mg/dia). Aprovada para crianças a partir dos 7 anos:
+- ≤ 11 anos de idade: Iniciar com 5 mg/dia, VO;
+- ≥ 12 anos de idade: I niciar com 10 mg/dia, VO.
+- Sertralina progredir dose conforme resposta até a remissão dos sintomas e tolerância do paciente (dose máxima: 200 mg/dia. Aprovado para crianças a partir dos 6 anos:
+- 6-12 anos: Iniciar com 25 mg/dia, VO;
+- 13-17 anos: Iniciar com 50 mg/dia, VO.
+
+### Tratamento Não Farmacológico
+
+1. Psicoeducação de paciente e familiares.
+
+#### 2. Psicoterapia:
+
+R ecomendação da TCC.

@@ -1,0 +1,28 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+#### Recomendações:
+
+- O paciente deve ser avaliado e orientado conforme a condição predisponente: Pacientes com uso crônico de álcool devem ser encorajados à abstinência e a uma dieta balanceada, enquanto aqueles com bypass gástrico devem fazer suplementação vitamínica junto com a alimentação adequada;
+- No transtorno por uso de álcool, o médico assistente deve considerar fazer a reposição profilática de Tiamina em todos os pacientes que apresentarem risco elevado para as síndromes;
+- Em pacientes etilistas, a reposição de Tiamina deve ocorrer antes da alimentação ou da administração de glicose;
+- A reposição de Tiamina é padrão tanto na encefalopatia de Wernicke quanto na síndrome de Korsakoff, mas nesta última poucos pacientes poderão apresentar melhora completa;
+- É necessário pesquisar e tratar as comorbidades que possam estar presentes;
+- Nos casos de síndrome de Korsakoff, a reabilitação cognitiva pode ser benéfica, apesar de necessitar de uma avaliação prolongada.
+
+### Tratamento Farmacológico
+
+#### 1. Profilaxia em pacientes etilistas:
+
+Tiamina 100-300 mg, EV/IM, (diluídos em 100 mL SF 0,9%), correr em 30 minutos, 1x/dia, por 3-5 dias. Após, manter 100 mg VO 1x/dia.
+
+#### 2. Pacientes com quadro sugestivo de encefalopatia:
+
+Tiamina 200-500 mg de Tiamina EV (diluídos em 100 mL SF 0,9%), correr em 30 minutos, 3x/dia, por 2-7 dias. Manter 100 mg VO 3x/dia por 1-2 semanas e após manter 100 mg VO 1x/dia.
+
+#### 3. Síndrome de Korsakoff:
+
+Tiamina 100 mg VO 2-3x/dia, por 3-24 meses.

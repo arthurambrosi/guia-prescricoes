@@ -1,0 +1,33 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- A psicoterapia (terapia de exposição) é a primeira linha de tratamento e deve sempre ser recomendada;
+- O tratamento combinado (psicoterapia + abordagem farmacológica) é superior no curto prazo;
+- No longo prazo, o tratamento combinado é tão eficaz quanto a psicoterapia isolada, e ambos os tratamentos são superiores à farmacoterapia isoladamente;
+- O tratamento deve ser iniciado com medicações de 1ª linha. Caso não seja bem tolerada ou não se alcance resposta satisfatória com tempo e doses terapêuticas, sugere-se trocar por outra medicação de 1ª linha antes de passar para a 2ª ;
+- O antidepressivo deve ser iniciado em dosagem baixa e titulado lentamente até a resposta clínica satisfatória. Caso haja respostas parcial em 6 semanas, sugere-se otimização da dose. Para respostas insatisfatórias após 12 semanas, considere trocar a medicação;
+- Benzodiazepínicos são usados para o controle de curto prazo da agitação ou ansiedade aguda, ou grave, ou no início do tratamento com ISRS para acelerar a resposta. Seu uso prolongado deve ser evitado e não é recomendado durante a terapia de exposição, pois reduz sua eficácia;
+- Os antidepressivos são a única medicação a ser utilizada no longo prazo nesse transtorno.
+
+### Tratamento Farmacológico
+
+#### 1 a linha - Primeira escolha:
+
+- Citalopram 20 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas (dose máxima: 40 mg/dia, em idosos, 20 mg/dia);
+- Fluoxetina 20 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas (dose máxima: 80 mg/dia);
+- Fluvoxamina 50 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas (dose máxima: 300 mg/dia);
+- Paroxetina 20 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas (dose máxima: 60 mg/dia);
+- Sertralina 50 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas (dose máxima: 200 mg/dia);
+- Escitalopram 10 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas (dose máxima: 20 mg/dia).
+
+#### 1 a linha - Nível 1 (segunda escolha):
+
+- Venlafaxina 75 mg/dia, VO. Progredir dose conforme resposta até a remissão dos sintomas (dose máxima: 225 mg/dia).
+
+### Tratamento Não Farmacológico
+
+1. Psicoeducação .
+2. Psicoterapia terapia cognitivo-comportamental (TCC) (terapia de exposição - técnica da TCC).

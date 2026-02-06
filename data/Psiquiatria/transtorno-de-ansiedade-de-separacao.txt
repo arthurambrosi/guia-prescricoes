@@ -1,0 +1,25 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Tratamento multidisciplinar: N ecessário fornecer psicoeducação para a família e o paciente, ou seja, explicar sobre a condição e como funciona o tratamento;
+- Casos leves a moderados: Sugere-se iniciar com a abordagem não farmacológica, ou seja, psicoterapia;
+- Quadros mais graves: P odem requerer farmacoterapia associada à psicoterapia. Em alguns casos, pode ser necessário o encaminhamento para a terapia de família ;
+- Vale ressaltar que o Food and Drug Administration (FDA) colocou tarja preta em vários antidepressivos (incluindo os inibidores seletivos da recaptação de serotonina) pelo risco de suicídio, sobretudo no início do tratamento:
+- Sugere-se monitorização cuidadosa dos pacientes que iniciem a terapia farmacológica, sobretudo no início do tratamento.
+- Caso a criança frequente a escola, solicitar declaração sobre a criança antes do início do tratamento, após e ao longo de sua evolução.
+- Oferecer orientação à escola sobre o diagnóstico.
+
+### Tratamento Farmacológico
+
+- Fluoxetina iniciar com 10 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 40 mg/dia);
+- Sertralina iniciar com 25 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia);
+- Fluvoxamina iniciar com 25 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia em crianças e 300 mg/dia em adolescentes).
+
+### Tratamento Não Farmacológico
+
+- Psicoterapia: A técnica da terapia cognitivo-comportamental (TCC) é a mais recomendada em diversas fontes:
+- Outras opções incluem terapia comportamental e psicoterapia psicodinâmica.
+- Terapia de família , quando houver indicação.

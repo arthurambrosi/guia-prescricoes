@@ -1,0 +1,37 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- O tratamento deve ser multiprofissional realizado com psiquiatra, psicológico e nutricionista;
+- O objetivo é regularizar o padrão alimentar, suspender as restrições e purgações e construir uma orientação nutricional;
+- O tratamento combinado (farmacoterapia, reabilitação nutricional e psicoterapia) se mostra mais eficaz do que as modalidades de tratamento isoladas;
+- A terapia cognitivo-comportamental (TCC) é a primeira linha de psicoterapia:
+- As alternativas são: Psicoterapia psicodinâmica e a técnica interpessoal.
+- A reabilitação nutricional tem por objetivo uma educação alimentar, orientando o paciente sobre a importância de um cardápio balanceado:
+- Também objetiva trabalhar crenças errôneas sobre a alimentação.
+- As medicações de preferência são os antidepressivos:
+- Destacam-se os inibidores seletivos da recaptação de serotonina (ISRS) e, dentre eles a Fluoxetina;
+- Na bulimia, costuma-se usar doses um pouco mais elevadas (ex.: 60 mg/dia).
+- Evitar: Paroxetina, Citalopram e Bupropiona;
+- Os inibidores da monoamino-oxidase (IMAOs) devem ser usados com cautela, pois podem reagir com certos tipos de alimentos, desencadeando efeitos indesejáveis potencialmente graves;
+- As medicações não costumam fazer efeito imediato, devendo-se aguardar algumas semanas pela resposta. Caso não haja melhora em 4-8 semanas, pode ser trocada por outra medicação;
+- Após alcançada a remissão, manter tratamento por um período de 6 a 12 meses pelo risco de recorrência do quadro;
+- Atenção a complicações clínicas e possível necessidade de internação hospitalar;
+- Avaliar os critérios para abordagem em hospital-dia e internação: Descontrole dos quadros compulsivos, presença de ideação suicida, presença de transtorno por uso de substâncias ou refratariedade ao tratamento ambulatorial.
+
+### Tratamento Farmacológico - 1 a Linha
+
+#### Escolha um dos esquemas:
+
+- Fluoxetina 20 mg/dia VO. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 80 mg/dia).
+- Escitalopram 10 mg/dia VO. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 20 mg/dia);
+- Fluvoxamina 50 mg/dia VO, de preferência à noite. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 300 mg/dia);
+- Sertralina 25 ou 50 mg/dia VO. Progredir a dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia).
+
+### Tratamento Não Farmacológico
+
+- Psicoterapia : T erapia cognitivo-comportamental:
+- Alternativas: Psicodinâmica e interpessoal.
+- Reabilitação nutricional.

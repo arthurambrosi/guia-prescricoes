@@ -1,0 +1,113 @@
+# Prescrição Hospitalar
+
+## Com Critério de Internação
+
+### Orientações ao Prescritor
+
+- Garantir via aérea adequada e proporcionar suporte de vida;
+- Realizar intubação orotraqueal (IOT) se Glasgow menor ou igual a 8;
+- Realizar ECG nos primeiros 10 minutos de admissão;
+- Monitorização eletrocardiográfica contínua em sala de urgência;
+- Glicemia capilar à admissão;
+- Cabeceira elevada a 30 graus;
+- Uso e adequação do antídoto à resposta clínica: O bicarbonato de sódio é considerado o antídoto de primeira linha.
+- Medicamentos contraindicados: Fenitoína, Flumazenil, Amiodarona, neurolépticos, Fisiostigmina.
+
+### Dieta e Hidratação
+
+- Dieta oral zero.
+- Tratar hipotensão: SF0,9% EV 500-1.000 mL ou 20 mL/kg em 30-60 minutos.
+- Manter soro, se paciente estiver com dieta suspensa, pelo risco de hipoglicemia.
+- Correção de distúrbios hidroeletrolíticos, sobretudo a hipocalemia naqueles pacientes que necessitarem de bicarbonato de sódio.
+
+### Tratamento Farmacológico
+
+- Medidas de descontaminação: Indicadas até 1 hora após ingestão, se não houver contraindicações e com proteção adequada de vias aéreas:
+- Lavagem gástrica: Realizar com a sonda mais calibrosa possível (sem ocasionar trauma das vias aéreas), de preferência com o paciente em decúbito lateral esquerdo, infundindo 200 mL de SF 0,9% de cada vez e aguardando drenagem da secreção para nova infusão. Deve ser continuado até que o conteúdo gástrico exteriorizado esteja límpido;
+- Carvão ativado : Maior eficácia em até 1 hora da ingestão. Recomendada dose única.
+- Adultos: 50 g dissolvidos em 250 mL de SF 0,9% por sonda nasogástrica ou por via oral de acordo com a aceitação e nível de consciência do paciente. Manter a sonda fechada por 2 horas;
+- Crianças: 1 g/kg (máximo 50 gramas) dissolvido em SF 0,9% na proporção de 5 mL/g por sonda nasogástrica ou via oral de acordo com a aceitação e nível de consciência do paciente. Manter a sonda fechada por 2 horas.
+- Bicarbonato de sódio : Indicado em caso de hipotensão refratária, arritmias cardíacas e/ou QRS > 100 ms;
+- Dose de ataque: 1-2 mEq/kg EV em bólus, sem diluição. Repetir a dose, se necessário; Dica! O bicarbonato de sódio na apresentação 8,4% tem 1 mEq/mL, portanto, fazer 1-2 mL/kg.
+- Infusão contínua: 20 mL/hora por até 12 horas após resolução do critério utilizado para início da infusão;
+- Observação! Manter o pH sanguíneo entre 7,45-7,55 (realizar gasometria venosa e potássio seriados para acompanhamento de 4/4 horas), pelo risco de hipocalemia.
+- Emulsão lipídica : Está indicada em quadros graves, com refratariedade dos sintomas cardiovasculares ao uso do bicarbonato:
+- Modo de uso: Emulsão lipídica a 20%: Dose: 1,5 mL/kg (máximo de 100 mL) EV, em 3 minutos. Se não houver resposta, repetir a dose 2 vezes com intervalo de 5 minutos;
+- Observação! Se não houver resposta à emulsão após as 3 doses, não há benefício em novas doses nem no uso de infusão contínua.
+- Controle das convulsões: Escolha uma das opções:
+- Diazepam:
+- Adultos: 5-10 mg EV a cada 5-10 minutos, até o máximo de 30 mg;
+- Crianças com menos de 5 anos: 0,2-0,5 mg EV a cada 5-10 minutos, até o máximo de 5 mg;
+- Crianças maiores que 5 anos: 1-2 mg EV a cada 5-10 minutos, até o máximo de 10 mg.
+- Lorazepam:
+- Adultos: 2-4 mg EV. A dose pode ser repetida a cada 5-10 minutos. Máximo de 2 mg/minuto;
+- Crianças: 0,05-0,1 mg/kg. Máximo de 4 mg por dose. A dose pode ser repetida a cada 5-10 minutos. Máximo de 2 mg/minuto.
+
+### Profiláticos e Sintomáticos
+
+- Analgésico e antitérmico: Se presença de dor ou febre ≥ 37,8°C. Escolha uma das opções:
+- Dipirona sódica (500 mg/mL): 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO até 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+- Antieméticos : Se presença de náuseas e/ou vômitos. Escolha uma das opções:
+- Metoclopramida (10 mg/2 mL) 10 mg EV, diluído em água destilada, até de 8/8 horas;
+- Metoclopramida (4 mg/mL) 50 gotas VO de 8/8 horas;
+- Metoclopramida 10 mg VO de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas;
+- Bromoprida (4 mg/mL) 1-3 gotas/kg VO de 8/8 horas;
+- Ondansetrona (2 mg/ml) 8mg EV de 8/8 horas;
+- Ondansetrona 8 mg VO de 8/8 horas;
+- Observação! O uso de Metoclopramida em crianças e adolescentes de 1 a 18 anos não é recomendado.
+- Proteção gástrica: Para pacientes em ventilação mecânica ou instáveis hemodinamicamente. Escolha uma das opções:
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas, pela manhã;
+- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.
+
+### Paciente em Parada Cardiorrespiratória ou em Vigência de Arritmias Ventriculares
+
+### Orientações ao Prescritor
+
+- A assistência à PCR deve ser realizada conforme o padronizado , porém o uso do bicarbonato durante a assistência é fundamental ;
+- Em vigência de arritmias ventriculares, o tratamento também segue o padronizado , acrescido do uso de bicarbonato;
+- Em se tratando de uma intoxicação, a Lidocaína é o antiarrítmico de escolha, caso necessário.
+
+### Tratamento Farmacológico
+
+- Taquiarritmias ventriculares:
+- Bicarbonato de sódio Dose de ataque: 1-2 mEq/kg EV em bólus, sem diluição. Repetir a dose, se necessário. Dica! O bicarbonato de sódio na apresentação 8,4% tem 1 mEq/mL, logo, fazemos 1-2 mL/kg.
+- Lidocaína 1 mg/kg (dose usual em adultos: 50-100 mg; crianças: 1 mg/kg) EV em bólus, a uma velocidade de 25-50 mg/minuto. Seguido de infusão contínua de 20-50 microgramas/kg/minuto;
+- Sulfato de magnésio 25-50 mg/kg (máximo de 2 g) EV, em 2 minutos;
+- Torsades de pointes : Sulfato de magnésio na dose de 2 g. Seguido de 2 g após 15 minutos, se necessário, e infusão contínua de 3-30 mg/minuto nas próximas 24/48 horas. O implante de marca-passo provisório torna a repolarização mais homogênea e abole a disritmia. A administração de Isoproterenol 1-10 micrograma/minuto EV está indicada quando não se dispõe de marca-passo temporário;
+- Emulsão lipídica a 20% Se refratário ao bicarbonato. 1,5 mL/kg (máximo de 100 mL) EV, em 3 minutos. Se não houver resposta, repetir a dose 2 vezes com intervalo de 5 minutos.
+- Parada cardiorrespiratória:
+- Bicarbonato de sódio é o primeiro tratamento medicamentoso a ser instituído. Dose de ataque: 2 mEq/kg EV em bólus, sem diluição. Repetir a dose, se necessário; Dica! o bicarbonato de sódio na apresentação 8,4% tem 1 mEq/mL, logo, fazemos 2 mL/kg.
+- Emulsão lipídica a 20%: Se refratário ao bicarbonato. 1,5 mL/kg (máximo de 100 mL) EV, em 3 minutos. Se não houver resposta, repetir a dose 2 vezes com intervalo de 5 minutos;
+- Observação! Caso a PCR seja em ritmo chocável, administrar antiarrítmicos conforme indicados no item 1.
+
+### Profiláticos e Sintomáticos
+
+#### Indicados após estabilização do paciente, sem recomendação durante a estabilização:
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO até 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+
+#### Antiemético:
+
+- Metoclopramida (10 mg/2 mL) 10 mg EV, diluído em água destilada, até de 8/8 horas;
+- Metoclopramida (4 mg/mL) 50 gotas VO de 8/8 horas;
+- Metoclopramida 10 mg VO de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas;
+- Bromoprida (4 mg/mL) 1-3 gotas/kg VO de 8/8 horas
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas, pela manhã;
+- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.

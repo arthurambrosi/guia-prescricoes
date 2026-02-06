@@ -1,0 +1,32 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Atenção primária: Estabelecer vínculo com o paciente, colocando-se ao seu lado para apoio e enfrentamento do problema e sua compreensão, através de educação provida pelo médico; Quais as condutas para um paciente com ataque de pânico na UBS? Para mais informações sobre esse tema, acesse o vídeo:
+- Evitar desencadeantes, como cafeína ou drogas;
+- Abordar possível ideação suicida;
+- Traçar plano terapêutico em conjunto com o paciente.
+- Casos leves a moderados podem escolher entre psicoterapia e medicação ou até a combinação das duas estratégias. Contudo, recomenda-se a terapia combinada nos casos graves, mas a adoção da combinação das duas estratégias pode ser feita e parece se associar à melhor resposta. As medicações escolhidas podem variar na presença de comorbidades;
+- Dentro das psicoterapias , a técnica cognitivo-comportamental (TCC) ganha importante destaque como primeira opção, mas outras podem ser avaliadas para sua aplicação de forma conjunta ou alternativa na indisponibilidade da TCC: mindfulness , terapia de aceitação e compromisso, terapia psicodinâmica breve, terapia de família e terapias em grupo;
+- Dentre as possibilidades farmacológicas, a primeira opção deve ser feita pela classe dos inibidores seletivos da recaptação de serotonina (ISRS). Após iniciadas, as medicações levam de 15-30 dias para demonstrar eficácia (na dose terapêutica mínima) e devem ser iniciadas em baixas doses, com progressão gradual;
+- Dentre os inibidores seletivos da recaptação de serotonina e noradrenalina, a V enlafaxina se destaca, também sendo considerada uma opção de primeira linha;
+- Deve ser evitado o uso de benzodiazepínicos em monoterapia. Estes fármacos são eficazes para reduzir a frequência, a evitação e a ansiedade antecipatória. Seu uso pode ser concomitante ao uso de outra droga ou em monoterapia, porém esta não é considerada de primeira linha, devido ao potencial de abuso/dependência e perfil de efeitos colaterais da classe;
+- Não há consenso de quando deve ser interrompida a medicação, mas estudos apontam as vantagens de se manter o tratamento por cerca de 12 meses após o controle das crises. Dada a cronicidade e taxa de recorrência da doença, não são raros tratamentos mais prolongados;
+- A retirada dos ISRS e ISRSN deve ser lenta e gradual.
+
+### Tratamento Não Farmacológico
+
+- Psicoeducação.
+- Medidas comportamentais: Recomenda-se a prática de atividade física estruturada.
+- Psicoterapias: Destaque para a terapia cognitivo-comportamental (TCC).
+
+### Tratamento Farmacológico
+
+- Paroxetina 1 0 mg/dia VO na primeira semana. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 60 mg/dia;
+- Sertralina 25 mg/dia VO na primeira semana. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 200 mg/dia;
+- Citalopram 10 mg/dia VO na primeira semana. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 40 mg/dia;
+- Escitalopram 5 mg/dia VO na primeira semana. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 20 mg/dia;
+- Fluoxetina 5 mg/dia VO na primeira semana. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 60 mg/dia;
+- Venlafaxina 37,5 mg/dia VO na primeira semana. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 225 mg/dia.

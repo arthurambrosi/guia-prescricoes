@@ -1,0 +1,97 @@
+# Prescrição Hospitalar
+
+## Cistite Hemorrágica Precoce
+
+### Orientações ao Prescritor
+
+É importante salientar que não existe, ainda, um padrão de tratamento para pacientes com cistite hemorrágica (CH), embora haja diferentes estratégias, tanto para casos agudos quanto para crônicos.
+
+- Ocorre durante regime quimioterápico (ou logo após seu término, em até 72 horas) contendo altas doses de medicamento, principalmente a Ciclofosfamida .
+
+#### Princípios do tratamento:
+
+- Prevenir novos episódios com medidas profiláticas antes da quimioterapia;
+- Irrigação contínua da bexiga, a fim de evitar formação de coágulos;
+- Analgesia.
+
+### Dieta e Hidratação
+
+- Dieta oral livre , conforme aceitação.
+- Hidratação: SF 0,9% 35-45 mL/kg/dia, no mínimo. Deve-se t ender à hiper-hidratação.
+
+### Profilaxia da Cistite Hemorrágica na Quimioterapia
+
+- Mínimo de 250 mL/hora de hidratação, com manutenção do débito urinário de, pelo menos, 150 mL/hora.
+- Indicada em doses de Ciclofosfamida (ou Trofosfamida ) acima de 10 mg/kg/dia;
+- Primeira dose: 15 minutos antes da infusão de Ciclofosfamida ;
+- Segunda dose: 4 horas depois da infusão da medicação;
+- Terceira dose: 8 horas depois da infusão da medicação;
+- Total: 600 mg (60% da dose de Ciclofosfamida infundida). Diminui risco de CH.
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/mL) 2 mL EV, diluídos em AD até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO/SNE até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO/SNE até de 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO/SNE até de 6/6 horas;
+- Paracetamol 600 mg VO/SNE até de 6/6 horas;
+- Fenazopiridina (Pyridium®) (100 ou 200 mg/comprimido) 100-200 mg 1 comprimido VO a cada 8 horas.
+
+### Suporte
+
+- Irrigação vesical contínua: Indicada para todos os pacientes com CH a partir da instalação de cateter vesical de três vias para evitar a formação de coágulos intravesicais.
+- Hemoderivados.
+- Terapia hiperbárica (mais informações na "Abordagem Completa").
+
+### Cistite Hemorrágica Tardia
+
+### Orientações ao Prescritor
+
+É importante salientar que não existe, ainda, um padrão de tratamento para pacientes com cistite hemorrágica (CH), embora haja diferentes estratégias, tanto para casos agudos quanto para crônicos.
+
+- Etiologia multifatorial;
+- Tratar causa base.
+
+### Dieta e Hidratação
+
+- Dieta oral livre , conforme aceitação.
+- Hidratação: SF 0,9% 35-45 mL/kg/dia, no mínimo. Deve-se tender à hiper-hidratação.
+
+### Tratamento Farmacológico
+
+Escolha um dos esquemas a seguir ou associe-os conforme apresentação clínica.
+
+#### :
+
+- Ácido aminocaproico (200 mg/L) pela via intravesical ou 100-150 mg/kg/dia VO, divididos em doses;
+- Nitrato de prata (0,01-1%) diluído em água estéril por via intravesical.
+- Cidofovir (75 mg/mL) 5 mg/kg 1 vez por semana, durante as 2 primeiras semanas, e, depois desse período, a cada 2 semanas:
+- Ação contra poliomavírus (BK vírus, John Cunningham virus ) e adenovírus;
+- Ganciclovir (250 mg/comprimido ou 1 mg/mL) 5 mg/kg 2 vezes/dia, por 14 dias:
+- Ação contra citomegalovírus;
+- O principal efeito colateral da medicação é a mielossupressão.
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/mL) 2 mL EV, diluídos em água destilada até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO/SNE até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO/SNE até de 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO/SNE até de 6/6 horas;
+- Paracetamol 600 mg VO até de 6/6 horas;
+- Fenazopiridina (Pyridium®) (100 ou 200 mg/comprimido) 100-200 mg (1 comprimido) VO a cada 8 horas.
+
+### Suporte
+
+- Irrigação vesical contínua: Indicada para todos os pacientes com CH a partir da instalação de cateter vesical de três vias para evitar a formação de coágulos intravesicais.
+- Hemoderivados.
+- Terapia hiperbárica (mais informações em "Abordagem Completa").
+- Avaliação urológica: Tratamento cirúrgico (na falha de todas as tentativas conservadoras anteriores).
+- Aplicação intravesical de cola de fibrina;
+- Cistoscopia para cauterização de sangramentos ativos (principalmente na CH de grau 4);
+- Embolização superseletiva das artérias vesicais;
+- Ligadura cirúrgica das artérias ilíacas internas;
+- Cistectomia simples com derivação urinária (conduto ileal, ureterostomia ou nefrostomia, dependendo da gravidade do quadro) seria o passo final no manejo da CH grave refratária.

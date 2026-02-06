@@ -1,0 +1,47 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- O tratamento é multidisciplinar, combinando psicoeducação, psicoterapia e manejo farmacológico;
+- Devido à complexidade que envolve o diagnóstico, sugere-se o encaminhamento ao especialista (psiquiatra);
+- Eletroconvulsoterapia (ECT) deve ser considerada em casos não responsivos e graves.
+
+#### Tratamento farmacológico:
+
+- A escolha da medicação varia conforme as alterações de humor apresentadas;
+- A farmacoterapia é eminentemente empírica devido à falta de ensaios clínicos randomizados;
+- Antipsicóticos atípicos podem ser usados em monoterapia graças a sua propriedade estabilizadora de humor e normalmente são necessários na fase aguda e de manutenção;
+- Os estabilizadores de humor são a classe com melhor evidência para tratamento combinado;
+- Pelo baixo nível de evidência, os antidepressivos devem ser utilizado apenas em pacientes que mantêm sintomas depressivos mesmo após troca do antipsicótico e potencialização do tratamento com estabilizador do humor;
+- É necessário tratamento de manutenção para o controle dos sintomas. As medicações que foram eficazes para o tratamento de um episódio agudo devem ser privilegiadas para o tratamento de manutenção.
+
+### Tratamento Farmacológico
+
+#### Escolha uma das classes ou associe-as conforme "Orientações ao Prescritor":
+
+#### Classe A:
+
+#### Antipsicóticos:
+
+- Aripiprazol 10-15 mg/dia VO. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 30 mg/dia);
+- Clozapina (restrito a casos refratários) dose inicial 12,5-25 mg/dia, aumentar 25-50 mg a cada 2-3 dias até a dose de 300 mg/dia. Dose usual: 400-500 mg/dia. Dose máxima: 900 mg/dia;
+- É necessária a realização de hemograma semanal nas primeiras 18 semanas de tratamento, e mensal enquanto o tratamento durar;
+- O tratamento deve ser interrompido na ocorrência de convulsão ou citopenia (leucócitos totais < 3.000/mm³, neutrófilos abaixo de 1.500/mm³ ou plaquetas abaixo de 100.000/mm³).
+- Lurasidona 40-8 0 mg/dia VO, junto com a alimentação. Progredir dose conforme resposta até a remissão dos sintomas e conforme tolerância do paciente (dose alvo: 120 mg/dia, dose máxima: 160 mg/dia);
+- Olanzapina 5 mg/dia VO, de preferência à noite. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 20 mg/dia);
+- Paliperidona 6 mg/dia VO, pela manhã. Pode aumentar 3 mg/dia a cada 5 dias conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 12 mg/dia);
+- Risperidona 2 mg/dia VO, de preferência à noite. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 8 mg/dia);
+- Ziprasidona 20-40 mg 2x/dia VO, junto com a alimentação. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 200 mg/dia).
+
+#### Estabilizadores do humor:
+
+- Lítio 300 mg/dia VO. Progredir dose conforme resposta até que se atinja o nível sérico desejado (entre 0,8-1,2 mEq/L);
+- Ácido valproico 250 mg/dia VO, de preferência à noite. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 60 mg/kg/dia);
+- Carbamazepina 200 mg/dia VO, de preferência à noite. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente (dose máxima: 1.600 mg/dia).
+
+### Tratamento Não Farmacológico
+
+- Psicoeducação para o paciente e sua família.
+- Psicoterapia: A terapia individual (ex.: treinamento de habilidades sociais e reabilitação cognitiva) pode ser combinada com terapia de família.

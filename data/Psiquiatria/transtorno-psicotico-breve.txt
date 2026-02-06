@@ -1,0 +1,25 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- A abordagem envolve orientar o paciente e seus familiares sobre o quadro;
+- Recomenda-se apoio psicológico especialmente nos casos em que o episódio foi desencadeado por um estressor;
+- Farmacoterapia: P rioriza-se o uso de antipsicóticos, especialmente os de segunda geração:
+- O tratamento para episódios psicóticos breves não possui diretrizes clínicas específicas ou baseadas em evidências robustas, sendo extrapolado de protocolos para o primeiro episódio de psicose e baseado na experiência clínica.
+- Tempo de tratamento: Algumas fontes sugerem tratar como primeiro episódio psicótico, recomendando o mínimo de 1-2 anos de tratamento após remissão, enquanto outras indicam a manutenção por 1-3 meses após a melhora dos sintomas;
+- Ao avaliar estes pacientes, devem ser considerados os fatores de gravidade que podem indicar uma internação.
+
+### Tratamento Farmacológico
+
+#### Antipsicóticos:
+
+- Risperidona I niciar com 1 mg VO 1-2x/dia. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 6 mg/dia;
+- Aripiprazol 10 mg VO 1x/dia. Progredir dose conforme resposta até a remissão dos sintomas e com tolerância do paciente, sendo a dose máxima de 30 mg/dia;
+- Olanzapina Dose inicial 5 mg/dia VO 1x/dia. Dose usual: 5-20 mg/dia. Dose máxima: 30 mg/dia;
+- Haloperidol Dose inicial de 1-15 mg/dia, em dose única ou doses divididas. Dose usual: 1-40 mg/dia.
+
+### Tratamento Não Farmacológico
+
+- Psicoterapia: Destaque para técnicas de apoio.

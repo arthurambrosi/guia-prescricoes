@@ -1,0 +1,38 @@
+# Prescrição Ambulatorial
+
+## Epididimite Aguda
+
+### Orientações ao Prescritor
+
+- Pessoas com infecções sexualmente transmissíveis (ISTs) devem ser informados sobre os riscos de transmissão às parcerias sexuais e se abster de relações sexuais até estarem curados da infecção:
+- Pessoas com ISTs devem ser avaliadas após 14 dias para confirmar a cura e o tratamento de parcerias sexuais.
+- É realizada a terapia empírica baseada no agente patológico mais provável;
+- Resposta clínica aos antibióticos em pessoas com epididimite grave deve ser avaliada em aproximadamente 3 dias;
+- A exploração cirúrgica pode ser necessária para drenar abscessos ou debridar tecidos.
+
+### Antibioticoterapia
+
+#### Impossibilidade de discernir quanto a IST por C. trachomatis, N. gonorrhoeae ou enterobactérias : Associação:
+
+- I. Ceftriaxona 500 mg IM dose única.
+- II. Levofloxacino 500 mg VO de 24/24 horas, por 10 dias.
+
+### Tratamento Farmacológico – Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO a cada 6/6 ou 4/4 horas;
+- Dipirona sódica (500 mg/comprimido) 500-1.000 mg VO a cada 6/6 ou 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO a cada 8/8 ou 6/6 horas;
+- Paracetamol (500, 750 mg/comprimido) 500-750 mg VO até de 6/6 horas.
+- Ibuprofeno (600 mg/comprimido) 200-600 mg VO a cada 4-6 horas;
+- Diclofenaco (75 mg/3 mL) 50-100 mg VO/EV a cada 6-8 horas (máximo: 200 mg/dia);
+- Naproxeno (250 mg/comprimido) 250-500 mg/dose VO 2x/dia;
+- Indometacina (25 mg/comprimido) 25-50 mg/dose VO 3x/dia;
+- Cetoprofeno (100 mg/frasco) 50-100 mg VO/EV de 8/8 horas (máximo: 400 mg/dia);
+- Piroxicam (40 mg/2 mL) 20-40 mg VO/EV 1x/dia;
+- Celecoxibe (100-200 mg/comprimido) 100 mg VO 2x/dia;
+- Etoricoxibe (60 mg/comprimido) 60-90 mg VO/EV 1x/dia;
+- Tenoxicam (20 mg/2 mL) 20-40 mg VO/EV 1x/dia (máximo: 40 mg/dia);
+- Nimesulida (100 mg/comprimido) 50-100 mg VO de 12/12 horas;
+- Meloxicam (15 mg/1,5 mL) 7,5-15 mg VO/EV a cada 12-24 horas.

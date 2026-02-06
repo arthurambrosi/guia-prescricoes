@@ -1,0 +1,89 @@
+# Prescrição Ambulatorial
+
+## Pacientes com Incontinência/Bexiga Hiperativa
+
+### Orientações ao Prescritor
+
+#### Objetivos do tratamento:
+
+- Preservar a função renal;
+- Manter a continência urinária;
+- Restaurar a função do trato urinário inferior;
+- Melhorar a qualidade de vida do paciente.
+
+#### Medidas gerais:
+
+- Usar absorventes ou fraldas, em caso de incontinência. Coletores do tipo condom são um método prático para homens;
+- Realizar fisioterapia pélvica e treinamento vesical;
+- Evitar consumo de possíveis irritantes vesicais (ex.: café, chá-preto, refrigerantes e bebidas alcoólicas);
+- Adequar ingestão de líquidos.
+
+#### Injeção intravesical de toxina botulínica:
+
+- Em diversos pontos da bexiga, via cistoscópio, sob anestesia (geral, raquianestesia ou local);
+- Nos pacientes neurogênicos com bacteriúria crônica, o ideal é iniciar antibioticoterapia 3-5 dias antes do procedimento (guiada por cultura de urina e antibiograma);
+- Cerca de 54% dos pacientes tratados relatam algum efeito colateral (esvaziamento incompleto, hematúria, boca seca, fraqueza de tronco);
+- Toxina botulínica deve ser evitada em pacientes com doenças neuromusculares (ex.: miastenia gravis ) e naqueles em uso de aminoglicosídeos (risco de potencializar a fraqueza muscular);
+- Pode haver necessidade de cateterismo vesical associado.
+
+### Tratamento Farmacológico
+
+#### Antimuscarínicos:
+
+- Cloridrato de oxibutinina (5-10 mg) 1 comprimido VO, 1x/dia, à noite;
+- Cloreto de tróspio (15 mg) 1 comprimido VO, 2-3x/dia;
+- Bromidrato de darifenacina (7,5 ou 15 mg) iniciar com 1 comprimido de 7,5 mg VO, 1x/dia nas primeiras 2 semanas, podendo aumentar para 1 comprimido de 15 mg VO, 1x/dia;
+- Succinato de solifenacina (5 ou 10 mg) 1 comprimido VO, 1x/dia.
+
+Observação! Evitar antimuscarínicos em pacientes com glaucoma de ângulo estreito. Tróspio (M1, M3), Solifenacina (M2, M3) e Darifenacina (M1, M2) não atravessam a barreira hematencefálica, podendo ser usados em pacientes idosos (poucos efeitos cognitivos).
+
+#### Agonista beta-3:
+
+- Mirabegrona (25 ou 50 mg) 1 comprimido VO, 1x/dia.
+
+### Procedimentos
+
+#### 1. Injeção intravesical de Toxina botulínica A (Botox ® ):
+
+Em caso de insucesso da terapia farmacológica.
+Observação! Pode haver necessidade de cateterismo vesical associado.
+
+#### 2. Neuromodulação sacral:
+
+P ode ser usada no caso de falha de outras técnicas. Ainda necessita de mais estudos para comprovar sua eficácia.
+
+#### 3. Sling uretral:
+
+Há evidências crescentes de que os slings uretrais médios sintéticos femininos (MUS) podem ser usados ​​efetivamente com resultados aceitáveis ​​de médio a longo prazos e morbidade mínima em pacientes neurourológicos.
+
+#### 4. Esfíncter urinário artificial:
+
+Alta taxa de sucesso no sexo masculino.
+
+### Bexiga Hipoativa/Dificuldade de Esvaziamento Vesical
+
+### Orientações ao Prescritor
+
+#### Objetivos:
+
+- Diminuir a resistência infravesical para saída do fluxo urinário;
+- Preservar a função renal;
+- Restaurar a função do trato urinário inferior;
+- Melhorar a qualidade de vida do paciente.
+
+#### Medidas gerais:
+
+- Cateterismo vesical intermitente é o tratamento de escolha;
+- Realizar cateterismo vesical 4-6x/dia, não devendo exceder o volume de 400-500 mL por cateterização. Calibre do cateter de 12-16 Fr;
+- Cateterismo de demora e cistotomia são opções para pacientes sem destreza manual, porém com maiores taxas de complicação.
+
+### Tratamento Farmacológico
+
+#### Alfabloqueadores:
+
+- Cloridrato de tansulosina (0,4 mg) 1 comprimido VO, 1x/dia;
+- Mesilato de doxazosina (2-4 mg) 1 comprimido VO, 1x/dia.
+
+#### Observação! Importante avisar ao oftalmologista:
+
+risco de síndrome da íris frouxa.

@@ -1,0 +1,59 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+#### Recomendações:
+
+- A decisão sobre quando e como deve-se tratar o paciente depende da qualidade de vida, dos parâmetros clínicos e dos objetivos do paciente, bem como dos anseios e da expectativa do mesmo;
+- Conduta expectante ( watchful waiting ) naqueles pacientes com escore de sintomas da American Urological Association (AUA) < 8 ou com sintomas moderados/graves sem impacto em sua qualidade de vida;
+- Tratamento farmacológico considerando o escore de sintomas da AUA ≥ 8 ou sintomas que impactem a qualidade de vida, sem melhora com medidas do estilo de vida;
+- Encaminhar ao especialista se:
+- Falha do tratamento clínico;
+- Alteração da função renal;
+- Obstrução da saída da bexiga;
+- Sintomas em pacientes com neuropatia periférica autonômica;
+- Manifestações clínicas após tratamento invasivo da uretra/próstata;
+- Sintomas em homens com menos de 45 anos;
+- Alteração no exame da próstata (nódulo, endurecimento ou assimetria);
+- Hematúria sem indício de infecção urinária; incontinência urinária;
+- Sintomas graves (IPSS ≥ 20);
+- Reavaliação terapêutica: Para pacientes em terapia combinada que não apresentaram melhora em 12 a 24 meses ou não toleraram os medicamentos, deve-se considerar o tratamento cirúrgico.
+
+### Tratamento Farmacológico
+
+Escolha um dos esquemas a seguir.
+
+- Doxazosina (2 mg/comprimido) 2 mg VO de 24/24 horas, preferencialmente à noite, antes de dormir. Progredir dose para 4 mg em 1-2 semanas, se necessário;
+- Tansulosina (0,4 mg/comprimido) 0,4 mg VO de 24/24 horas, preferencialmente à noite, antes de dormir.
+- Finasterida (5 mg/comprimido) 5 mg VO de 24/24 horas;
+- Dutasterida (0,5 mg/comprimido) 0,5 mg VO de 24/24 horas.
+- Oxibutinina (5 mg/comprimido) 5 mg VO de 24/24 horas, podendo chegar a 15 mg/dia;
+- Tolterodina (4 mg/comprimido) 4 mg VO de 24/24 horas;
+- Darifenacina (15 mg/comprimido) 15 mg VO de 24/24 horas;
+- Solifenacina (5 mg/comprimido) 5-10 mg VO de 24/24 horas;
+- Tróspio (15 mg/comprimido) 15 mg VO a cada 12 ou até 8 horas.
+
+#### Esquema D:
+
+#### Monoterapia com beta-3-agonista:
+
+- Mirabegrona (50 mg/comprimido) 50 mg VO 24/24 horas.
+- Doxasozina + Finasterida (2 mg + 5 mg/comprimido) 1 comprimido VO de 24/24 horas;
+- Tansulosina + Dutasterida (0,4 mg + 0,5 mg/comprimido) 1 comprimido VO de 24/24 horas.
+
+#### Esquema F:
+
+#### Terapia combinada (anticolinérgico + alfa-1-adrenérgico):
+
+- Solifenacina + Tansulosina (6 mg + 0,4 mg/comprimido) 1 comprimido VO de 24/ 24 horas.
+
+### Orientações ao Paciente
+
+#### Recomendações:
+
+- Realizar micção em posição sentada (em vez de ortostase);
+- Evitar a ingestão de líquidos antes de dormir ou antes de sair de casa;
+- Reduzir o consumo de diuréticos leves, como cafeína e álcool;
+- Urinar duas vezes para esvaziar a bexiga completamente.

@@ -1,0 +1,97 @@
+# Prescrição Ambulatorial
+
+## Sem Critérios de Internação
+
+### Orientações ao Prescritor
+
+- Para a(s) parceria(s) sexual(is), deve ser indicado o mesmo tratamento do paciente.
+- Tanto os pacientes quanto a(s) parceria(s) devem se abster de relações sexuais desprotegidas até completar o tratamento de ambos (ou seja, após o término do tratamento com múltiplas doses ou por 7 dias após a terapia com dose única);
+- A resolução dos sintomas de uretrite pode ocorrer até 7 dias após a conclusão da terapia;
+- Em caso de falha do tratamento, as reinfecções devem ser tratadas com as doses habituais.
+
+### Antibioticoterapia
+
+#### Tratamento empírico (sem identificação de agente etiológico):
+
+#### O esquema de 1ª linha é o seguinte:
+
+- I. Ceftriaxona 500 mg IM, dose única.
+- II. Azitromicina (500 mg) 2 comprimidos VO, dose única.
+
+Uretrite gonocócica e demais infecções gonocócicas não complicadas (uretra, colo do útero, reto e faringe): O esquema de 1ª linha é o seguinte:
+
+- I. Ceftriaxona 500 mg IM, dose única.
+- II. Azitromicina (500 mg) 2 comprimidos VO, dose única.
+
+#### Retratamento de infecções gonocócicas:
+
+#### O esquema de 1ª linha é o seguinte:
+
+- I. Azitromicina (500 mg) 4 comprimidos VO, dose única.
+- II. Ceftriaxona 500 mg IM, dose única.
+
+#### Uretrite não gonocócica:
+
+- 1ª linha: Azitromicina (500 mg) 2 comprimidos VO, dose única.
+
+#### Uretrite por Chlamydia trachomatis :
+
+- 1ª linha: Azitromicina (500 mg) 2 comprimidos VO, dose única.
+
+#### Uretrite por Mycoplasma genitalium:
+
+- 1ª linha: Azitromicina (500 mg) 2 comprimidos VO, dose única.
+
+#### Uretrite por Trichomonas vaginalis:
+
+- Metronidazol (250 mg) 2 comprimidos VO 2x/dia, por 7 dias.
+
+#### Para outras opções de tratamento, acesse o Guia de Antimicrobianos:
+
+### Conjuntivite Gonocócica no Adulto
+
+### Antibioticoterapia
+
+Ceftriaxona 1 g IM dose única.
+
+### Com Critérios de Internação
+
+### Dieta e Hidratação
+
+- Dieta oral livre, conforme aceitação, se o paciente estiver lúcido e orientado:
+- Variações de dieta de acordo com as comorbidades;
+- Se o paciente estiver instável, optar por dieta zero e aporte calórico basal (~100 g de glicose).
+- Hidratação endovenosa: Ringer lactato ~20 mL/kg EV ou SF 0,9% entre 20-30 mL/kg/dia EV, com variação de volume de acordo com a necessidade e as comorbidades.
+
+### Antibioticoterapia
+
+#### Infecção gonocócica disseminada (exceto meningite e endocardite). Escolher a seguinte associação:
+
+- I. Ceftriaxona 1 g/dia IM ou EV, completando ao menos 7 dias de tratamento;
+- II. Azitromicina (500 mg) 2 comprimidos VO, dose única.
+
+Infecção gonocócica disseminada (exceto meningite e endocardite).
+
+### Profiláticos e Sintomáticos
+
+#### Analgésico e antitérmico:
+
+- Dipirona sódica (500 mg/mL) 1-2 g EV até de 4/4 horas (dose máxima: 5 g em 24 horas);
+- Dipirona sódica gotas (500 mg/mL) 20-40 gotas VO até de 4/4 horas;
+- Dipirona sódica 500-1.000 mg VO até de 4/4 horas;
+- Paracetamol gotas (200 mg/mL) 35-55 gotas VO até de 6/6 horas;
+- Paracetamol 500-750 mg VO até de 6/6 horas.
+
+#### Antiemético:
+
+- Cloridrato de metoclopramida (10 mg/2 mL) 10 mg EV, diluídos em água destilada até de 8/8 horas;
+- Cloridrato de metoclopramida (4 mg/mL) 50 gotas VO de 8/8 horas;
+- Cloridrato de metoclopramida 10 mg VO de 8/8 horas;
+- Bromoprida (10 mg/2 mL) 10 mg EV de 8/8 horas;
+- Bromoprida (4 mg/mL) 1-3 gotas/kg VO de 8/8 horas.
+
+#### Proteção gástrica:
+
+- Omeprazol (40 mg/10 mL) 20-40 mg VO/EV de 24/24 horas, pela manhã;
+- Pantoprazol sódico 20-40 mg VO de 24/24 horas, em jejum;
+- Pantoprazol sódico (40 mg/10 mL) 40 mg EV de 24/24 horas.

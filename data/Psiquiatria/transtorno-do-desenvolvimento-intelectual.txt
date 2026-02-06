@@ -1,0 +1,49 @@
+# Prescrição Ambulatorial
+
+## Ambulatório
+
+### Orientações ao Prescritor
+
+- Detecção e intervenção precoce para minimizar os déficits, encaminhar para médicos especialistas, aumentar a funcionalidade do paciente, melhorar a qualidade de vida e promover orientação à família;
+- A abordagem deve ser multidisciplinar e individualizada, direcionada à minimização das dificuldades encontradas, ao desenvolvimento de habilidades e à melhora da funcionalidade. Fisioterapia, terapia ocupacional e fonoterapia podem contribuir para o tratamento;
+- É importante oferecer psicoeducação à família, explicando o quadro, contextualizando as expectativas e orientando sobre estratégias de estímulo, cuidado e convivência.
+
+### Manejo Não Farmacológico
+
+- Problemas comportamentais (PC) ou comportamentos desafiadores que incluem uma apresentação clínica ampla como agressividade, automutilação, destruição de objetos, comportamentos sociais inadequados, etc. são o principal motivo para busca de ajuda médica.
+- Como em indivíduos sem transtorno do desenvolvimento intelectual, os comportamentos desafiadores têm uma função e são mantidos ou reforçados se a pessoa for bem-sucedida em alterar o seu ambiente interno ou externo (como para ganhar atenção, evitar atividades desagradáveis ou conseguir realizar uma atividade prazerosa).
+- O primeiro passo na abordagem de problemas comportamentais é buscar possíveis causas subjacentes, como:
+- Dor ou desconforto;
+- Dificuldade de comunicação para pacientes com déficit de linguagem (cuidadores que não compreendem as necessidades dos pacientes, gestão inadequada que reforça o comportamento desafiador);
+- Dificuldade em lidar com afetos negativos;
+- Dificuldade de adaptação a eventos de vida (mudança de escola, morte ou separação);
+- Problemas no ambiente externo (bullying, conflitos familiares);
+- Efeitos colaterais dos medicamentos;
+- Abuso de substâncias;
+- Doenças físicas;
+- Epilepsia.
+- Outra situação que precisa ser abordada é o "diagnóstico duplo", ou seja, a ocorrência comórbida de outro transtorno psiquiátrico. A adequada identificação (a apresentação pode ser de difícil reconhecimento nessa população) e o tratamento reduzem problemas comportamentais e deficiências e melhoram qualidade de vida.
+- Após a exclusão das causas tratáveis descritas anteriormente, uma análise detalhada do comportamento deve ser realizada e inclui:
+- Descrição detalhada do comportamento desafiador, listando quais devem ser gerenciados;
+- Quando e onde esse comportamento ocorre (tempo, lugar, atividade, contexto, frequência e gravidade);
+- A sequência de eventos e interações com os outros: possíveis gatilhos ou causas, como os outros respondem, se essas respostas reforçam o comportamento;
+- Avaliação dos fatores de risco predisponentes, precipitantes e perpetuantes;
+- Avaliação de todas as formas de gerenciamento e seus resultados;
+- Necessidades potencialmente atendidas pelos comportamentos desafiadores;
+- Após o entendimento dos problemas comportamentais, um plano de intervenção comportamental deve ser projetado para resolver o problema. O primeiro objetivo é garantir a segurança do paciente e dos cuidadores, e o segundo, extinguir o comportamento indesejável.
+
+### Orientações sobre o Manejo Farmacológico
+
+- No caso de falha de intervenções não farmacológicas, riscos de danos a si ou a terceiros e alta frequência de problemas comportamentais, o uso de medicação pode ser necessário.
+- Não há evidências de medicamentos específicos para os PCs, e seu uso é muitas vezes baseado na experiência clínica, em vez de em dados de ensaios clínicos.
+- Doses menores do que as utilizadas para a população geral são recomendadas, visto ser esse grupo mais sensível aos efeitos colaterais.
+- Na ausência de dados de ensaios controlados, antipsicóticos, antidepressivos, estabilizadores de humor e outras medicações psicotrópicas devem ser utilizados para as mesmas indicações que para as crianças sem transtorno de desenvolvimento intelectual.
+- Antipsicóticos de segunda geração para o controle dos comportamentos desafiadores pode ser útil em curto prazo. Não há dose padronizada para esses casos, no entanto há preocupações crescentes quanto à sua utilização por longo prazo devido aos efeitos secundários, como síndrome metabólica.
+
+### Tratamento Farmacológico
+
+#### Escolha uma das opções abaixo em casos refratários de comportamento desafiador:
+
+- Risperidona (1 mg/mL):
+- < 20 kg: Iniciar com 0,25 mg/dia. Progredir a dose, conforme resposta ou tolerância do paciente. Dose recomendada até 1,5 mg/dia;
+- > 20 kg: Iniciar com 0,5 mg/dia. Progredir a dose, conforme resposta ou tolerância do paciente. Dose recomendada até 2,5 mg/dia ou 3,5 mg/dia (em pacientes > 45 kg).
