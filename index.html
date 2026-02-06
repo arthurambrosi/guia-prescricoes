@@ -613,14 +613,16 @@
     .detailHeader{
       display:flex;
       align-items:flex-start;
-      gap: 12px;
+      gap: 10px;
       justify-content: space-between;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
+      margin-left: -4px;
+      margin-right: -4px;
     }
     .detailTitles{
       display:flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 2px;
     }
     .detailTitle{
       margin: 0;
@@ -630,7 +632,7 @@
       color: var(--text);
     }
     .detailSubtitle{
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       color: var(--muted);
       font-weight: 700;
     }
@@ -1152,35 +1154,26 @@
 
       wrapper.appendChild(header)
 
-      function addSection(label, html, tone) {
-        const panel = document.createElement('div')
-        panel.className = 'guide-panel is-active'
-        const content = html && html.trim() ? html : '<p class="mutedNote">Sem conteúdo.</p>'
-        panel.innerHTML = `<div class="detailSectionTitle">${label}</div>${content}`
-        applyPanelStyle(panel, tone, spacing)
-        wrapper.appendChild(panel)
-      }
+      const panel = document.createElement('div')
+      panel.className = 'guide-panel is-active'
+      let panelContent = ''
+      let panelTone = item.prescricao_tom
 
       if (tabsData.length) {
-        tabsData.forEach((tab, index) => {
-          const label = tab.title || `Seção ${index + 1}`
-          const content = (tab.content || '').trim()
-          const panel = document.createElement('div')
-          panel.className = 'guide-panel is-active'
-          panel.innerHTML = `<div class="detailSectionTitle">${label}</div>${content || '<p class="mutedNote">Sem conteúdo.</p>'}`
-          if (tab.lineHeight) {
-            panel.style.lineHeight = tab.lineHeight
-          }
-          applyPanelStyle(panel, tab.tone, spacing)
-          wrapper.appendChild(panel)
-        })
-        return wrapper
+        const prescTab = tabsData.find((tab) => normalize(tab.title).includes('prescri'))
+        const content = prescTab && prescTab.content ? prescTab.content.trim() : ''
+        panelContent = content || '<p class="mutedNote">Sem conteúdo.</p>'
+        if (prescTab && prescTab.lineHeight) {
+          panel.style.lineHeight = prescTab.lineHeight
+        }
+        panelTone = prescTab && prescTab.tone ? prescTab.tone : panelTone
+      } else {
+        panelContent = markdown(item.prescricao)
       }
 
-      addSection('Critérios', markdown(item.criterios), item.criterios_tom)
-      addSection('Dicas', markdown(item.dicas), item.dicas_tom)
-      addSection('Exames complementares', markdown(item.exames), item.exames_tom)
-      addSection('Prescrição', markdown(item.prescricao), item.prescricao_tom)
+      panel.innerHTML = panelContent
+      applyPanelStyle(panel, panelTone, spacing)
+      wrapper.appendChild(panel)
       return wrapper
     }
 
