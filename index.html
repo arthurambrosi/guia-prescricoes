@@ -35,12 +35,14 @@
       --rBtn:14px;
       --t: .18s ease;
       --topH: 44px;
+      --sideW: 72px;
     }
     @media (max-width: 720px){
       :root{
         --edgeL: 16px;
         --edgeR: 16px;
         --deskGap: 14px;
+        --sideW: 60px;
       }
     }
     *{ box-sizing:border-box }
@@ -53,6 +55,7 @@
       background-attachment: fixed, fixed, fixed;
       overflow-x:hidden;
       color-scheme: light;
+      padding-left: var(--sideW);
     }
     a{ color:inherit; text-decoration:none }
     button, input, textarea, select{ font:inherit }
@@ -150,27 +153,44 @@
       .headBtn{ height: 36px; padding: 0 12px; font-size: 13px; }
     }
     /* ===== Drawer ===== */
-    .menuFab{
+    .sideNav{
       position: fixed;
-      top: 24px;
-      right: 24px;
-      width: 44px;
-      height: 44px;
+      left: 0;
+      top: 0;
+      width: var(--sideW);
+      height: 100vh;
+      background: #fff;
+      border-right: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 10px;
+      z-index: 70;
+    }
+    .sideLogo{
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+      border-radius: 12px;
+    }
+    .sideMenuBtn{
+      width: 42px;
+      height: 42px;
       border-radius: 12px;
       border: 1px solid var(--line);
       background: #fff;
       box-shadow: var(--shadow);
       display: grid;
       place-items: center;
-      z-index: 60;
       cursor: pointer;
       transition: transform var(--t), box-shadow var(--t), background var(--t);
     }
-    .menuFab:hover{
+    .sideMenuBtn:hover{
       transform: translateY(-1px);
       background: #f8fafc;
     }
-    .menuFab svg{
+    .sideMenuBtn svg{
       width: 22px;
       height: 22px;
       color:#0f172a;
@@ -187,9 +207,9 @@
     .drawer{
       position: fixed;
       top:0;
-      left:0;
+      left: var(--sideW);
       height:100vh;
-      width: min(360px, 90vw);
+      width: min(360px, calc(100vw - var(--sideW)));
       background: #fff;
       border-right: 1px solid var(--line);
       box-shadow: 0 14px 28px rgba(15,23,42,.12);
@@ -228,6 +248,34 @@
       color: var(--muted);
       font-weight: 700;
       font-size: 0.82rem;
+    }
+    .loadProgress{
+      margin: 8px 0 12px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--surface2);
+      display: grid;
+      gap: 6px;
+    }
+    .loadText{
+      font-size: 0.78rem;
+      font-weight: 800;
+      color: var(--muted);
+    }
+    .progressBar{
+      height: 8px;
+      background: #f1f5f9;
+      border-radius: 999px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+    .progressBar span{
+      display: block;
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #fdba74, #f97316);
+      transition: width .2s ease;
     }
     /* ===== App wrap ===== */
     .wrap{
@@ -424,7 +472,7 @@
     .area-title h2{
       margin: 0;
       font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      font-size: 1.4rem;
+      font-size: 1.05rem;
       color: var(--text);
     }
     .area-count{
@@ -487,16 +535,56 @@
       background: #fff7ed;
     }
     .subject-btn.is-active .subject-dot{
-      border-color: var(--accent);
-      box-shadow: inset 0 0 0 4px rgba(249,115,22,.18);
+      box-shadow: 0 0 0 2px rgba(249,115,22,.25);
     }
     .subject-dot{
       width: 12px;
       height: 12px;
       border-radius: 999px;
-      border: 2px solid #cbd5e1;
       display: inline-block;
       flex-shrink: 0;
+      background: radial-gradient(circle at 30% 30%, #64748b 0%, #1f2937 55%, #0f172a 100%);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.08);
+    }
+    .area-dot{
+      width: 14px;
+      height: 14px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, #fdba74 0%, #f97316 55%, #ea580c 100%);
+      box-shadow: 0 0 10px rgba(249,115,22,.55);
+      flex-shrink: 0;
+    }
+    .area-name{
+      font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 0.95rem;
+      color: var(--text);
+      flex: 1;
+    }
+    .area-chevron{
+      width: 16px;
+      height: 16px;
+      color: #94a3b8;
+      transition: transform var(--t), color var(--t);
+      margin-left: auto;
+    }
+    .area-card.is-open .area-chevron{
+      color: var(--accent);
+      transform: rotate(180deg);
+    }
+    .area-header{
+      justify-content: flex-start;
+      gap: 10px;
+      padding: 2px 2px;
+    }
+    .area-header{
+      gap: 10px;
+    }
+    .area-header h2{
+      font-size: 0.98rem;
+    }
+    .area-toggle{
+      display: none;
     }
     .subject-title{
       flex: 1;
@@ -753,12 +841,15 @@
       text-align: center;
     }
     @media (max-width: 720px){
+      body{
+        padding-left: var(--sideW);
+      }
       .wrap{
         padding: 18px 16px 30px;
       }
-      .menuFab{
-        top: 16px;
-        right: 16px;
+      .drawer{
+        left: var(--sideW);
+        width: min(360px, calc(100vw - var(--sideW)));
       }
     }
     @media (max-width: 980px){
@@ -775,11 +866,14 @@
   </style>
 </head>
 <body>
-  <button class="menuFab" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="drawer">
-    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-    </svg>
-  </button>
+  <aside class="sideNav" aria-label="Menu lateral">
+    <img class="sideLogo" alt="Logo UsoJaleco" src="https://raw.githubusercontent.com/arthurambrosi/usojaleco/0204905b333f11d1eec3c7c6667d17dbfb457774/Design%20sem%20nome%20(28).png" />
+    <button class="sideMenuBtn" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="drawer">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </aside>
   <div class="drawerOverlay" id="drawerOverlay" aria-hidden="true"></div>
 
   <div class="wrap" id="appWrap">
@@ -807,6 +901,10 @@
         <div class="drawerTitle">Capítulos</div>
         <div class="drawerSubtitle">Selecione uma área e um assunto</div>
       </div>
+    </div>
+    <div class="loadProgress" id="loadProgress">
+      <div class="loadText" id="loadText">Carregando 0%</div>
+      <div class="progressBar"><span id="progressBar"></span></div>
     </div>
     <section class="filters card" id="guia">
       <div class="filtersGrid">
@@ -846,12 +944,18 @@
     const areaListEl = document.getElementById('areaList')
     const searchInput = document.getElementById('search')
     const clearBtn = document.getElementById('clear')
-    const templateArea = document.getElementById('areaTemplate')
     const contentArea = document.getElementById('contentArea')
+    const progressText = document.getElementById('loadText')
+    const progressBar = document.getElementById('progressBar')
 
     const state = {
-      data: []
+      data: [],
+      loaded: 0,
+      total: 0
     }
+
+    const areaSections = new Map()
+    let currentFilter = ''
 
     function normalize(value) {
       if (!value) {
@@ -1084,85 +1188,81 @@
       return map
     }
 
-    function buildFolderPanel(items, autoOpen = false) {
-      const panel = document.createElement('div')
-      panel.className = 'folder-panel'
-
-      const card = document.createElement('article')
-      card.className = 'card area-card is-open'
-      const body = document.createElement('div')
-      body.className = 'area-body'
-
-      const subjectList = document.createElement('div')
-      subjectList.className = 'subject-list'
-
-      const sorted = [...items].sort((a, b) => {
-        return (a.assunto || '').localeCompare(b.assunto || '', 'pt-BR')
-      })
-
-      if (!sorted.length) {
-        const empty = document.createElement('div')
-        empty.className = 'empty-state'
-        empty.textContent = 'Nenhum assunto encontrado nesta aba.'
-        body.appendChild(empty)
-        card.appendChild(body)
-        panel.appendChild(card)
-        return panel
-      }
-
-      if (!autoOpen) {
-        const hint = document.createElement('div')
-        hint.className = 'mutedNote'
-        hint.textContent = 'Selecione um assunto para ver os detalhes.'
-        body.appendChild(hint)
-      }
-
-      sorted.forEach((item, index) => {
-        const itemWrap = document.createElement('div')
-        itemWrap.className = 'subject-item'
-
-        const btn = document.createElement('button')
-        btn.type = 'button'
-        btn.className = 'subject-btn'
-        const titleText = item.assunto || 'Sem assunto'
-        btn.innerHTML = `
-          <span class="subject-dot" aria-hidden="true"></span>
-          <span class="subject-title">${titleText}</span>
-          <svg class="subject-chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        `
-
-        btn.addEventListener('click', () => {
-          subjectList.querySelectorAll('.subject-btn').forEach((b) => b.classList.remove('is-active'))
-          btn.classList.add('is-active')
-          if (contentArea) {
-            contentArea.innerHTML = ''
-            contentArea.appendChild(buildDetail(item))
-          }
-          setDrawer(false)
-        })
-
-        itemWrap.appendChild(btn)
-        subjectList.appendChild(itemWrap)
-
-        if (autoOpen && index === 0) {
-          btn.classList.add('is-active')
-          if (contentArea) {
-            contentArea.innerHTML = ''
-            contentArea.appendChild(buildDetail(item))
-          }
+    function createSubjectItem(item) {
+      const itemWrap = document.createElement('div')
+      itemWrap.className = 'subject-item'
+      const btn = document.createElement('button')
+      btn.type = 'button'
+      btn.className = 'subject-btn'
+      const titleText = item.assunto || 'Sem assunto'
+      btn.innerHTML = `
+        <span class="subject-dot" aria-hidden="true"></span>
+        <span class="subject-title">${titleText}</span>
+        <svg class="subject-chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      `
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.subject-btn.is-active').forEach((b) => b.classList.remove('is-active'))
+        btn.classList.add('is-active')
+        if (contentArea) {
+          contentArea.innerHTML = ''
+          contentArea.appendChild(buildDetail(item))
         }
+        setDrawer(false)
       })
-
-      body.appendChild(subjectList)
-      card.appendChild(body)
-      panel.appendChild(card)
-      return panel
+      itemWrap.appendChild(btn)
+      return itemWrap
     }
 
-    function renderFolderTabs(items, autoOpen = false) {
+    function ensureAreaSection(area) {
+      if (areaSections.has(area)) {
+        return areaSections.get(area)
+      }
+      const card = document.createElement('article')
+      card.className = 'card area-card'
+      const header = document.createElement('button')
+      header.type = 'button'
+      header.className = 'area-header'
+      header.innerHTML = `
+        <span class="area-dot" aria-hidden="true"></span>
+        <span class="area-name">${area}</span>
+        <svg class="area-chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      `
+      const body = document.createElement('div')
+      body.className = 'area-body'
+      const subjectList = document.createElement('div')
+      subjectList.className = 'subject-list'
+      body.appendChild(subjectList)
+      header.addEventListener('click', () => {
+        card.classList.toggle('is-open')
+      })
+      card.appendChild(header)
+      card.appendChild(body)
+      areaListEl.appendChild(card)
+      if (areaSections.size === 0) {
+        card.classList.add('is-open')
+      }
+      const section = { card, list: subjectList }
+      areaSections.set(area, section)
+      return section
+    }
+
+    function appendItem(item) {
+      const empty = areaListEl.querySelector('.empty-state')
+      if (empty) {
+        empty.remove()
+      }
+      const area = item.area || 'Sem área'
+      const section = ensureAreaSection(area)
+      section.list.appendChild(createSubjectItem(item))
+    }
+
+    function renderAreaList(items) {
       areaListEl.innerHTML = ''
+      areaSections.clear()
       if (!items.length) {
         const empty = document.createElement('div')
         empty.className = 'empty-state'
@@ -1170,37 +1270,14 @@
         areaListEl.appendChild(empty)
         return
       }
-
       const map = groupByArea(items)
       const areas = Array.from(map.keys()).sort((a, b) => a.localeCompare(b, 'pt-BR'))
-
-      const tabsWrap = document.createElement('div')
-      tabsWrap.className = 'guide-tabs'
-      const panelsWrap = document.createElement('div')
-      panelsWrap.className = 'folder-panels'
-
-      areaListEl.appendChild(tabsWrap)
-      areaListEl.appendChild(panelsWrap)
-
-      areas.forEach((area, index) => {
-        const key = `folder_${index}`
-        const btn = document.createElement('button')
-        btn.type = 'button'
-        btn.className = 'guide-tab folder-tab'
-        btn.dataset.tab = key
-        btn.textContent = area
-        tabsWrap.appendChild(btn)
-
-        const panel = buildFolderPanel(map.get(area), autoOpen && index === 0)
-        panel.dataset.panel = key
-        panelsWrap.appendChild(panel)
+      areas.forEach((area) => {
+        const section = ensureAreaSection(area)
+        map.get(area).forEach((item) => {
+          section.list.appendChild(createSubjectItem(item))
+        })
       })
-
-      tabsWrap.querySelectorAll('.folder-tab').forEach((tab) => {
-        tab.addEventListener('click', () => activateFolderTab(areaListEl, tab.dataset.tab))
-      })
-
-      activateFolderTab(areaListEl, 'folder_0')
     }
 
     function filterItems(term) {
@@ -1227,65 +1304,132 @@
     }
 
     function filterAndRender() {
-      const term = normalize(searchInput.value.trim())
-      const results = filterItems(term)
-      renderFolderTabs(results, term !== '')
+      currentFilter = normalize(searchInput.value.trim())
+      const results = filterItems(currentFilter)
+      renderAreaList(results)
     }
 
-    async function loadIndexedFiles() {
+    function updateProgress(loaded, total) {
+      if (!progressText || !progressBar) {
+        return
+      }
+      const percent = total ? Math.round((loaded / total) * 100) : 0
+      progressText.textContent = total
+        ? `Carregando ${percent}% (${loaded}/${total})`
+        : 'Carregando...'
+      progressBar.style.width = `${percent}%`
+      if (total && loaded >= total) {
+        progressText.textContent = 'Carregamento completo'
+      }
+    }
+
+    function areaFromFile(file) {
+      const parts = file.split('/')
+      if (parts.length > 1) {
+        return decodeURIComponent(parts[0])
+      }
+      return 'Sem área'
+    }
+
+    function buildRoundRobinQueue(filesByArea) {
+      const areas = Array.from(filesByArea.keys()).sort((a, b) => a.localeCompare(b, 'pt-BR'))
+      const queues = new Map()
+      areas.forEach((area) => queues.set(area, filesByArea.get(area).slice()))
+      const result = []
+      let pending = true
+      while (pending) {
+        pending = false
+        areas.forEach((area) => {
+          const queue = queues.get(area)
+          if (queue && queue.length) {
+            result.push({ file: queue.shift(), area })
+            pending = true
+          }
+        })
+      }
+      return result
+    }
+
+    async function loadIndexFiles() {
       try {
         const response = await fetch(`./data/prescricoes_index.json`, { cache: 'no-store' })
         if (!response.ok) return []
         const payload = await response.json()
         const files = Array.isArray(payload) ? payload : (payload.files || [])
-        if (!files.length) return []
+        return Array.isArray(files) ? files : []
+      } catch (err) {
+        return []
+      }
+    }
 
-        const items = []
-        const limit = 6
-
-        for (let i = 0; i < files.length; i += limit) {
-          const batch = files.slice(i, i + limit)
-          const settled = await Promise.allSettled(
-            batch.map(async (file) => {
-              const res = await fetch(`./data/${file}`)
-              if (!res.ok) throw new Error('Falha ao carregar ' + file)
-              const data = await res.json()
-              if (Array.isArray(data)) return data
-              if (Array.isArray(data.prescricoes)) return data.prescricoes
-              return [data]
-            })
-          )
-
-          settled.forEach((r) => {
-            if (r.status === 'fulfilled') {
-              items.push(...r.value)
-            }
-          })
-
-          await new Promise((r) => setTimeout(r, 120))
+    async function loadFile(file, fallbackArea) {
+      try {
+        const res = await fetch(`./data/${file}`, { cache: 'no-store' })
+        if (!res.ok) {
+          return []
         }
-
-        return items
+        const data = await res.json()
+        const list = Array.isArray(data)
+          ? data
+          : (Array.isArray(data.prescricoes) ? data.prescricoes : [data])
+        return list.map((item) => ({
+          ...item,
+          area: item.area || fallbackArea
+        }))
       } catch (err) {
         return []
       }
     }
 
     async function loadData() {
-      const indexed = await loadIndexedFiles()
-      state.data = indexed
-      if (!state.data.length) {
-        renderFolderTabs([])
+      state.data = []
+      areaListEl.innerHTML = ''
+
+      const files = await loadIndexFiles()
+      state.total = files.length
+      state.loaded = 0
+      updateProgress(0, state.total)
+
+      if (!files.length) {
+        renderAreaList([])
         return
       }
 
-      renderFolderTabs(state.data)
+      const filesByArea = new Map()
+      files.forEach((file) => {
+        const area = areaFromFile(file)
+        if (!filesByArea.has(area)) {
+          filesByArea.set(area, [])
+        }
+        filesByArea.get(area).push(file)
+      })
+
+      const queue = buildRoundRobinQueue(filesByArea)
+
+      for (const entry of queue) {
+        const items = await loadFile(entry.file, entry.area)
+        state.loaded += 1
+        if (items.length) {
+          state.data.push(...items)
+          if (currentFilter) {
+            renderAreaList(filterItems(currentFilter))
+          } else {
+            items.forEach((item) => appendItem(item))
+          }
+        }
+        updateProgress(state.loaded, state.total)
+        await new Promise((r) => setTimeout(r, 80))
+      }
+
+      if (!state.data.length) {
+        renderAreaList([])
+      }
     }
 
     searchInput.addEventListener('input', filterAndRender)
     clearBtn.addEventListener('click', () => {
       searchInput.value = ''
-      renderFolderTabs(state.data)
+      filterAndRender()
     })
 
     const menuToggle = document.getElementById('menuToggle')
